@@ -4,7 +4,12 @@ on:
   schedule:
     # Runs automatically every 15 minutes
     - cron: '*/15 * * * *'
-  workflow_dispatch: # Allows manual one-click trigger from the GitHub Actions tab!
+  workflow_dispatch:
+    inputs:
+      app_url:
+        description: 'Appllama URL to download & compress (leave blank to auto-sync top 2 free apps)'
+        required: false
+        default: ''
   push:
     branches:
       - master
@@ -43,7 +48,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pillow
 
-      - name: ⚡ Scrape, Compress & Sync Top 2 Free Flows
+      - name: ⚡ Scrape, Compress & Sync Top Free Flows (or Custom URL)
+        env:
+          APP_URL: ${{ github.event.inputs.app_url }}
         run: |
           python -u compress_scraper.py
 

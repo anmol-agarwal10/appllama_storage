@@ -472,24 +472,20 @@ def migrate_existing_apps(existing_data: List[Dict[str, Any]]) -> List[Dict[str,
 
     return existing_data
 
-def sync_top_free_apps_routine(limit: int = 2) -> Dict[str, Any]:
+def sync_top_free_apps_routine(limit: int = 2, specific_url: Optional[str] = None) -> Dict[str, Any]:
     """
     Main routine executed by GitHub Actions or local CLI:
     1. Loads existing data.json
     2. Migrates any existing local apps
-    3. Scrapes top 2 free apps from Appllama
+    3. If specific_url is provided, scrapes that app; otherwise scrapes top free apps from Appllama
     4. Compresses images and updates data.json
     """
+    import sys
     apps = load_data()
     
     # 1. Migrate any existing downloaded apps
     apps = migrate_existing_apps(apps)
     save_data(apps)
-
-    # 2. Check top 2 free apps from Appllama
-    print(f"\n[CompressScraper] 🔍 Checking top {limit} free apps on https://appllama.io/...")
-    top_apps = fetch_top_free_apps(limit=limit)
-    print(f"[CompressScraper] Found: {[a['slug'] for a in top_apps]}")
 
     known_ids = {str(a.get("id")) for a in apps}
     known_slugs = {a.get("slug") for a in apps}
@@ -497,30 +493,65 @@ def sync_top_free_apps_routine(limit: int = 2) -> Dict[str, Any]:
     downloaded = []
     skipped = []
 
-    for t in top_apps:
-        app_id = t["id"]
-        slug = t["slug"]
-        url = t["url"]
+    # Check if a custom URL was provided via param, CLI, or env var
+    target_url = specific_url
+    if not target_url:
+        for idx, arg in enumerate(sys.argv):
+            if arg == "--url" and idx + 1 < len(sys.argv):
+                target_url = sys.argv[idx + 1]
+                break
+    if not target_url and os.environ.get("APP_URL"):
+        target_url = os.environ.get("APP_URL").strip()
 
-        if app_id in known_ids or slug in known_slugs:
-            print(f"[CompressScraper] ✅ App '{slug}' (ID: {app_id}) already exists. Skipping.")
-            skipped.append(slug)
-        else:
-            print(f"[CompressScraper] ⬇️ New app detected: '{slug}'! Scraping & compressing...")
-            try:
-                new_app = scrape_and_compress_app(url, app_id, slug)
+    if target_url:
+        print(f"\n[CompressScraper] 🎯 Custom URL requested: {target_url}")
+        m = re.search(r'/apps/(\d+)/([a-zA-Z0-9\-]+)', target_url)
+        if m:
+            app_id, slug = m.group(1), m.group(2)
+            clean_url = f"https://appllama.io/apps/{app_id}/{slug}"
+            if app_id in known_ids or slug in known_slugs:
+                print(f"[CompressScraper] ✅ App '{slug}' already exists in archive.")
+                skipped.append(slug)
+            else:
+                print(f"[CompressScraper] ⬇️ Scraping & compressing custom app: {slug}...")
+                new_app = scrape_and_compress_app(clean_url, app_id, slug)
                 if new_app and new_app.get("total_screens", 0) > 0:
                     apps.append(new_app)
-                    known_ids.add(app_id)
-                    known_slugs.add(slug)
                     downloaded.append(new_app["name"])
-                    print(f"[CompressScraper] 🎉 Successfully added '{new_app['name']}' with {new_app['total_screens']} compressed screens!")
-            except Exception as e:
-                print(f"[CompressScraper] ❌ Error scraping {slug}: {e}")
+                    save_data(apps)
+                    print(f"[CompressScraper] 🎉 Added '{new_app['name']}' ({new_app['total_screens']} compressed screens)!")
+        else:
+            print(f"[CompressScraper] ❌ Invalid Appllama URL format: {target_url}")
+    else:
+        # 2. Check top 2 free apps from Appllama
+        print(f"\n[CompressScraper] 🔍 Checking top {limit} free apps on https://appllama.io/...")
+        top_apps = fetch_top_free_apps(limit=limit)
+        print(f"[CompressScraper] Found: {[a['slug'] for a in top_apps]}")
 
-    # 3. Save updated data
-    if downloaded:
-        save_data(apps)
+        for t in top_apps:
+            app_id = t["id"]
+            slug = t["slug"]
+            url = t["url"]
+
+            if app_id in known_ids or slug in known_slugs:
+                print(f"[CompressScraper] ✅ App '{slug}' (ID: {app_id}) already exists. Skipping.")
+                skipped.append(slug)
+            else:
+                print(f"[CompressScraper] ⬇️ New app detected: '{slug}'! Scraping & compressing...")
+                try:
+                    new_app = scrape_and_compress_app(url, app_id, slug)
+                    if new_app and new_app.get("total_screens", 0) > 0:
+                        apps.append(new_app)
+                        known_ids.add(app_id)
+                        known_slugs.add(slug)
+                        downloaded.append(new_app["name"])
+                        print(f"[CompressScraper] 🎉 Successfully added '{new_app['name']}' with {new_app['total_screens']} compressed screens!")
+                except Exception as e:
+                    print(f"[CompressScraper] ❌ Error scraping {slug}: {e}")
+
+        # 3. Save updated data
+        if downloaded:
+            save_data(apps)
 
     return {
         "status": "success",
@@ -531,7 +562,7 @@ def sync_top_free_apps_routine(limit: int = 2) -> Dict[str, Any]:
     }
 
 if __name__ == "__main__":
-    result = sync_top_free_apps_routine(limit=2)
+    result = sync_top_free_apps_routine()
     print("\n" + "=" * 50)
     print("Execution Summary:")
     print(f"Total Apps in Archive: {result['total_apps']}")
