@@ -1,0 +1,60 @@
+name: Auto-Sync Appllama Free Flows
+
+on:
+  schedule:
+    # Runs automatically every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows manual one-click trigger from the GitHub Actions tab!
+  push:
+    branches:
+      - master
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
+
+# Permissions required to push commits back to the repository and deploy to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "appllama-sync"
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pillow
+
+      - name: ⚡ Scrape, Compress & Sync Top 2 Free Flows
+        run: |
+          python -u compress_scraper.py
+
+      - name: 💾 Commit & Push New Flows to GitHub Repository
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data.json data.js apps/
+          if git diff --staged --quiet; then
+            echo "No new flows or changes detected. Repository is already up to date."
+          else
+            git commit -m "Auto-sync: downloaded new compressed Appllama free flows [skip ci]"
+            git push
+          fi

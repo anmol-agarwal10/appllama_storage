@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppFrame — Mobile App Flows & Screen Archive</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            llama: {
+              gold: '#d6bda4',
+              goldLight: '#b5813e',
+            },
+            surface: {
+              DEFAULT: '#ffffff',
+              subtle: '#fafbfc',
+              card: '#f4f5f7',
+              border: '#e5e7eb',
+              hover: '#f0f2f5',
+              dark: '#0c0d12',
+              darkCard: '#15161c',
+              darkBorder: '#22242e',
+              darkSubtle: '#181920',
+            },
+            ink: {
+              DEFAULT: '#0f1419',
+              muted: '#6b7280',
+              light: '#9ca3af',
+              darkText: '#f3f4f6',
+              darkMuted: '#7e8697',
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- JSZip for Client-side Zero-Server ZIP generation on GitHub Pages -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  
+  <!-- Offline / Local fallback data bundle -->
+  <script src="./data.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+    html.dark body {
+      background-color: #0c0d12;
+      color: #f3f4f6;
+    }
+    html:not(.dark) body {
+      background-color: #fafbfc;
+      color: #0f1419;
+    }
+
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    html.dark .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 9999px;
+    }
+    html.dark .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.28);
+    }
+    html:not(.dark) .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(15, 20, 25, 0.15);
+      border-radius: 9999px;
+    }
+    html:not(.dark) .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: rgba(15, 20, 25, 0.3);
+    }
+    
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Second Design: Row App Card (media_1794500807254_62e114cd.png) */
+    .row-app-card {
+      height: 480px;
+      border-radius: 32px;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    html.dark .row-app-card {
+      background: #15161c;
+      border: 1px solid #22242e;
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+    }
+    html.dark .row-app-card:hover {
+      border-color: #353847;
+      box-shadow: 0 24px 48px -15px rgba(0, 0, 0, 0.85);
+    }
+    html:not(.dark) .row-app-card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    }
+    html:not(.dark) .row-app-card:hover {
+      border-color: #d1d5db;
+      box-shadow: 0 16px 30px -10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Second Design: Phone Mockup Frame */
+    .row-screen-frame {
+      height: 480px;
+      width: 221px;
+      border-radius: 32px;
+      overflow: hidden;
+      background: #000;
+      border: 3px solid #1a1b22;
+      box-shadow: 0 16px 32px -10px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.6);
+      position: relative;
+      flex-shrink: 0;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+    }
+    html:not(.dark) .row-screen-frame {
+      box-shadow: 0 14px 28px -8px rgba(0, 0, 0, 0.25), 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .row-screen-frame:hover {
+      transform: translateY(-4px);
+      border-color: #383c4e;
+    }
+    .row-screen-frame::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    /* Dynamic Island Notch with Appllama Watermark */
+    .screen-island {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 58px;
+      height: 14px;
+      background: #000;
+      border-radius: 9999px;
+      z-index: 25;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .screen-island span {
+      font-size: 7px;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+      color: rgba(255, 255, 255, 0.55);
+      user-select: none;
+      font-family: system-ui, sans-serif;
+    }
+
+    /* Bottom Home Bar */
+    .home-indicator {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3.5px;
+      background: rgba(255, 255, 255, 0.45);
+      border-radius: 9999px;
+      z-index: 25;
+    }
+
+    /* Detail View Phone Frame */
+    .app-screen-frame {
+      width: 200px;
+      height: 433px;
+      border-radius: 28px;
+      overflow: hidden;
+      background: #000000;
+      border: 3px solid #1a1b22;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+      position: relative;
+      flex-shrink: 0;
+      transition: transform 0.2s ease;
+    }
+    .app-screen-frame:hover {
+      transform: translateY(-4px);
+    }
+  </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col selection:bg-black selection:text-white">
+
+  <!-- ======================================================== -->
+  <!-- TOP APPFRAME NAVBAR (BRAND, SEARCH, THEME SWITCHER, ACTIONS) -->
+  <!-- ======================================================== -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-surface-dark/95 backdrop-blur-md border-b border-surface-border dark:border-surface-darkBorder transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 py-3.5 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo & Navigation -->
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2 cursor-pointer select-none" onclick="navigateToAppsCatalog()">
+          <div class="w-8 h-8 rounded-lg bg-black dark:bg-white text-white dark:text-black flex items-center justify-center font-black text-sm shadow-sm">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M13.5 2L5 13h6l-1.5 9 8.5-11h-6l1.5-9z"/>
+            </svg>
+          </div>
+          <span class="font-extrabold text-xl tracking-tight text-ink dark:text-ink-darkText">AppFrame</span>
+        </div>
+
+        <span class="text-surface-border dark:text-surface-darkBorder hidden sm:inline">/</span>
+        <button onclick="navigateToAppsCatalog()" class="text-xs font-bold text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white transition-colors hidden sm:inline">
+          GitHub Archive
+        </button>
+      </div>
+
+      <!-- Center Search Bar -->
+      <div class="flex-1 max-w-md hidden md:block">
+        <div class="relative">
+          <i data-lucide="search" class="w-4 h-4 text-ink-light dark:text-ink-darkMuted absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+          <input 
+            type="text" 
+            id="globalSearchInput" 
+            oninput="handleGlobalSearch(this.value)"
+            placeholder="Search screens, apps, flows..." 
+            class="w-full bg-surface-subtle dark:bg-surface-darkSubtle hover:bg-white dark:hover:bg-surface-darkCard focus:bg-white dark:focus:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder rounded-xl pl-10 pr-12 py-2 text-sm text-ink dark:text-white placeholder-ink-light dark:placeholder-neutral-500 focus:outline-none focus:border-black dark:focus:border-llama-gold transition-all"
+          >
+          <kbd class="hidden lg:inline-block absolute right-3 top-1/2 -translate-y-1/2 text-[10px] text-ink-light dark:text-ink-darkMuted bg-surface-card dark:bg-surface-darkSubtle border border-surface-border dark:border-surface-darkBorder px-1.5 py-0.5 rounded font-mono font-medium">⌘ K</kbd>
+        </div>
+      </div>
+
+      <!-- Right Action Buttons: GitHub Actions Badge & Theme Toggle -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        
+        <!-- Live GitHub Actions Sync Badge -->
+        <div class="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 shadow-sm" title="Automated via GitHub Actions cron schedule">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+          </span>
+          <span class="hidden sm:inline">Actions Auto-Sync</span>
+          <i data-lucide="github" class="w-3.5 h-3.5"></i>
+        </div>
+
+        <!-- Refresh Data Button -->
+        <button 
+          id="syncBtn"
+          onclick="fetchApps()" 
+          class="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white hover:bg-surface-subtle dark:hover:bg-surface-darkSubtle border border-surface-border dark:border-surface-darkBorder transition-all"
+          title="Reload latest data.json"
+        >
+          <i data-lucide="refresh-cw" id="syncIcon" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Reload</span>
+        </button>
+
+        <!-- Theme Toggle Button (Dark / Light) -->
+        <button 
+          id="themeToggleBtn"
+          onclick="toggleTheme()" 
+          class="flex items-center justify-center w-9 h-9 rounded-xl border border-surface-border dark:border-surface-darkBorder bg-white dark:bg-surface-darkCard text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white transition-all active:scale-95 shadow-sm"
+          title="Toggle dark / light theme"
+        >
+          <i data-lucide="sun" id="themeIcon" class="w-4 h-4"></i>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- MAIN CONTAINER -->
+  <!-- ======================================================== -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-7 space-y-8">
+
+    <!-- ========================================== -->
+    <!-- VIEW 1: ALL APPS CATALOG (ROW VIEW) -->
+    <!-- Matches exact layout in media_1794500807254_62e114cd.png -->
+    <!-- ========================================== -->
+    <section id="appsCatalogView" class="space-y-6">
+      
+      <!-- Catalog Header -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h1 class="text-3xl font-extrabold text-ink dark:text-ink-darkText tracking-tight">Saved Apps (<span id="catalogAppCount">0</span>)</h1>
+          <p class="text-sm text-ink-muted dark:text-ink-darkMuted mt-1">High-resolution compressed mobile app flows. Click any card to view breakdown.</p>
+        </div>
+      </div>
+
+      <!-- GitHub Actions Automation Live Banner -->
+      <div class="p-4 sm:p-5 rounded-3xl bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition-colors">
+        <div class="flex items-start sm:items-center gap-3.5 min-w-0">
+          <div class="w-10 h-10 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="git-branch" class="w-5 h-5"></i>
+          </div>
+          <div class="min-w-0 space-y-0.5">
+            <div class="flex flex-wrap items-center gap-2">
+              <h3 class="text-xs sm:text-sm font-extrabold text-ink dark:text-white">GitHub Actions Automated Scraping</h3>
+              <span class="px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 text-[10px] font-bold">Every ~15 Mins</span>
+              <span class="px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 text-[10px] font-semibold">90%+ WebP Compression</span>
+            </div>
+            <p class="text-xs text-ink-muted dark:text-ink-darkMuted truncate">
+              Checks https://appllama.io/ periodically, detects new free apps, compresses media, and commits automatically.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 flex-shrink-0 self-end md:self-auto">
+          <div class="text-right">
+            <div class="text-[10px] font-bold text-ink-muted dark:text-ink-darkMuted uppercase tracking-wider">Archived Screens</div>
+            <div id="totalScreensArchivedBadge" class="font-mono font-extrabold text-ink dark:text-white text-xs">...</div>
+          </div>
+          <button 
+            onclick="fetchApps()"
+            class="px-4 py-2 rounded-xl bg-black dark:bg-white text-white dark:text-black font-bold text-xs hover:bg-neutral-800 dark:hover:bg-slate-200 transition-all flex items-center gap-1.5 flex-shrink-0 active:scale-95 shadow-sm"
+          >
+            <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+            <span>Refresh Archive</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- APPS ROWS CONTAINER (Exact match to media_1794500807254_62e114cd.png) -->
+      <!-- ======================================================== -->
+      <div id="appsRowsContainer" class="space-y-12">
+        <!-- Rendered dynamically -->
+      </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- VIEW 2: SINGLE APP VIEW (FLOWS BREAKDOWN) -->
+    <!-- Matches exact layout in media_1794501765642_4c262415.png -->
+    <!-- ========================================== -->
+    <section id="appDetailView" class="hidden space-y-7">
+      
+      <!-- Back Button -->
+      <div>
+        <button 
+          onclick="navigateToAppsCatalog()" 
+          class="inline-flex items-center gap-2 text-xs font-bold text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white px-3 py-1.5 rounded-xl bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder transition-all hover:bg-surface-subtle dark:hover:bg-surface-darkSubtle shadow-sm"
+        >
+          <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+          <span>← Back to all apps</span>
+        </button>
+      </div>
+
+      <!-- APP HERO CARD -->
+      <div class="bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder rounded-3xl p-6 sm:p-7 shadow-sm transition-colors">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          
+          <!-- Left: Icon + Title + Badges -->
+          <div class="flex items-start sm:items-center gap-5 min-w-0">
+            <img 
+              id="heroAppIcon" 
+              src="" 
+              alt="App Icon" 
+              class="w-18 h-18 sm:w-20 sm:h-20 rounded-2xl object-cover bg-surface-subtle dark:bg-black border border-surface-border dark:border-surface-darkBorder shadow-md flex-shrink-0"
+            >
+            <div class="space-y-1.5 min-w-0">
+              <div class="flex flex-wrap items-center gap-2.5">
+                <h1 id="heroAppName" class="text-2xl sm:text-3xl font-extrabold text-ink dark:text-white tracking-tight truncate">App Name</h1>
+                <span id="heroScreenCountBadge" class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-surface-subtle dark:bg-surface-darkSubtle text-ink-muted dark:text-ink-darkMuted border border-surface-border dark:border-surface-darkBorder">0 Screens</span>
+              </div>
+              
+              <p id="heroAppSubtitle" class="text-xs sm:text-sm text-ink-muted dark:text-ink-darkMuted truncate">Subtitle</p>
+              
+              <!-- Badges -->
+              <div class="flex flex-wrap items-center gap-2 pt-1 text-xs font-bold">
+                <span id="badgeRevenue" class="px-2.5 py-0.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">$5K rev</span>
+                <span id="badgeDownloads" class="px-2.5 py-0.5 rounded-lg bg-sky-50 dark:bg-sky-950/60 text-sky-700 dark:text-sky-400 border border-sky-200 dark:border-sky-800">1K downloads</span>
+                <span id="badgeRating" class="px-2.5 py-0.5 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800">4.8 ★</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Download All .ZIP Button -->
+          <div class="flex-shrink-0 w-full md:w-auto">
+            <button 
+              id="btnDownloadAllZip"
+              onclick="downloadCurrentAppZipClient()"
+              class="w-full md:w-auto flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-black dark:bg-white hover:bg-neutral-800 dark:hover:bg-slate-200 text-white dark:text-black font-bold text-xs shadow-sm transition-all active:scale-95"
+            >
+              <i data-lucide="package" id="zipIcon" class="w-4 h-4"></i>
+              <span id="btnDownloadAllText">Download All (.ZIP)</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- STICKY SUBNAV TABS (Exact match to media_1794501765642_4c262415.png) -->
+      <div class="sticky top-18 z-30 bg-surface-subtle/95 dark:bg-surface-dark/95 backdrop-blur-md py-2.5 border-b border-surface-border/60 dark:border-surface-darkBorder flex items-center justify-between gap-4 transition-colors">
+        
+        <!-- Flow Tabs Ribbon -->
+        <div id="stickyFlowTabsWrapper" class="flex-1 flex items-center gap-6 overflow-x-auto no-scrollbar scroll-smooth py-1">
+          <div id="stickyFlowTabs" class="flex items-center gap-6">
+            <!-- Injected dynamically: All, Welcome 4, Onboarding 19, Paywall 2, Home Dashboard 3, etc. -->
+          </div>
+        </div>
+
+        <!-- Scroll Right Arrow Button -->
+        <button 
+          onclick="scrollStickyFlowTabs(1)"
+          class="w-7 h-7 rounded-full bg-white dark:bg-white/10 hover:bg-neutral-100 dark:hover:bg-white/20 border border-surface-border dark:border-white/10 text-ink dark:text-white flex items-center justify-center transition-all flex-shrink-0 shadow-sm active:scale-95"
+          title="Scroll flows"
+        >
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+        </button>
+
+      </div>
+
+      <!-- SEPARATE FLOW SECTIONS -->
+      <div id="flowSectionsContainer" class="space-y-12">
+        <!-- Injected dynamically -->
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- LIGHTBOX / FULLSCREEN MODAL -->
+  <!-- ======================================================== -->
+  <div id="lightboxModal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-md p-4 sm:p-6 transition-opacity" onclick="closeLightbox()">
+    <div class="relative w-full max-w-4xl h-full flex flex-col justify-between" onclick="event.stopPropagation()">
+      
+      <!-- Top Bar: Title & Controls -->
+      <div class="flex items-center justify-between text-white py-2 px-1">
+        <div class="space-y-0.5">
+          <h3 id="lbScreenTitle" class="text-sm sm:text-base font-bold">Screen Title</h3>
+          <p id="lbFlowTitle" class="text-xs text-neutral-400">Flow Name</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="downloadActiveLightboxImage()" class="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-all" title="Save Image">
+            <i data-lucide="download" class="w-4 h-4"></i>
+          </button>
+          <button onclick="closeLightbox()" class="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-all" title="Close (Esc)">
+            <i data-lucide="x" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Center Media Container -->
+      <div class="flex-1 flex items-center justify-center relative my-2 overflow-hidden">
+        <!-- Previous Arrow -->
+        <button onclick="navigateLightbox(-1)" class="absolute left-2 sm:left-4 z-20 w-11 h-11 rounded-full bg-black/60 hover:bg-black text-white flex items-center justify-center border border-white/20 transition-all shadow-xl">
+          <i data-lucide="chevron-left" class="w-5 h-5"></i>
+        </button>
+
+        <!-- Media Display (Image or Video) -->
+        <div id="lbImageWrapper" class="max-h-[75vh] max-w-full flex items-center justify-center">
+          <img id="lbImage" src="" alt="Screen Preview" class="max-h-[75vh] w-auto rounded-3xl shadow-2xl border-4 border-slate-900 object-contain bg-black ring-1 ring-white/10">
+        </div>
+
+        <!-- Next Arrow -->
+        <button onclick="navigateLightbox(1)" class="absolute right-2 sm:right-4 z-20 w-11 h-11 rounded-full bg-black/60 hover:bg-black text-white flex items-center justify-center border border-white/20 transition-all shadow-xl">
+          <i data-lucide="chevron-right" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Bottom Counter -->
+      <div class="text-center text-xs text-neutral-400 py-1 font-mono font-bold">
+        <span id="lbCounter">1 / 1</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toastContainer" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- ======================================================== -->
+  <!-- MAIN JAVASCRIPT APPLICATION LOGIC -->
+  <!-- ======================================================== -->
+  <script>
+    let allApps = [];
+    let activeApp = null;
+    let activeFlowFilter = 'all';
+    let currentTheme = 'dark'; // 'dark' or 'light'
+    let lightboxScreens = [];
+    let activeLightboxIndex = 0;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+      fetchApps();
+      lucide.createIcons();
+
+      // Keyboard navigation
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeLightbox();
+        } else if (e.key === 'ArrowLeft') {
+          if (!document.getElementById('lightboxModal').classList.contains('hidden')) {
+            navigateLightbox(-1);
+          }
+        } else if (e.key === 'ArrowRight') {
+          if (!document.getElementById('lightboxModal').classList.contains('hidden')) {
+            navigateLightbox(1);
+          }
+        } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+          e.preventDefault();
+          const search = document.getElementById('globalSearchInput');
+          if (search) search.focus();
+        }
+      });
+    });
+
+    // ==========================================
+    // THEME SWITCHER (DARK & LIGHT)
+    // ==========================================
+    function initTheme() {
+      const saved = localStorage.getItem('appframe_theme') || 'dark';
+      setTheme(saved);
+    }
+
+    function toggleTheme() {
+      setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    }
+
+    function setTheme(theme) {
+      currentTheme = theme;
+      localStorage.setItem('appframe_theme', theme);
+
+      const html = document.documentElement;
+      if (theme === 'dark') {
+        html.classList.remove('light');
+        html.classList.add('dark');
+      } else {
+        html.classList.remove('dark');
+        html.classList.add('light');
+      }
+
+      const icon = document.getElementById('themeIcon');
+      if (icon) {
+        icon.setAttribute('data-lucide', theme === 'dark' ? 'sun' : 'moon');
+        lucide.createIcons();
+      }
+
+      renderAppsRowView();
+      if (activeApp && activeApp.flows) {
+        renderStickyTabs(activeApp.flows);
+        filterFlowTab(activeFlowFilter);
+      }
+    }
+
+    // ==========================================
+    // DATA FETCHING (CLIENT-SIDE / GITHUB PAGES)
+    // ==========================================
+    async function fetchApps(openAppId = null) {
+      const syncIcon = document.getElementById('syncIcon');
+      if (syncIcon) syncIcon.classList.add('animate-spin');
+
+      try {
+        let loaded = false;
+
+        // 1. Try fetching data.json (works on GitHub Pages or local HTTP server)
+        try {
+          const res = await fetch('./data.json?v=' + Date.now());
+          if (res.ok) {
+            allApps = await res.json();
+            loaded = true;
+          }
+        } catch (e) {
+          console.warn('Direct fetch data.json error, trying window.APP_DATA:', e);
+        }
+
+        // 2. Fallback to pre-bundled data.js if fetch fails (e.g. file:/// protocol)
+        if (!loaded && window.APP_DATA && Array.isArray(window.APP_DATA)) {
+          allApps = window.APP_DATA;
+          loaded = true;
+        }
+
+        if (loaded) {
+          document.getElementById('catalogAppCount').textContent = allApps.length;
+          
+          // Calculate total screens across all apps
+          const totalScreensAll = allApps.reduce((acc, a) => acc + (a.total_screens || 0), 0);
+          const badge = document.getElementById('totalScreensArchivedBadge');
+          if (badge) badge.textContent = `${totalScreensAll.toLocaleString()} Screens`;
+
+          renderAppsRowView();
+          if (activeApp && activeApp.flows) {
+            renderStickyTabs(activeApp.flows);
+            filterFlowTab(activeFlowFilter);
+          }
+
+          if (openAppId) {
+            openAppDetail(openAppId);
+          }
+        } else {
+          showToast('Could not load data.json or data.js', 'error');
+        }
+      } catch (err) {
+        console.error('Error fetching apps:', err);
+        showToast('Error loading archive data', 'error');
+      } finally {
+        if (syncIcon) syncIcon.classList.remove('animate-spin');
+      }
+    }
+
+    // ==========================================
+    // ROW VIEW (Exact match to media_1794500807254_62e114cd.png)
+    // ==========================================
+    function renderAppsRowView() {
+      const container = document.getElementById('appsRowsContainer');
+      if (!container) return;
+
+      if (allApps.length === 0) {
+        container.innerHTML = `<div class="py-12 text-center text-ink-muted dark:text-ink-darkMuted text-sm">No apps in archive yet.</div>`;
+        return;
+      }
+
+      const isDark = currentTheme === 'dark';
+
+      container.innerHTML = allApps.map(app => {
+        let appScreens = [];
+        let flowCategoryList = [];
+        
+        (app.flows || []).forEach((f, fIdx) => {
+          const flowName = f.name || f.category || `Flow ${fIdx + 1}`;
+          if (!flowCategoryList.some(fc => fc.name === flowName)) {
+            flowCategoryList.push({
+              name: flowName,
+              startIndex: appScreens.length
+            });
+          }
+          (f.screens || []).forEach(s => {
+            appScreens.push({
+              ...s,
+              flow_title: f.full_title || f.name,
+              app_name: app.name
+            });
+          });
+        });
+
+        const categoryLabel = (app.categories && app.categories[0]) || 'Mobile App';
+        const revenuePeriod = app.revenue_period_label || 'Revenue • October 2026';
+        const ratingsCountFormatted = app.ratings_count ? Number(app.ratings_count).toLocaleString() + ' ratings' : 'ratings';
+        const stillsCount = app.stills_count || appScreens.length;
+        const videosCount = app.videos_count || 0;
+        const totalScreens = appScreens.length;
+        const totalFlows = app.total_flows || (app.flows ? app.flows.length : 3);
+
+        const flowPillsHtml = flowCategoryList.slice(0, 4).map((fc, i) => `
+          <button 
+            onclick="scrollToFlowScreen('${app.id}', ${fc.startIndex})" 
+            class="flow-nav-pill text-xs font-semibold ${i === 0 ? (isDark ? 'text-white font-bold' : 'text-slate-900 font-bold') : 'text-neutral-400 dark:text-neutral-400'} hover:text-llama-gold transition-colors whitespace-nowrap"
+          >
+            ${fc.name}
+          </button>
+        `).join('');
+
+        return `
+          <!-- SINGLE APP ROW (media_1794500807254_62e114cd.png) -->
+          <div class="app-row-block space-y-2 select-none" id="app_block_${app.id}">
+            
+            <div class="flex flex-col xl:flex-row items-stretch gap-6">
+              
+              <!-- LEFT APP CARD -->
+              <div 
+                class="row-app-card w-full xl:w-[320px] shrink-0 p-7 flex flex-col justify-between group relative cursor-pointer" 
+                onclick="openAppDetail('${app.id}')"
+              >
+                <div class="space-y-4">
+                  <div class="flex items-start justify-between">
+                    <img 
+                      src="${app.icon || 'https://cloud.appllama.io/branding/logo-icon-500.webp'}" 
+                      alt="${app.name}" 
+                      class="w-16 h-16 rounded-2xl object-cover bg-black border border-surface-border dark:border-surface-darkBorder shadow-md"
+                    >
+                    
+                    <div class="flex items-center gap-1.5 text-neutral-400 dark:text-neutral-400">
+                      <button 
+                        onclick="event.stopPropagation(); downloadAppZipClient('${app.id}')"
+                        class="p-1.5 rounded-lg hover:text-ink dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/10 transition-colors"
+                        title="Download All (.ZIP)"
+                      >
+                        <i data-lucide="download" class="w-4 h-4"></i>
+                      </button>
+                      <button 
+                        onclick="event.stopPropagation(); openAppDetail('${app.id}')"
+                        class="p-1.5 rounded-lg hover:text-ink dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/10 transition-colors"
+                        title="Open Details"
+                      >
+                        <i data-lucide="external-link" class="w-4 h-4"></i>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="space-y-1">
+                    <span class="text-[11px] font-bold tracking-wide uppercase text-neutral-400 dark:text-neutral-500">${categoryLabel}</span>
+                    <h2 class="text-xl font-extrabold text-ink dark:text-white tracking-tight leading-snug line-clamp-2">${app.name}</h2>
+                    <p class="text-xs text-ink-muted dark:text-neutral-400 line-clamp-1">${app.subtitle || ''}</p>
+                  </div>
+
+                  <div class="pt-2">
+                    <div class="text-3xl font-black text-ink dark:text-[#eedac5] tracking-tight leading-none">${app.revenue || '$5K'}</div>
+                    <div class="text-[11px] font-medium text-ink-muted dark:text-neutral-500 mt-1">${revenuePeriod}</div>
+                  </div>
+                </div>
+
+                <div class="flex items-end justify-between pt-4 border-t border-surface-border/50 dark:border-white/5">
+                  <div>
+                    <div class="text-lg font-black text-ink dark:text-white tracking-tight leading-none">${app.downloads || '1K'}</div>
+                    <div class="text-[10px] font-medium text-ink-muted dark:text-neutral-500 mt-0.5">downloads</div>
+                  </div>
+                  <div class="text-right">
+                    <div class="text-lg font-black text-ink dark:text-white tracking-tight leading-none flex items-center justify-end gap-1">
+                      <span>${app.rating || '4.8'}</span>
+                      <span class="text-amber-400 text-sm">★</span>
+                    </div>
+                    <div class="text-[10px] font-medium text-ink-muted dark:text-neutral-500 mt-0.5">${ratingsCountFormatted}</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- RIGHT HORIZONTAL PHONE MOCKUP CAROUSEL -->
+              <div class="flex-1 relative overflow-hidden flex items-center min-w-0">
+                
+                <button 
+                  id="prevScrollBtn_${app.id}"
+                  onclick="scrollAppCarousel('${app.id}', -1)"
+                  class="hidden absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-[#181920]/90 dark:bg-[#181920]/90 border border-[#2d2f3d] dark:border-[#2d2f3d] text-white flex items-center justify-center shadow-2xl transition-all hover:scale-110 active:scale-95 z-30"
+                  title="Previous screens"
+                >
+                  <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                </button>
+
+                <div 
+                  id="carousel_${app.id}"
+                  class="flex items-center gap-4 overflow-x-auto custom-scroll pb-2 pt-1 scroll-smooth"
+                  onwheel="handleCarouselWheel(event, this)" 
+                  onscroll="handleCarouselScroll('${app.id}', this)"
+                >
+                  ${appScreens.map((screen, sIdx) => {
+                    const safeDownloadFilename = `${app.slug || 'app'}_${screen.title}`.replace(/[^a-zA-Z0-9_\-]/g, '_') + (screen.is_video ? '.mp4' : '.webp');
+
+                    return `
+                      <div 
+                        id="screen_${app.id}_${sIdx}"
+                        class="row-screen-frame cursor-pointer group/frame" 
+                        onclick="openLightboxFromScreen('${screen.src}', '${app.id}')"
+                      >
+                        <div class="screen-island">
+                          <span>appllama</span>
+                        </div>
+
+                        ${screen.is_video ? `
+                          <video 
+                            src="${screen.src}" 
+                            autoplay loop muted playsinline 
+                            class="w-full h-full object-cover object-top transition-transform duration-300 group-hover/frame:scale-[1.02]"
+                          ></video>
+                          <div class="absolute top-2.5 right-2.5 z-30 px-2 py-0.5 rounded-full bg-violet-600/90 text-[10px] font-black text-white flex items-center gap-1 shadow-lg">
+                            <i data-lucide="play" class="w-2.5 h-2.5 fill-current"></i> Video
+                          </div>
+                        ` : `
+                          <img 
+                            src="${screen.src}" 
+                            alt="${screen.title}" 
+                            loading="lazy" 
+                            class="w-full h-full object-cover object-top transition-transform duration-300 group-hover/frame:scale-[1.02]"
+                          >
+                        `}
+
+                        <div class="home-indicator"></div>
+
+                        <div class="absolute inset-0 bg-black/55 opacity-0 group-hover/frame:opacity-100 transition-opacity duration-200 flex flex-col items-center justify-center gap-2.5 p-3 z-30">
+                          <button 
+                            onclick="event.stopPropagation(); openLightboxFromScreen('${screen.src}', '${app.id}')" 
+                            class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center shadow-2xl transition-transform hover:scale-110 active:scale-95"
+                            title="Zoom / Fullscreen"
+                          >
+                            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+                          </button>
+                          
+                          <button 
+                            onclick="event.stopPropagation(); downloadScreenDirect('${screen.src}', '${safeDownloadFilename}')" 
+                            class="px-4 py-1.5 rounded-xl bg-black/90 hover:bg-black text-white text-xs font-bold border border-white/20 shadow-md hover:scale-105 active:scale-95 transition-all"
+                            title="Save Image"
+                          >
+                            Save
+                          </button>
+                        </div>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+
+                ${totalScreens > 3 ? `
+                  <button 
+                    id="nextScrollBtn_${app.id}"
+                    onclick="scrollAppCarousel('${app.id}', 1)"
+                    class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-[#181920]/90 dark:bg-[#181920]/90 border border-[#2d2f3d] dark:border-[#2d2f3d] text-white flex items-center justify-center shadow-2xl transition-all hover:scale-110 active:scale-95 z-30"
+                    title="Next screens"
+                  >
+                    <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                  </button>
+                ` : ''}
+
+              </div>
+
+            </div>
+
+            <!-- SUB-BARS: UNDER CARD STATS & UNDER PHONE PROGRESS + FLOWS -->
+            <div class="flex flex-col xl:flex-row items-center gap-6 pt-1 text-xs">
+              <div class="w-full xl:w-[320px] shrink-0 flex items-center justify-between text-ink-muted dark:text-neutral-400 font-medium px-2">
+                <span>${totalScreens} screens • ${stillsCount} stills • ${videosCount} videos</span>
+                <span>${totalFlows} flows</span>
+              </div>
+
+              <div class="flex-1 flex items-center justify-between px-2 min-w-0">
+                <div class="flex items-center gap-3">
+                  <span id="screenCounter_${app.id}" class="font-bold text-ink dark:text-white text-sm">01</span>
+                  <div class="w-20 h-0.5 bg-surface-border dark:bg-surface-darkBorder rounded-full overflow-hidden">
+                    <div id="screenProgress_${app.id}" class="h-full bg-llama-goldLight dark:bg-llama-gold transition-all duration-200" style="width: ${Math.min(100, Math.max(15, (1 / Math.max(1, totalScreens)) * 100))}%;"></div>
+                  </div>
+                  <span class="text-ink-muted dark:text-neutral-400 font-medium text-xs">${totalScreens.toString().padStart(2, '0')}</span>
+                </div>
+
+                <div class="flex items-center gap-5 overflow-x-auto no-scrollbar">
+                  ${flowPillsHtml}
+                </div>
+              </div>
+            </div>
+
+          </div>
+        `;
+      }).join('');
+
+      lucide.createIcons();
+    }
+
+    function handleCarouselWheel(e, el) {
+      if (e.deltaY !== 0) {
+        e.preventDefault();
+        el.scrollLeft += e.deltaY * 1.5;
+      }
+    }
+
+    function handleCarouselScroll(appId, el) {
+      const prevBtn = document.getElementById(`prevScrollBtn_${appId}`);
+      if (prevBtn) {
+        if (el.scrollLeft > 25) {
+          prevBtn.classList.remove('hidden');
+          prevBtn.classList.add('flex');
+        } else {
+          prevBtn.classList.add('hidden');
+          prevBtn.classList.remove('flex');
+        }
+      }
+
+      const itemWidth = 237;
+      const currentIdx = Math.min(Math.max(1, Math.round(el.scrollLeft / itemWidth) + 1), 999);
+
+      const counterEl = document.getElementById(`screenCounter_${appId}`);
+      if (counterEl) {
+        counterEl.textContent = currentIdx.toString().padStart(2, '0');
+      }
+
+      const progressEl = document.getElementById(`screenProgress_${appId}`);
+      if (progressEl) {
+        const maxScroll = el.scrollWidth - el.clientWidth;
+        const pct = maxScroll > 0 ? Math.min(100, Math.max(10, (el.scrollLeft / maxScroll) * 100)) : 100;
+        progressEl.style.width = `${pct}%`;
+      }
+    }
+
+    function scrollAppCarousel(appId, dir) {
+      const carousel = document.getElementById(`carousel_${appId}`);
+      if (carousel) {
+        carousel.scrollBy({ left: dir * 480, behavior: 'smooth' });
+      }
+    }
+
+    function scrollToFlowScreen(appId, screenIndex) {
+      const targetScreen = document.getElementById(`screen_${appId}_${screenIndex}`);
+      if (targetScreen) {
+        targetScreen.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+      }
+    }
+
+    function handleGlobalSearch(query) {
+      const q = query.trim().toLowerCase();
+      const rows = document.querySelectorAll('.app-row-block');
+      rows.forEach(r => {
+        const text = r.textContent.toLowerCase();
+        r.classList.toggle('hidden', !text.includes(q));
+      });
+    }
+
+    // ==========================================
+    // DETAIL VIEW (SINGLE APP FLOWS BREAKDOWN)
+    // ==========================================
+    function openAppDetail(appId) {
+      const app = allApps.find(a => a.id === appId || a.slug === appId);
+      if (!app) return;
+
+      activeApp = app;
+
+      document.getElementById('appsCatalogView').classList.add('hidden');
+      document.getElementById('appDetailView').classList.remove('hidden');
+
+      document.getElementById('heroAppName').textContent = app.name;
+      document.getElementById('heroAppSubtitle').textContent = app.subtitle || '';
+      document.getElementById('heroAppIcon').src = app.icon || '';
+      document.getElementById('heroScreenCountBadge').textContent = `${app.total_screens} Screens`;
+
+      document.getElementById('badgeRevenue').textContent = `${app.revenue || '$5K'} rev`;
+      document.getElementById('badgeDownloads').textContent = `${app.downloads || '1K'} downloads`;
+      document.getElementById('badgeRating').textContent = `${app.rating || '4.8'} ★`;
+
+      renderStickyTabs(app.flows || []);
+      renderFlowSections(app.flows || []);
+      buildLightboxList();
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      lucide.createIcons();
+    }
+
+    function navigateToAppsCatalog() {
+      document.getElementById('appDetailView').classList.add('hidden');
+      document.getElementById('appsCatalogView').classList.remove('hidden');
+      activeApp = null;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function renderStickyTabs(flows) {
+      const container = document.getElementById('stickyFlowTabs');
+      if (!container) return;
+
+      const totalScreens = (flows || []).reduce((acc, f) => acc + (f.screens ? f.screens.length : 0), 0);
+      const isDark = currentTheme === 'dark';
+
+      let html = `
+        <button 
+          onclick="filterFlowTab('all')" 
+          id="flowTabBtn_all"
+          class="flow-ribbon-tab px-4 py-1.5 rounded-full text-xs font-extrabold transition-all duration-200 flex items-center gap-1.5 ${activeFlowFilter === 'all' ? (isDark ? 'bg-white text-black shadow-md' : 'bg-black text-white shadow-md') : (isDark ? 'text-neutral-400 hover:text-white' : 'text-neutral-500 hover:text-black')}"
+        >
+          <span>All</span>
+          <span class="text-[10px] opacity-75">${totalScreens}</span>
+        </button>
+      `;
+
+      flows.forEach((flow, idx) => {
+        const count = flow.screens ? flow.screens.length : 0;
+        const isActive = activeFlowFilter === String(idx);
+
+        html += `
+          <button 
+            onclick="filterFlowTab('${idx}')" 
+            id="flowTabBtn_${idx}"
+            class="flow-ribbon-tab text-xs font-semibold whitespace-nowrap transition-all duration-200 flex items-center gap-1.5 py-1 ${isActive ? (isDark ? 'text-white font-extrabold' : 'text-black font-extrabold') : (isDark ? 'text-neutral-400 hover:text-white' : 'text-neutral-500 hover:text-black')}"
+          >
+            <span>${flow.name}</span>
+            <span class="text-[11px] text-neutral-500 dark:text-neutral-500 font-medium">${count}</span>
+          </button>
+        `;
+      });
+
+      container.innerHTML = html;
+    }
+
+    function scrollStickyFlowTabs(dir) {
+      const wrapper = document.getElementById('stickyFlowTabsWrapper');
+      if (wrapper) {
+        wrapper.scrollBy({ left: dir * 300, behavior: 'smooth' });
+      }
+    }
+
+    function filterFlowTab(filterVal) {
+      activeFlowFilter = filterVal;
+      const isDark = currentTheme === 'dark';
+
+      document.querySelectorAll('.flow-ribbon-tab').forEach(b => {
+        if (b.id === 'flowTabBtn_all') {
+          if (filterVal === 'all') {
+            b.className = `flow-ribbon-tab px-4 py-1.5 rounded-full text-xs font-extrabold transition-all duration-200 flex items-center gap-1.5 ${isDark ? 'bg-white text-black shadow-md' : 'bg-black text-white shadow-md'}`;
+          } else {
+            b.className = `flow-ribbon-tab px-4 py-1.5 rounded-full text-xs font-extrabold transition-all duration-200 flex items-center gap-1.5 ${isDark ? 'text-neutral-400 hover:text-white' : 'text-neutral-500 hover:text-black'}`;
+          }
+        } else {
+          const tabIdx = b.id.replace('flowTabBtn_', '');
+          if (filterVal === tabIdx) {
+            b.className = `flow-ribbon-tab text-xs font-extrabold whitespace-nowrap transition-all duration-200 flex items-center gap-1.5 py-1 ${isDark ? 'text-white' : 'text-black'}`;
+          } else {
+            b.className = `flow-ribbon-tab text-xs font-semibold whitespace-nowrap transition-all duration-200 flex items-center gap-1.5 py-1 ${isDark ? 'text-neutral-400 hover:text-white' : 'text-neutral-500 hover:text-black'}`;
+          }
+        }
+      });
+
+      const sections = document.querySelectorAll('.flow-section-block');
+      sections.forEach((sec, idx) => {
+        if (filterVal === 'all') {
+          sec.classList.remove('hidden');
+        } else {
+          sec.classList.toggle('hidden', String(idx) !== filterVal);
+        }
+      });
+    }
+
+    function renderFlowSections(flows) {
+      const container = document.getElementById('flowSectionsContainer');
+      if (!container) return;
+
+      if (!flows || flows.length === 0) {
+        container.innerHTML = `<div class="py-12 text-center text-ink-muted text-sm">No flows detected.</div>`;
+        return;
+      }
+
+      container.innerHTML = flows.map((flow, flowIdx) => {
+        const screens = flow.screens || [];
+        return `
+          <div class="flow-section-block space-y-4" id="flow_sec_${flowIdx}">
+            <div class="flex items-center justify-between border-b border-surface-border dark:border-surface-darkBorder pb-3">
+              <div class="flex items-center gap-3">
+                <h3 class="text-lg font-bold text-ink dark:text-white">${flow.full_title || flow.name}</h3>
+                <span class="text-xs px-2.5 py-0.5 rounded-full bg-surface-subtle dark:bg-surface-darkSubtle text-ink-muted dark:text-ink-darkMuted font-semibold border border-surface-border dark:border-surface-darkBorder">${screens.length} screens</span>
+              </div>
+              
+              <button 
+                onclick="downloadFlowZipClient(${flowIdx})"
+                class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-surface-subtle dark:bg-surface-darkSubtle hover:bg-surface-border text-xs font-bold text-ink dark:text-white border border-surface-border dark:border-surface-darkBorder transition-all active:scale-95 shadow-sm"
+              >
+                <i data-lucide="archive" class="w-3.5 h-3.5"></i>
+                <span>Download Flow (.ZIP)</span>
+              </button>
+            </div>
+
+            <div class="flex items-center gap-5 overflow-x-auto custom-scroll pb-4 pt-1">
+              ${screens.map((screen, sIdx) => {
+                const safeDownloadFilename = `${activeApp.slug || 'app'}_${flow.name}_${screen.title}`.replace(/[^a-zA-Z0-9_\-]/g, '_') + (screen.is_video ? '.mp4' : '.webp');
+
+                return `
+                  <div class="flex-shrink-0 space-y-2 group">
+                    <div 
+                      class="app-screen-frame cursor-pointer relative" 
+                      onclick="openLightboxFromScreen('${screen.src}', '${activeApp.id}')"
+                    >
+                      <div class="screen-island">
+                        <span>appllama</span>
+                      </div>
+
+                      ${screen.is_video ? `
+                        <video src="${screen.src}" autoplay loop muted playsinline class="w-full h-full object-cover object-top"></video>
+                        <div class="absolute top-2.5 right-2.5 z-20 px-2 py-0.5 rounded-full bg-violet-600/90 text-[10px] font-black text-white flex items-center gap-1 shadow-lg">
+                          <i data-lucide="play" class="w-2.5 h-2.5 fill-current"></i> Video
+                        </div>
+                      ` : `
+                        <img src="${screen.src}" alt="${screen.title}" loading="lazy" class="w-full h-full object-cover object-top">
+                      `}
+
+                      <div class="home-indicator"></div>
+
+                      <div class="absolute inset-0 bg-black/55 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex flex-col items-center justify-center gap-2 p-3 z-30">
+                        <button 
+                          onclick="event.stopPropagation(); openLightboxFromScreen('${screen.src}', '${activeApp.id}')" 
+                          class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center shadow-xl hover:scale-110 active:scale-95 transition-transform"
+                        >
+                          <i data-lucide="maximize-2" class="w-4 h-4"></i>
+                        </button>
+                        
+                        <button 
+                          onclick="event.stopPropagation(); downloadScreenDirect('${screen.src}', '${safeDownloadFilename}')" 
+                          class="px-3.5 py-1.5 rounded-xl bg-black text-white text-xs font-bold border border-white/20 shadow-md hover:scale-105 active:scale-95 transition-all"
+                        >
+                          Save
+                        </button>
+                      </div>
+                    </div>
+
+                    <p class="text-[11px] font-semibold text-ink-muted dark:text-ink-darkMuted truncate px-1 max-w-[200px]" title="${screen.title}">
+                      ${screen.title}
+                    </p>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      lucide.createIcons();
+    }
+
+    // ==========================================
+    // LIGHTBOX / ZOOM VIEWER
+    // ==========================================
+    function buildLightboxList() {
+      lightboxScreens = [];
+      if (!activeApp || !activeApp.flows) return;
+
+      activeApp.flows.forEach(f => {
+        (f.screens || []).forEach(s => {
+          lightboxScreens.push({
+            src: s.src,
+            title: s.title,
+            flow_title: f.full_title,
+            is_video: s.is_video || false,
+            app_name: activeApp.name
+          });
+        });
+      });
+    }
+
+    function openLightboxFromScreen(src, appId) {
+      const app = allApps.find(a => a.id === appId) || activeApp;
+      if (!app) return;
+
+      lightboxScreens = [];
+      (app.flows || []).forEach(f => {
+        (f.screens || []).forEach(s => {
+          lightboxScreens.push({
+            src: s.src,
+            title: s.title,
+            flow_title: f.full_title,
+            is_video: s.is_video || false,
+            app_name: app.name
+          });
+        });
+      });
+
+      const foundIdx = lightboxScreens.findIndex(s => s.src === src);
+      activeLightboxIndex = foundIdx !== -1 ? foundIdx : 0;
+      updateLightboxModal();
+
+      document.getElementById('lightboxModal').classList.remove('hidden');
+    }
+
+    function updateLightboxModal() {
+      if (lightboxScreens.length === 0) return;
+      const screen = lightboxScreens[activeLightboxIndex];
+
+      const wrapper = document.getElementById('lbImageWrapper');
+      if (screen.is_video) {
+        wrapper.innerHTML = `
+          <video 
+            id="lbImage"
+            src="${screen.src}" 
+            controls autoplay loop playsinline
+            class="max-h-[75vh] w-auto rounded-3xl shadow-2xl border-4 border-slate-900 object-contain bg-black ring-1 ring-white/10"
+          ></video>
+        `;
+      } else {
+        wrapper.innerHTML = `
+          <img 
+            id="lbImage" 
+            src="${screen.src}" 
+            alt="Screen Preview" 
+            class="max-h-[75vh] w-auto rounded-3xl shadow-2xl border-4 border-slate-900 object-contain bg-black ring-1 ring-white/10"
+          >
+        `;
+      }
+
+      document.getElementById('lbScreenTitle').textContent = screen.title;
+      document.getElementById('lbFlowTitle').textContent = screen.flow_title;
+      document.getElementById('lbCounter').textContent = `${activeLightboxIndex + 1} / ${lightboxScreens.length}`;
+      lucide.createIcons();
+    }
+
+    function navigateLightbox(dir) {
+      if (lightboxScreens.length === 0) return;
+      activeLightboxIndex = (activeLightboxIndex + dir + lightboxScreens.length) % lightboxScreens.length;
+      updateLightboxModal();
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightboxModal').classList.add('hidden');
+    }
+
+    function downloadActiveLightboxImage() {
+      if (lightboxScreens.length === 0) return;
+      const s = lightboxScreens[activeLightboxIndex];
+      const filename = `${s.app_name || 'App'}_${s.flow_title}_${s.title}`.replace(/[^a-zA-Z0-9_\-]/g, '_') + (s.is_video ? '.mp4' : '.webp');
+      downloadScreenDirect(s.src, filename);
+    }
+
+    // ==========================================
+    // CLIENT-SIDE DOWNLOADS (NO PYTHON SERVER NEEDED ON GITHUB PAGES!)
+    // ==========================================
+    function downloadScreenDirect(src, filename) {
+      const link = document.createElement('a');
+      link.href = src;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast(`Saving ${filename}`, 'info');
+    }
+
+    async function downloadAppZipClient(appId) {
+      const app = allApps.find(a => a.id === appId) || activeApp;
+      if (!app) return;
+
+      showToast(`Bundling ${app.name} screens into ZIP...`, 'info');
+      const zip = new JSZip();
+      const safeAppName = app.name.replace(/[^a-zA-Z0-9_\-]/g, '_');
+
+      const btn = document.getElementById('btnDownloadAllZip');
+      const icon = document.getElementById('zipIcon');
+      if (icon) icon.classList.add('animate-spin');
+
+      try {
+        const screensToZip = [];
+        (app.flows || []).forEach(flow => {
+          const safeFlowName = flow.name.replace(/[^a-zA-Z0-9_\-]/g, '_');
+          (flow.screens || []).forEach((screen, idx) => {
+            const ext = screen.is_video ? '.mp4' : '.webp';
+            const safeTitle = screen.title.replace(/[^a-zA-Z0-9_\-]/g, '_');
+            const arcname = `${safeAppName}/${safeFlowName}/${(idx + 1).toString().padStart(2, '0')}_${safeTitle}${ext}`;
+            screensToZip.push({ url: screen.src, arcname });
+          });
+        });
+
+        // Download and add each file to JSZip
+        await Promise.all(screensToZip.map(async item => {
+          try {
+            const resp = await fetch(item.url);
+            if (resp.ok) {
+              const blob = await resp.blob();
+              zip.file(item.arcname, blob);
+            }
+          } catch (e) {
+            console.warn('Failed to zip screen:', item.url);
+          }
+        }));
+
+        const content = await zip.generateAsync({ type: 'blob' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(content);
+        link.download = `${safeAppName}_flows.zip`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        showToast(`Downloaded ${safeAppName}_flows.zip!`, 'success');
+      } catch (err) {
+        console.error('ZIP generation error:', err);
+        showToast('Error generating ZIP archive', 'error');
+      } finally {
+        if (icon) icon.classList.remove('animate-spin');
+      }
+    }
+
+    async function downloadFlowZipClient(flowIdx) {
+      if (!activeApp || !activeApp.flows || !activeApp.flows[flowIdx]) return;
+      const flow = activeApp.flows[flowIdx];
+      const safeFlowName = flow.name.replace(/[^a-zA-Z0-9_\-]/g, '_');
+
+      showToast(`Bundling ${flow.name} into ZIP...`, 'info');
+      const zip = new JSZip();
+
+      try {
+        await Promise.all((flow.screens || []).map(async (screen, idx) => {
+          try {
+            const ext = screen.is_video ? '.mp4' : '.webp';
+            const safeTitle = screen.title.replace(/[^a-zA-Z0-9_\-]/g, '_');
+            const arcname = `${(idx + 1).toString().padStart(2, '0')}_${safeTitle}${ext}`;
+            const resp = await fetch(screen.src);
+            if (resp.ok) {
+              const blob = await resp.blob();
+              zip.file(arcname, blob);
+            }
+          } catch (e) {}
+        }));
+
+        const content = await zip.generateAsync({ type: 'blob' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(content);
+        link.download = `${activeApp.slug || 'app'}_${safeFlowName}.zip`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        showToast(`Downloaded ${flow.name} ZIP!`, 'success');
+      } catch (err) {
+        showToast('Error generating flow ZIP', 'error');
+      }
+    }
+
+    function downloadCurrentAppZipClient() {
+      if (!activeApp) return;
+      downloadAppZipClient(activeApp.id);
+    }
+
+    // Toast Notification System
+    function showToast(message, type = 'info') {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      
+      let bg = 'bg-black text-white border-neutral-800';
+      let icon = 'info';
+      if (type === 'success') {
+        bg = 'bg-emerald-950 text-emerald-200 border-emerald-800';
+        icon = 'check-circle';
+      } else if (type === 'error') {
+        bg = 'bg-rose-950 text-rose-200 border-rose-800';
+        icon = 'alert-triangle';
+      }
+
+      toast.className = `flex items-center gap-2.5 px-4 py-2.5 rounded-2xl border text-xs font-semibold shadow-2xl transition-all transform duration-300 opacity-0 translate-y-2 ${bg}`;
+      toast.innerHTML = `
+        <i data-lucide="${icon}" class="w-4 h-4 flex-shrink-0"></i>
+        <span>${message}</span>
+      `;
+
+      container.appendChild(toast);
+      lucide.createIcons();
+
+      requestAnimationFrame(() => {
+        toast.classList.remove('opacity-0', 'translate-y-2');
+      });
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => toast.remove(), 300);
+      }, 3500);
+    }
+  </script>
+
+</body>
+</html>
+

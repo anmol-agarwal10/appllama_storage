@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+.vscode/
+.idea/
+
+# Ignore raw uncompressed browser dumps
+apps/*_files/
+apps/*.html
+!apps/*.webp
+!apps/*.mp4
+
