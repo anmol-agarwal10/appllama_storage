@@ -1625,6 +1625,219 @@
     ]
   },
   {
+    "id": "6762319708",
+    "slug": "anijam-ai-video-maker",
+    "name": "Anijam: AI Video Maker",
+    "subtitle": "Create Photo, Video, Animation",
+    "publisher": "",
+    "icon": "apps/anijam-ai-video-maker/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$50K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.5",
+    "ratings_count": "1.1K",
+    "rank": "#1",
+    "total_screens": 32,
+    "stills_count": 30,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/anijam-ai-video-maker/dcae0e9b937097e7dc75ca3714fe3121d044853d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/anijam-ai-video-maker/e169c9454e918ad5015045a16237dd4e65225ca2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/anijam-ai-video-maker/1a0fdb1f42baf51071dd8968353dc814829b5d99.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 04",
+            "src": "apps/anijam-ai-video-maker/64576d3ede413ccbe1b5880da9c129d7935e3dbc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 05",
+            "src": "apps/anijam-ai-video-maker/6c4f2fcf61cc9f798feafa460869e883d09f01db.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/anijam-ai-video-maker/0d1b865ff200d54d99ed85f4a260cf7d48690692.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/anijam-ai-video-maker/67da5ddd7afac5204b2ab1032c5c7b05652dd7c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/anijam-ai-video-maker/4af580f30fc3fafa34677e38a4258ddff535f4d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/anijam-ai-video-maker/72730d68f8fa3005bda059ccee58ba206bc19f9b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/anijam-ai-video-maker/1322f8f7c59f42de4c99ca33e8f5c3fed366b79d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/anijam-ai-video-maker/fde41db4546eabce9dc5fb21210eef2d4b8cae76.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/anijam-ai-video-maker/56f5f8daf6984301ad015badbd70cfc24036257a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/anijam-ai-video-maker/c94d14c340931dfa76578bb800ceac2742abbdb7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/anijam-ai-video-maker/8969c5e0db9410c94b019b399cd90a3201a89db8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/anijam-ai-video-maker/96c06f9dba465db037d69aa651e13e035233dc65.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/anijam-ai-video-maker/348ad1ce6f71393224168a39d004a6e8bd9a117e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/anijam-ai-video-maker/d5b12998b676669f4a3fcadf548696de6ba46851.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/anijam-ai-video-maker/2dd6699e7955e249eb0b9978c899e97ade98d287.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/anijam-ai-video-maker/f9d24e01c4f3e98912fb193ef22a5dd07ddef364.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 20",
+            "src": "apps/anijam-ai-video-maker/87f6f68e6ec554454c721f0a395262da7b2bdedd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/anijam-ai-video-maker/af95cca217f197942db51272dc70ff773ac779ef.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 22",
+            "src": "apps/anijam-ai-video-maker/47b62140f09c8a517dedab52c077a702f6eaa2b0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/anijam-ai-video-maker/55441cf6d51573f6cd97d74c8e30d909070eeb15.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/anijam-ai-video-maker/38f322e096d97f9f4ec3f4af12b88a9b743c0188.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/anijam-ai-video-maker/e5817201441cfb9333b2bbd4d85ae2bda25a938c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/anijam-ai-video-maker/6f48c2e4c1e4287732455eb706f4e7e69d036e09.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/anijam-ai-video-maker/66bd9c45e14fba4db0fe2f73b1d02526762ca81c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/anijam-ai-video-maker/5b2ed2695f5dcfbd65380d92ab19f2657959101e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/anijam-ai-video-maker/8384e0cc197ec6c67a763e17584c76c76fcc5437.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/anijam-ai-video-maker/d1ca5534f7d4bb861a7e77b280d0150816a8220a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/anijam-ai-video-maker/88a4cb5bed0998c32ae149997f8705164d782a67.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/anijam-ai-video-maker/e6e381c65a2278e4230135b1b30281e988fac39a.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "art-pics-photo-editor-faceswap",
     "name": "Art Pics-Photo Editor&FaceSwap",
@@ -2000,6 +2213,604 @@
             "title": "Image Generation (Video Walkthrough)",
             "src": "apps/artist-ai-ai-art-generator/screen_030.mp4",
             "is_video": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6751030141",
+    "slug": "astra-ai-study-exam-prep",
+    "name": "Astra AI: Study & Exam Prep",
+    "subtitle": "School questions & homework",
+    "publisher": "",
+    "icon": "apps/astra-ai-study-exam-prep/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$500K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.8",
+    "ratings_count": "5.7K",
+    "rank": "#1",
+    "total_screens": 109,
+    "stills_count": 106,
+    "videos_count": 3,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/astra-ai-study-exam-prep/d11099503cf5c1941bfd35ff063c6106e5bb2b19.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/astra-ai-study-exam-prep/822f95cda2a700e371dd446d0bb3393b08a21459.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/astra-ai-study-exam-prep/319a8503c137eff77a3bbe01882aff1d52df7e9b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/astra-ai-study-exam-prep/e09bc76ba02fa69301bac93d79d90848c5752e15.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/astra-ai-study-exam-prep/4880da92eab1969fef74321f7882aca4d50442c1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/astra-ai-study-exam-prep/141ffb665ea613ffb7d1cc645343b4dbb81058eb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/astra-ai-study-exam-prep/8950e45ad06e4b8367f26e8e45d37313fb8353ae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/astra-ai-study-exam-prep/cacf4633d14e94da2d577952cdeeb0c9379b4582.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/astra-ai-study-exam-prep/ea036d430ca06d3b9e7168de71498f103420c6b5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/astra-ai-study-exam-prep/0852ee6c97ddd6812471c3e1b9635cbb5efbf84c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/astra-ai-study-exam-prep/42399f88ddd6886a7d4454cd30859b2570eed571.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/astra-ai-study-exam-prep/040aff747b1cc1e4ef7abb2096d447b7ddaede16.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/astra-ai-study-exam-prep/5501543769b36f2d53a0dab7fb79cc7c3105c50d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/astra-ai-study-exam-prep/36791231adefd1090ae9e9aa0547199424ac7a7d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/astra-ai-study-exam-prep/eda5ecb25d00cd1e792f0765f6b8a90ac8e3c150.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/astra-ai-study-exam-prep/427a077177d833c8e2a798966f7867d179302b74.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/astra-ai-study-exam-prep/9884e1d65b3526b644f09ef3d8915e48c364a82b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/astra-ai-study-exam-prep/b73614051290093e6427e922e4e55bbe71ba0460.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/astra-ai-study-exam-prep/fc23dbaaf3c08bee65d7ed17aad9a0e78e72ed74.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/astra-ai-study-exam-prep/eacc08ac35b56094a9ea846b31ca097964fc68dc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/astra-ai-study-exam-prep/9e5b4e4962874723e3a7631226589888f777e1c2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/astra-ai-study-exam-prep/065f779a949fbdda1966100923365707ffc78ba3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/astra-ai-study-exam-prep/144ff455bff02fd22513308716623bcf2de9423c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/astra-ai-study-exam-prep/f1dcef935e33618f2b7a1be323feb26c037334e0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/astra-ai-study-exam-prep/5a4fa0348cdb05e44c3969090c8c13a28a9ad3ea.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/astra-ai-study-exam-prep/67c92a349274af2a950e3aee9dc42366d9cdd5cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/astra-ai-study-exam-prep/af578fae98fe5f15fc030964e265f1c784aae721.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/astra-ai-study-exam-prep/f4cee64de7dbd907be518a639d5745327d121446.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/astra-ai-study-exam-prep/ef8c165c509162406398393ef169aad76389ce7c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/astra-ai-study-exam-prep/1195a09a25ef5240a70515e7e04b71552089b0d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/astra-ai-study-exam-prep/aad011fe2672b2a537e974dc8bbbada279145b63.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/astra-ai-study-exam-prep/295a16de329cc49fcfba12c0c65fda08bf93ddbe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/astra-ai-study-exam-prep/f7a6c79d423be397f7f41ad3179736b4d7d5daa1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/astra-ai-study-exam-prep/a314a7e347be0dd69431b0534ee5b198207084b2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/astra-ai-study-exam-prep/9607e5cf27125909c2dc9cf9a3c2a4f94ab043fe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/astra-ai-study-exam-prep/17787302cbf5a90785ac95a1f4223889f6c9ddec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/astra-ai-study-exam-prep/0835ce5423811352a7b082352c3d2962f8c1b3c5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/astra-ai-study-exam-prep/1b420729641e731672f700606166f176f3f74772.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/astra-ai-study-exam-prep/f04523c81fb53369df766764d190c2bdf2a5abbb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/astra-ai-study-exam-prep/467b4299939b2ff8dc181527dfbd282d0789c803.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/astra-ai-study-exam-prep/31fe234980057ecf31e29c5d82716184c649f2da.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/astra-ai-study-exam-prep/a0b96f68d05618d95946f89ef446dbdd500621cd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/astra-ai-study-exam-prep/cafd9d8fd0fc9443dfdd5dde39be71fd16529db5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/astra-ai-study-exam-prep/d8aac7af6f00f4d732d46a3c4166857285f831ca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/astra-ai-study-exam-prep/6d1ed38894b023f44110e0c11adb66cd6c6c13a4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/astra-ai-study-exam-prep/9b1c17b87fdbc7f41e21f41fba8590551935d9d9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/astra-ai-study-exam-prep/5dd8973a8d5e2cd07ca60653aa80bf3678c4a52d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/astra-ai-study-exam-prep/2e6fa100254b2c6e96dcd81cd3703662576ffeb3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/astra-ai-study-exam-prep/92f1968a2a091b1b57431546e03f541127d96928.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/astra-ai-study-exam-prep/de3f4b041dde8d5f87ee21643bc476c5dd0feaef.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/astra-ai-study-exam-prep/05eb7068328c4026bb21794d82e423a2065fdecb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/astra-ai-study-exam-prep/67a91615f61ebb5709dbfdbcd4c677f45be6c0ae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/astra-ai-study-exam-prep/4da1ccf11eaafc6f8b7d13ac9e0cf0b1304e9c4a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/astra-ai-study-exam-prep/7b8e0f7f9a959c0caf566c189e81c798598934db.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/astra-ai-study-exam-prep/ed1f6629d55acc481a259dda1e895c78b42d9491.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/astra-ai-study-exam-prep/b10b3e002180db6213f31ac3e827059633a752c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/astra-ai-study-exam-prep/deff7e838431647f999089d8d828c7abeb3ad2d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/astra-ai-study-exam-prep/43460c73d16b648666d6206de6ffcbd66588a70d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/astra-ai-study-exam-prep/d81059c167cbc2934b07991c4a146f24808db95b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/astra-ai-study-exam-prep/3eb8dd3e3a8df59612d6f6f8691b063151a236be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/astra-ai-study-exam-prep/91e0fd6566ed722f6e084cb643eed79cdfebd6b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/astra-ai-study-exam-prep/bd884b03f2de6152d5a70c7911d0390f3c8fcc98.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/astra-ai-study-exam-prep/67f9872acff7dfd1f1c475145e22a123a6b82b17.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/astra-ai-study-exam-prep/bd8a23b7b3640b9537d4cd1cce46fa67d383a947.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/astra-ai-study-exam-prep/239ecf05cec30018fa01cac74dea5ec50631905a.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 66",
+            "src": "apps/astra-ai-study-exam-prep/b7e01979c1db888c2ad4059f9d5b8c43139b8acd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/astra-ai-study-exam-prep/90f5fd55a54549759b0864859dc5a80bb739b105.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/astra-ai-study-exam-prep/2dd982b093b927874cbe4ee2dd0466a3bba74cdc.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 69",
+            "src": "apps/astra-ai-study-exam-prep/f2d4cc8530390b5dfb80831f23d0a7d734664ce9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/astra-ai-study-exam-prep/32f17a11aff9738f6f767be50be388fad05c8224.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/astra-ai-study-exam-prep/002add37c52c13e59a98fa6674aa2f3300b89e91.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 72",
+            "src": "apps/astra-ai-study-exam-prep/c52640d5efd435058568b3dbc952b80646582f2f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 73",
+            "src": "apps/astra-ai-study-exam-prep/c74587c08ad06415765e9e8c37fa6c95f60d00c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 74",
+            "src": "apps/astra-ai-study-exam-prep/60b9e0afeb244e2401cda674e89fc8f61bea28e5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 75",
+            "src": "apps/astra-ai-study-exam-prep/c70dde05a2dc825c67a7455722b320bbd83bde20.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 76",
+            "src": "apps/astra-ai-study-exam-prep/429527dd948fe7b165ad23ff43f5b8abf8b5adca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 77",
+            "src": "apps/astra-ai-study-exam-prep/50a8385b6af1de324db2332672dc172bcb8558a8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 78",
+            "src": "apps/astra-ai-study-exam-prep/330bc7eb7257b336c03e4c39a113a9f572aca72b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 79",
+            "src": "apps/astra-ai-study-exam-prep/5012723bf8838b142fa80a6ef5a6c6a5330504d5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 80",
+            "src": "apps/astra-ai-study-exam-prep/d28f92d5bad1b566673a7966c2d7d0483f7b55b5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 81",
+            "src": "apps/astra-ai-study-exam-prep/b2e8b55b1012a053d65237f27945551914d33d26.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 82",
+            "src": "apps/astra-ai-study-exam-prep/be5b8c9b3ce82a525c352cad247bb565f86c0853.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 83",
+            "src": "apps/astra-ai-study-exam-prep/3e180ec6409d5099c844630da6f26d2679cbfba6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 84",
+            "src": "apps/astra-ai-study-exam-prep/d01d8b485b031091ec4500386d6104c007c59b27.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 85",
+            "src": "apps/astra-ai-study-exam-prep/55f82c84c2089a66ddfa7abd8e00d3d08de00196.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 86",
+            "src": "apps/astra-ai-study-exam-prep/70413a1ebf4c9f57ce32cee21984036a1b4b2517.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 87",
+            "src": "apps/astra-ai-study-exam-prep/73bc1b1f0b2bbb6168abb24e585a51f3094bc78d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 88",
+            "src": "apps/astra-ai-study-exam-prep/1caa073b59f3ded711195b54bf2ffb363da9522b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 89",
+            "src": "apps/astra-ai-study-exam-prep/e84c0ef7ad98c340b79a49e5f9c42e04e9547caf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 90",
+            "src": "apps/astra-ai-study-exam-prep/0f15bc78732323e5692486bc15bcf2049d2417a3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 91",
+            "src": "apps/astra-ai-study-exam-prep/fb5bdb98d612981cfb28728ee8f8e5fb8c5f18ac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 92",
+            "src": "apps/astra-ai-study-exam-prep/37d086f9a009c04d9d92ade4b34342edbf78eff7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 93",
+            "src": "apps/astra-ai-study-exam-prep/a8d8c58cd5b6ba0c5d8f3f209471d44bda820c87.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 94",
+            "src": "apps/astra-ai-study-exam-prep/76c582f3ce933ff6a62a02086266119904dc4573.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 95",
+            "src": "apps/astra-ai-study-exam-prep/4eb38e2b23e5b70490d1293a8e431efaf5de8ccc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 96",
+            "src": "apps/astra-ai-study-exam-prep/8d214b1a3f8cc70fc5446f1bd4a285771dc87998.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 97",
+            "src": "apps/astra-ai-study-exam-prep/ab5d17d60ff956eeaeeaeee3e5ca5eeb2b340071.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 98",
+            "src": "apps/astra-ai-study-exam-prep/44ccd5c8fbd63b2c44b00fcc3d2b24ca9293a4e7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 99",
+            "src": "apps/astra-ai-study-exam-prep/32a2a44c70e04c4fbe8d3b072c9dc85bb19d1abf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 100",
+            "src": "apps/astra-ai-study-exam-prep/fbeba6e4f7793072235837583085ec5077ce41e1.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 101",
+            "src": "apps/astra-ai-study-exam-prep/7bfebf4df8ca2938d24b725c2e98cc1a25955a87.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 102",
+            "src": "apps/astra-ai-study-exam-prep/47ca6a0ba298adda4d2dc06c632fcf016312646d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 103",
+            "src": "apps/astra-ai-study-exam-prep/e6ddd6edb2c82dac4a06a70f827c06047a479098.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 104",
+            "src": "apps/astra-ai-study-exam-prep/6715b87838c4287f0f5f5bb222d565de3405b711.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 105",
+            "src": "apps/astra-ai-study-exam-prep/2e54256be40b14956c1c043eaea5591f36b9db72.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 106",
+            "src": "apps/astra-ai-study-exam-prep/e1a9ac3b23d4d51c854e7f8dab2b68a6c36d2cd9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 107",
+            "src": "apps/astra-ai-study-exam-prep/714097e769b33ca7722e4de20a6788b115cfb212.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 108",
+            "src": "apps/astra-ai-study-exam-prep/33d2b3cef1c25fd4e299be3172b9ea2cd90a5531.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 109",
+            "src": "apps/astra-ai-study-exam-prep/4f173fb4a506231e2f29af0a61c16b00be4b13d9.webp",
+            "is_video": false
           }
         ]
       }
