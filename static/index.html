@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppFrame — Mobile App Flows & Screen Archive</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            llama: {
+              gold: '#d6bda4',
+              goldLight: '#b5813e',
+            },
+            surface: {
+              DEFAULT: '#ffffff',
+              subtle: '#fafbfc',
+              card: '#f4f5f7',
+              border: '#e5e7eb',
+              hover: '#f0f2f5',
+              dark: '#0c0d12',
+              darkCard: '#15161c',
+              darkBorder: '#22242e',
+              darkSubtle: '#181920',
+            },
+            ink: {
+              DEFAULT: '#0f1419',
+              muted: '#6b7280',
+              light: '#9ca3af',
+              darkText: '#f3f4f6',
+              darkMuted: '#7e8697',
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+    html.dark body {
+      background-color: #0c0d12;
+      color: #f3f4f6;
+    }
+    html:not(.dark) body {
+      background-color: #fafbfc;
+      color: #0f1419;
+    }
+
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    html.dark .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 9999px;
+    }
+    html.dark .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.28);
+    }
+    html:not(.dark) .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(15, 20, 25, 0.15);
+      border-radius: 9999px;
+    }
+    html:not(.dark) .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: rgba(15, 20, 25, 0.3);
+    }
+    
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Second Design: Row App Card (media_1794500807254_62e114cd.png) */
+    .row-app-card {
+      height: 480px;
+      border-radius: 32px;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    html.dark .row-app-card {
+      background: #15161c;
+      border: 1px solid #22242e;
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+    }
+    html.dark .row-app-card:hover {
+      border-color: #353847;
+      box-shadow: 0 24px 48px -15px rgba(0, 0, 0, 0.85);
+    }
+    html:not(.dark) .row-app-card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    }
+    html:not(.dark) .row-app-card:hover {
+      border-color: #d1d5db;
+      box-shadow: 0 16px 30px -10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Second Design: Phone Mockup Frame */
+    .row-screen-frame {
+      height: 480px;
+      width: 221px;
+      border-radius: 32px;
+      overflow: hidden;
+      background: #000;
+      border: 3px solid #1a1b22;
+      box-shadow: 0 16px 32px -10px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.6);
+      position: relative;
+      flex-shrink: 0;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+    }
+    html:not(.dark) .row-screen-frame {
+      box-shadow: 0 14px 28px -8px rgba(0, 0, 0, 0.25), 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .row-screen-frame:hover {
+      transform: translateY(-4px);
+      border-color: #383c4e;
+    }
+    .row-screen-frame::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    /* Dynamic Island Notch with Appllama Watermark */
+    .screen-island {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 58px;
+      height: 14px;
+      background: #000;
+      border-radius: 9999px;
+      z-index: 25;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .screen-island span {
+      font-size: 7px;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+      color: rgba(255, 255, 255, 0.55);
+      user-select: none;
+      font-family: system-ui, sans-serif;
+    }
+
+    /* Bottom Home Bar */
+    .home-indicator {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3.5px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 9999px;
+      z-index: 25;
+    }
+
+    /* Single App Flow Frame (View 2) */
+    .app-screen-frame {
+      aspect-ratio: 9 / 19.5;
+      border-radius: 28px;
+      overflow: hidden;
+      background: #000;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.06);
+      position: relative;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+    }
+    html.dark .app-screen-frame {
+      border: 2px solid #22242e;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6);
+    }
+    .app-screen-frame:hover {
+      transform: translateY(-4px);
+    }
+    .phone-notch {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 14px;
+      background: #000000;
+      border-radius: 9999px;
+      z-index: 20;
+    }
+  </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col selection:bg-black selection:text-white">
+
+  <!-- ======================================================== -->
+  <!-- TOP APPFRAME NAVBAR (BRAND, SEARCH, THEME SWITCHER, ACTIONS) -->
+  <!-- ======================================================== -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-surface-dark/95 backdrop-blur-md border-b border-surface-border dark:border-surface-darkBorder transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 py-3.5 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo & Navigation -->
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2 cursor-pointer select-none" onclick="navigateToAppsCatalog()">
+          <div class="w-8 h-8 rounded-lg bg-black dark:bg-white text-white dark:text-black flex items-center justify-center font-black text-sm shadow-sm">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M13.5 2L5 13h6l-1.5 9 8.5-11h-6l1.5-9z"/>
+            </svg>
+          </div>
+          <span class="font-extrabold text-xl tracking-tight text-ink dark:text-ink-darkText">AppFrame</span>
+        </div>
+
+        <!-- Breadcrumb link to apps -->
+        <span class="text-surface-border dark:text-surface-darkBorder hidden sm:inline">/</span>
+        <button onclick="navigateToAppsCatalog()" class="text-xs font-bold text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white transition-colors hidden sm:inline">
+          Apps Library
+        </button>
+      </div>
+
+      <!-- Center Search Bar -->
+      <div class="flex-1 max-w-md hidden md:block">
+        <div class="relative">
+          <i data-lucide="search" class="w-4 h-4 text-ink-light dark:text-ink-darkMuted absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+          <input 
+            type="text" 
+            id="globalSearchInput" 
+            oninput="handleGlobalSearch(this.value)"
+            placeholder="Search screens, apps, flows..." 
+            class="w-full bg-surface-subtle dark:bg-surface-darkSubtle hover:bg-white dark:hover:bg-surface-darkCard focus:bg-white dark:focus:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder rounded-xl pl-10 pr-12 py-2 text-sm text-ink dark:text-white placeholder-ink-light dark:placeholder-neutral-500 focus:outline-none focus:border-black dark:focus:border-llama-gold transition-all"
+          >
+          <kbd class="hidden lg:inline-block absolute right-3 top-1/2 -translate-y-1/2 text-[10px] text-ink-light dark:text-ink-darkMuted bg-surface-card dark:bg-surface-darkSubtle border border-surface-border dark:border-surface-darkBorder px-1.5 py-0.5 rounded font-mono font-medium">⌘ K</kbd>
+        </div>
+      </div>
+
+      <!-- Right Action Buttons: Auto-Sync, Sync, Theme Toggle, Add URL -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        
+        <!-- Auto-Sync Top 2 Free Apps Button -->
+        <button 
+          id="autoSyncBtn"
+          onclick="triggerAutoSyncManual()" 
+          class="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 hover:bg-emerald-500/20 transition-all shadow-sm active:scale-95 group"
+          title="Auto-Sync checks top 2 free flows every 10 mins. Click to sync now!"
+        >
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+          </span>
+          <span id="autoSyncBtnText" class="hidden sm:inline">Auto-Sync (10m)</span>
+          <i data-lucide="zap" id="autoSyncIcon" class="w-3.5 h-3.5 fill-current"></i>
+        </button>
+
+        <!-- Sync Folder Button -->
+        <button 
+          id="syncBtn"
+          onclick="triggerRescan()" 
+          class="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white hover:bg-surface-subtle dark:hover:bg-surface-darkSubtle border border-surface-border dark:border-surface-darkBorder transition-all"
+          title="Rescan apps/ folder"
+        >
+          <i data-lucide="refresh-cw" id="syncIcon" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Sync</span>
+        </button>
+
+        <!-- Theme Toggle Button (Dark / Light) -->
+        <button 
+          id="themeToggleBtn"
+          onclick="toggleTheme()" 
+          class="flex items-center justify-center w-9 h-9 rounded-xl border border-surface-border dark:border-surface-darkBorder bg-white dark:bg-surface-darkCard text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white transition-all active:scale-95 shadow-sm"
+          title="Toggle dark / light theme"
+        >
+          <i data-lucide="sun" id="themeIcon" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Add URL Button -->
+        <button 
+          onclick="openAddModal()" 
+          class="flex items-center gap-2 px-4 py-2 rounded-xl bg-black dark:bg-white hover:bg-neutral-800 dark:hover:bg-slate-200 text-white dark:text-black text-xs font-bold transition-all shadow-sm active:scale-95"
+        >
+          <i data-lucide="plus" class="w-4 h-4"></i>
+          <span>+ Add URL</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- MAIN CONTAINER -->
+  <!-- ======================================================== -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-7 space-y-8">
+
+    <!-- ========================================== -->
+    <!-- VIEW 1: ALL APPS CATALOG (ROW VIEW FROM media_1794500807254_62e114cd.png) -->
+    <!-- ========================================== -->
+    <section id="appsCatalogView" class="space-y-6">
+      
+      <!-- Catalog Header -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h1 class="text-3xl font-extrabold text-ink dark:text-ink-darkText tracking-tight">Saved Apps (<span id="catalogAppCount">0</span>)</h1>
+          <p class="text-sm text-ink-muted dark:text-ink-darkMuted mt-1">Select an app to view its screen-by-screen flows and download assets.</p>
+        </div>
+      </div>
+
+      <!-- Auto-Sync Live Status Banner -->
+      <div class="p-4 sm:p-5 rounded-3xl bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition-colors">
+        <div class="flex items-start sm:items-center gap-3.5 min-w-0">
+          <div class="w-10 h-10 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="zap" class="w-5 h-5 fill-current"></i>
+          </div>
+          <div class="min-w-0 space-y-0.5">
+            <div class="flex flex-wrap items-center gap-2">
+              <h3 class="text-xs sm:text-sm font-extrabold text-ink dark:text-white">Auto-Downloader: Top 2 Free Flows</h3>
+              <span class="px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 text-[10px] font-bold">Every 10 Mins</span>
+              <span id="autoSyncLiveBadge" class="px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 text-[10px] font-semibold">Active & Watching</span>
+            </div>
+            <p id="autoSyncStatusMsg" class="text-xs text-ink-muted dark:text-ink-darkMuted truncate">
+              Scrapes https://appllama.io/ every 10 minutes, checks if the first 2 free flows exist, and downloads them automatically.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 flex-shrink-0 self-end md:self-auto">
+          <div class="text-right">
+            <div class="text-[10px] font-bold text-ink-muted dark:text-ink-darkMuted uppercase tracking-wider">Next Auto-Check</div>
+            <div id="autoSyncCountdown" class="font-mono font-extrabold text-ink dark:text-white text-xs">--:--</div>
+          </div>
+          <button 
+            id="autoSyncBannerBtn"
+            onclick="triggerAutoSyncManual()"
+            class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition-all flex items-center gap-1.5 flex-shrink-0 active:scale-95 shadow-sm"
+          >
+            <i data-lucide="refresh-cw" id="autoSyncBannerIcon" class="w-3.5 h-3.5"></i>
+            <span>Check & Sync Now</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Download URL Bar on Home Page -->
+      <div class="p-4 sm:p-5 rounded-3xl bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4 transition-colors">
+        <div class="space-y-0.5">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            <h3 class="text-xs font-bold text-ink dark:text-white uppercase tracking-wider">Download App by Link</h3>
+          </div>
+          <p class="text-xs text-ink-muted dark:text-ink-darkMuted">Paste any Appllama link to automatically extract flows, screens, and stats.</p>
+        </div>
+
+        <div class="w-full md:max-w-xl flex items-center gap-2">
+          <div class="relative flex-1">
+            <i data-lucide="link" class="w-4 h-4 text-ink-light dark:text-ink-darkMuted absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+            <input 
+              type="url" 
+              id="homeUrlInput" 
+              placeholder="https://appllama.io/apps/6747166058/glow-diet-coach-meal-plans" 
+              onkeydown="if(event.key === 'Enter') handleHomeUrlDownload()"
+              class="w-full bg-surface-subtle dark:bg-surface-darkSubtle border border-surface-border dark:border-surface-darkBorder rounded-xl pl-9 pr-3 py-2 text-xs text-ink dark:text-white placeholder-ink-light dark:placeholder-neutral-500 focus:outline-none focus:border-black dark:focus:border-llama-gold transition-all"
+            >
+          </div>
+          <button 
+            id="homeUrlBtn"
+            onclick="handleHomeUrlDownload()" 
+            class="px-4 py-2 rounded-xl bg-black dark:bg-white hover:bg-neutral-800 dark:hover:bg-slate-200 text-white dark:text-black font-bold text-xs transition-all flex items-center gap-1.5 flex-shrink-0 active:scale-95 shadow-sm"
+          >
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span>Download</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- APPS ROWS CONTAINER (CONVERTED FROM FIRST TO SECOND DESIGN!) -->
+      <!-- Matches exact layout in media_1794500807254_62e114cd.png -->
+      <!-- ======================================================== -->
+      <div id="appsRowsContainer" class="space-y-12">
+        <!-- Rendered dynamically -->
+      </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- VIEW 2: SINGLE APP VIEW (EXACT Appllama LAYOUT FROM USER'S SCREENSHOT) -->
+    <!-- ========================================== -->
+    <section id="appDetailView" class="hidden space-y-7">
+      
+      <!-- Back to All Apps Button -->
+      <div>
+        <button 
+          onclick="navigateToAppsCatalog()" 
+          class="inline-flex items-center gap-2 text-xs font-bold text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white px-3 py-1.5 rounded-xl bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder transition-all hover:bg-surface-subtle dark:hover:bg-surface-darkSubtle shadow-sm"
+        >
+          <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+          <span>← Back to all apps</span>
+        </button>
+      </div>
+
+      <!-- APP HERO CARD (Exact layout of Screenshot media_1794498017486_56f2b76d.jpg) -->
+      <div class="bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder rounded-3xl p-6 sm:p-7 shadow-sm transition-colors">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          
+          <!-- Left: Icon + Title + Badges -->
+          <div class="flex items-start sm:items-center gap-5 min-w-0">
+            <img 
+              id="heroAppIcon" 
+              src="" 
+              alt="App Icon" 
+              class="w-18 h-18 sm:w-20 sm:h-20 rounded-2xl object-cover bg-surface-subtle dark:bg-black border border-surface-border dark:border-surface-darkBorder shadow-md flex-shrink-0"
+            >
+            <div class="space-y-1.5 min-w-0">
+              <div class="flex flex-wrap items-center gap-2.5">
+                <h1 id="heroAppName" class="text-2xl sm:text-3xl font-extrabold text-ink dark:text-white tracking-tight truncate">App Name</h1>
+                <span id="heroScreenCountBadge" class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-surface-subtle dark:bg-surface-darkSubtle text-ink-muted dark:text-ink-darkMuted border border-surface-border dark:border-surface-darkBorder">47 Screens</span>
+              </div>
+              
+              <p id="heroAppSubtitle" class="text-xs sm:text-sm text-ink-muted dark:text-ink-darkMuted truncate">Subtitle</p>
+              
+              <!-- Badges ($50K rev, 1K downloads, 4.2 ★) -->
+              <div class="flex flex-wrap items-center gap-2 pt-1 text-xs font-bold">
+                <span id="badgeRevenue" class="px-2.5 py-0.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">$50K rev</span>
+                <span id="badgeDownloads" class="px-2.5 py-0.5 rounded-lg bg-sky-50 dark:bg-sky-950/60 text-sky-700 dark:text-sky-400 border border-sky-200 dark:border-sky-800">1K downloads</span>
+                <span id="badgeRating" class="px-2.5 py-0.5 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800">4.2 ★</span>
+                <span id="badgeRank" class="px-2.5 py-0.5 rounded-lg bg-surface-subtle dark:bg-surface-darkSubtle text-ink-muted dark:text-ink-darkMuted border border-surface-border dark:border-surface-darkBorder hidden">#137 Lifestyle</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Download All .ZIP Button -->
+          <div class="flex-shrink-0 w-full md:w-auto">
+            <button 
+              id="btnDownloadAllZip"
+              onclick="downloadCurrentAppZip()"
+              class="w-full md:w-auto flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-black dark:bg-white hover:bg-neutral-800 dark:hover:bg-slate-200 text-white dark:text-black font-bold text-xs shadow-sm transition-all active:scale-95"
+            >
+              <i data-lucide="package" class="w-4 h-4"></i>
+              <span id="btnDownloadAllText">Download All (.ZIP)</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- STICKY SUBNAV TABS (Exact match to media_1794501765642_4c262415.png) -->
+      <div class="sticky top-18 z-30 bg-surface-subtle/95 dark:bg-surface-dark/95 backdrop-blur-md py-2.5 border-b border-surface-border/60 dark:border-surface-darkBorder flex items-center justify-between gap-4 transition-colors">
+        
+        <!-- Flow Tabs Ribbon -->
+        <div id="stickyFlowTabsWrapper" class="flex-1 flex items-center gap-6 overflow-x-auto no-scrollbar scroll-smooth py-1">
+          <div id="stickyFlowTabs" class="flex items-center gap-6">
+            <!-- Injected dynamically: All, Welcome 4, Onboarding 19, Paywall 2, Home Dashboard 3, etc. -->
+          </div>
+        </div>
+
+        <!-- Scroll Right Arrow Button (Exact Match to media_1794501765642_4c262415.png) -->
+        <button 
+          onclick="scrollStickyFlowTabs(1)"
+          class="w-7 h-7 rounded-full bg-white dark:bg-white/10 hover:bg-neutral-100 dark:hover:bg-white/20 border border-surface-border dark:border-white/10 text-ink dark:text-white flex items-center justify-center transition-all flex-shrink-0 shadow-sm active:scale-95"
+          title="Scroll flows"
+        >
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+        </button>
+
+      </div>
+
+      <!-- SEPARATE FLOW SECTIONS (Like Appllama: Welcome, Onboarding, Paywall, Inside the App, etc.) -->
+      <div id="flowSectionsContainer" class="space-y-12">
+        <!-- Injected dynamically -->
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- LIGHTBOX / FULLSCREEN MODAL -->
+  <!-- ======================================================== -->
+  <div id="lightboxModal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-md p-4 sm:p-6 transition-opacity" onclick="closeLightbox()">
+    <div class="relative w-full max-w-4xl h-full flex flex-col justify-between" onclick="event.stopPropagation()">
+      
+      <!-- Top Modal Bar -->
+      <div class="flex items-center justify-between py-3 px-5 rounded-2xl bg-[#16171d] border border-[#22242e] text-white shadow-xl z-10">
+        <div>
+          <span id="lbFlowTitle" class="text-[11px] font-bold text-llama-gold uppercase tracking-wider block">Flow Sequence</span>
+          <h4 id="lbScreenTitle" class="text-sm sm:text-base font-extrabold text-white truncate max-w-md">Screen Title</h4>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <span id="lbCounter" class="text-xs font-semibold text-neutral-400 bg-black/40 px-2.5 py-1 rounded-lg border border-white/10">1 / 47</span>
+          
+          <button 
+            id="lbDownloadBtn" 
+            onclick="downloadActiveLightboxImage()" 
+            class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-white hover:bg-slate-200 text-black text-xs font-bold transition-all shadow-sm"
+          >
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span>Save</span>
+          </button>
+
+          <button 
+            onclick="closeLightbox()" 
+            class="p-1.5 rounded-xl text-neutral-400 hover:text-white hover:bg-white/10 transition-all"
+            title="Close (Esc)"
+          >
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Smartphone Viewport in Lightbox -->
+      <div class="flex-1 flex items-center justify-center relative my-4 overflow-hidden select-none">
+        <button 
+          onclick="navigateLightbox(-1)" 
+          class="absolute left-2 sm:left-4 z-20 w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 border border-white/20 text-white flex items-center justify-center shadow-lg transition-all active:scale-95"
+          title="Previous (Left Arrow)"
+        >
+          <i data-lucide="chevron-left" class="w-5 h-5"></i>
+        </button>
+
+        <div id="lbImageWrapper" class="relative max-h-full max-w-sm sm:max-w-md flex items-center justify-center">
+          <img 
+            id="lbImage" 
+            src="" 
+            alt="Screen Preview" 
+            class="max-h-[75vh] w-auto rounded-3xl shadow-2xl border-4 border-slate-900 object-contain bg-black ring-1 ring-white/10"
+          >
+        </div>
+
+        <button 
+          onclick="navigateLightbox(1)" 
+          class="absolute right-2 sm:right-4 z-20 w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 border border-white/20 text-white flex items-center justify-center shadow-lg transition-all active:scale-95"
+          title="Next (Right Arrow)"
+        >
+          <i data-lucide="chevron-right" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Bottom Hint Bar -->
+      <div class="text-center text-xs text-neutral-400 py-1 flex items-center justify-center gap-3">
+        <span>Press <kbd class="px-1.5 py-0.5 bg-white/10 rounded font-mono text-[11px] text-white">←</kbd> / <kbd class="px-1.5 py-0.5 bg-white/10 rounded font-mono text-[11px] text-white">→</kbd> to navigate</span>
+        <span>•</span>
+        <span>Press <kbd class="px-1.5 py-0.5 bg-white/10 rounded font-mono text-[11px] text-white">Esc</kbd> to exit</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ADD APP BY URL MODAL -->
+  <div id="addModal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 transition-opacity" onclick="closeAddModal()">
+    <div class="bg-white dark:bg-surface-darkCard border border-surface-border dark:border-surface-darkBorder rounded-3xl max-w-xl w-full p-6 sm:p-8 space-y-6 shadow-2xl text-left" onclick="event.stopPropagation()">
+      
+      <div class="flex items-center justify-between border-b border-surface-border dark:border-surface-darkBorder pb-4">
+        <div>
+          <h3 class="text-lg font-extrabold text-ink dark:text-white">Add App by Link</h3>
+          <p class="text-xs text-ink-muted dark:text-ink-darkMuted">Enter any Appllama link to automatically extract all flows and screens</p>
+        </div>
+        <button onclick="closeAddModal()" class="p-1 rounded-xl text-ink-muted dark:text-ink-darkMuted hover:text-ink dark:hover:text-white hover:bg-surface-subtle dark:hover:bg-surface-darkSubtle">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3">
+        <label class="block text-xs font-bold text-ink dark:text-white uppercase tracking-wider">Appllama URL</label>
+        <div class="flex gap-2">
+          <input 
+            type="url" 
+            id="urlModalInput" 
+            placeholder="https://appllama.io/apps/6747166058/glow-diet-coach-meal-plans" 
+            onkeydown="if(event.key === 'Enter') handleModalDownload()"
+            class="flex-1 bg-surface-subtle dark:bg-surface-darkSubtle border border-surface-border dark:border-surface-darkBorder rounded-xl px-3.5 py-2.5 text-xs text-ink dark:text-white placeholder-ink-light dark:placeholder-neutral-500 focus:outline-none focus:border-black dark:focus:border-llama-gold transition-all"
+          >
+          <button 
+            id="urlModalBtn"
+            onclick="handleModalDownload()" 
+            class="px-5 py-2.5 rounded-xl bg-black dark:bg-white hover:bg-neutral-800 dark:hover:bg-slate-200 text-white dark:text-black font-bold text-xs transition-all flex items-center gap-1.5 flex-shrink-0 shadow-sm"
+          >
+            <i data-lucide="download" id="urlModalIcon" class="w-3.5 h-3.5"></i>
+            <span id="urlModalText">Download</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="border-2 border-dashed border-surface-border dark:border-surface-darkBorder hover:border-black dark:hover:border-llama-gold rounded-2xl p-4 text-center cursor-pointer bg-surface-subtle dark:bg-surface-darkSubtle hover:bg-surface-card transition-all" onclick="document.getElementById('fileUploadInput').click()">
+        <input type="file" id="fileUploadInput" class="hidden" accept=".zip,.html,.htm" onchange="handleFileUpload(event)">
+        <i data-lucide="upload" class="w-5 h-5 text-ink-muted dark:text-ink-darkMuted mx-auto mb-1"></i>
+        <p class="text-xs font-bold text-ink dark:text-white">Or drop saved .HTML / .ZIP from browser</p>
+      </div>
+
+      <div class="flex justify-end pt-2">
+        <button onclick="closeAddModal()" class="px-4 py-2 rounded-xl bg-surface-subtle dark:bg-surface-darkSubtle hover:bg-surface-border text-ink dark:text-white text-xs font-bold">Close</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toastContainer" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- ======================================================== -->
+  <!-- MAIN JAVASCRIPT APPLICATION LOGIC -->
+  <!-- ======================================================== -->
+  <script>
+    let allApps = [];
+    let activeApp = null;
+    let activeFlowFilter = 'all';
+    let currentTheme = 'dark'; // 'dark' or 'light'
+    let lightboxScreens = [];
+    let activeLightboxIndex = 0;
+
+    // Auto-Sync state
+    let secondsUntilNextSync = 600;
+    let isSyncInProgress = false;
+    let syncCountdownTimer = null;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+      fetchApps();
+      initAutoSyncMonitor();
+      lucide.createIcons();
+
+      // Keyboard navigation
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeLightbox();
+          closeAddModal();
+        } else if (e.key === 'ArrowLeft') {
+          if (!document.getElementById('lightboxModal').classList.contains('hidden')) {
+            navigateLightbox(-1);
+          }
+        } else if (e.key === 'ArrowRight') {
+          if (!document.getElementById('lightboxModal').classList.contains('hidden')) {
+            navigateLightbox(1);
+          }
+        } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+          e.preventDefault();
+          const search = document.getElementById('globalSearchInput');
+          if (search) search.focus();
+        }
+      });
+    });
+
+    // ==========================================
+    // THEME SWITCHER (DARK & LIGHT)
+    // ==========================================
+    function initTheme() {
+      const saved = localStorage.getItem('appframe_theme') || 'dark';
+      setTheme(saved);
+    }
+
+    function toggleTheme() {
+      setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    }
+
+    function setTheme(theme) {
+      currentTheme = theme;
+      localStorage.setItem('appframe_theme', theme);
+
+      const html = document.documentElement;
+      if (theme === 'dark') {
+        html.classList.remove('light');
+        html.classList.add('dark');
+      } else {
+        html.classList.remove('dark');
+        html.classList.add('light');
+      }
+
+      const icon = document.getElementById('themeIcon');
+      if (icon) {
+        icon.setAttribute('data-lucide', theme === 'dark' ? 'sun' : 'moon');
+        lucide.createIcons();
+      }
+
+      renderAppsRowView();
+      if (activeApp && activeApp.flows) {
+        renderStickyTabs(activeApp.flows);
+        filterFlowTab(activeFlowFilter);
+      }
+    }
+
+    // ==========================================
+    // DATA FETCHING
+    // ==========================================
+    async function fetchApps(openAppId = null) {
+      const syncIcon = document.getElementById('syncIcon');
+      if (syncIcon) syncIcon.classList.add('animate-spin');
+
+      try {
+        const res = await fetch('/api/apps?full=true');
+        const data = await res.json();
+        allApps = data.apps || [];
+        
+        document.getElementById('catalogAppCount').textContent = allApps.length;
+        renderAppsRowView();
+      if (activeApp && activeApp.flows) {
+        renderStickyTabs(activeApp.flows);
+        filterFlowTab(activeFlowFilter);
+      }
+
+        if (openAppId) {
+          openAppDetail(openAppId);
+        }
+      } catch (err) {
+        console.error('Error fetching apps:', err);
+        showToast('Error loading apps from storage', 'error');
+      } finally {
+        if (syncIcon) syncIcon.classList.remove('animate-spin');
+      }
+    }
+
+    // ==========================================
+    // CONVERTED SECOND DESIGN ROW VIEW (media_1794500807254_62e114cd.png)
+    // ==========================================
+    function renderAppsRowView() {
+      const container = document.getElementById('appsRowsContainer');
+      if (!container) return;
+
+      if (allApps.length === 0) {
+        container.innerHTML = `<div class="py-12 text-center text-ink-muted dark:text-ink-darkMuted text-sm">No apps downloaded yet. Use the URL downloader above.</div>`;
+        return;
+      }
+
+      const isDark = currentTheme === 'dark';
+
+      container.innerHTML = allApps.map(app => {
+        // Collect all screens for this app
+        let appScreens = [];
+        let flowCategoryList = [];
+        
+        (app.flows || []).forEach((f, fIdx) => {
+          const flowName = f.name || f.category || `Flow ${fIdx + 1}`;
+          if (!flowCategoryList.some(fc => fc.name === flowName)) {
+            flowCategoryList.push({
+              name: flowName,
+              startIndex: appScreens.length
+            });
+          }
+          (f.screens || []).forEach(s => {
+            appScreens.push({
+              ...s,
+              flow_title: f.full_title || f.name,
+              app_name: app.name
+            });
+          });
+        });
+
+        const categoryLabel = (app.categories && app.categories[0]) || 'Mobile App';
+        const revenuePeriod = app.revenue_period_label || 'Revenue • October 2026';
+        const ratingsCountFormatted = app.ratings_count ? Number(app.ratings_count).toLocaleString() + ' ratings' : 'ratings';
+        const stillsCount = app.stills_count || appScreens.length;
+        const videosCount = app.videos_count || 0;
+        const totalScreens = appScreens.length;
+        const totalFlows = app.total_flows || (app.flows ? app.flows.length : 3);
+
+        // Clickable flow names under phone carousel (Home, Onboarding, Paywall)
+        const flowPillsHtml = flowCategoryList.slice(0, 4).map((fc, i) => `
+          <button 
+            onclick="scrollToFlowScreen('${app.id}', ${fc.startIndex})" 
+            class="flow-nav-pill text-xs font-semibold ${i === 0 ? (isDark ? 'text-white font-bold' : 'text-slate-900 font-bold') : 'text-neutral-400 dark:text-neutral-400'} hover:text-llama-gold transition-colors whitespace-nowrap"
+          >
+            ${fc.name}
+          </button>
+        `).join('');
+
+        return `
+          <!-- SINGLE APP ROW (Exact Match to media_1794500807254_62e114cd.png) -->
+          <div class="app-row-block space-y-2 select-none" id="app_block_${app.id}">
+            
+            <!-- Main Row: Left App Card + Right Phone Mockups Carousel -->
+            <div class="flex flex-col xl:flex-row items-stretch gap-6">
+              
+              <!-- LEFT APP CARD (Exact Match to media_1794500807254_62e114cd.png) -->
+              <div 
+                class="row-app-card w-full xl:w-[320px] shrink-0 p-7 flex flex-col justify-between group relative cursor-pointer" 
+                onclick="openAppDetail('${app.id}')"
+              >
+                <div class="space-y-4">
+                  <!-- Icon & Top-Right Action Icons -->
+                  <div class="flex items-start justify-between">
+                    <img 
+                      src="${app.icon || 'https://cloud.appllama.io/branding/logo-icon-500.webp'}" 
+                      alt="${app.name}" 
+                      class="w-16 h-16 rounded-2xl object-cover bg-black border border-surface-border dark:border-surface-darkBorder shadow-md"
+                    >
+                    
+                    <div class="flex items-center gap-1.5 text-neutral-400 dark:text-neutral-400">
+                      <!-- Download ZIP button -->
+                      <button 
+                        onclick="event.stopPropagation(); downloadAppZipById('${app.id}')" 
+                        class="p-2 rounded-xl hover:text-white dark:hover:text-white hover:bg-black/10 dark:hover:bg-white/10 transition-all"
+                        title="Download full app (.ZIP)"
+                      >
+                        <i data-lucide="download" class="w-4 h-4"></i>
+                      </button>
+                      <!-- Open Details Arrow -->
+                      <button 
+                        onclick="event.stopPropagation(); openAppDetail('${app.id}')" 
+                        class="p-2 rounded-xl hover:text-white dark:hover:text-white hover:bg-black/10 dark:hover:bg-white/10 transition-all"
+                        title="View all flows"
+                      >
+                        <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Category, App Title & Subtitle -->
+                  <div class="space-y-1 pt-1">
+                    <p class="text-[11px] font-semibold text-neutral-400 dark:text-neutral-400 tracking-wider uppercase">${categoryLabel}</p>
+                    <h2 class="text-2xl font-black text-ink dark:text-white tracking-tight leading-snug group-hover:text-llama-gold transition-colors">${app.name}</h2>
+                    <p class="text-xs text-ink-muted dark:text-neutral-400 line-clamp-2 leading-relaxed">${app.subtitle || (app.publisher ? `By ${app.publisher}` : 'Mobile Experience')}</p>
+                  </div>
+
+                  <!-- Big Bold Revenue ($5K / $50K) -->
+                  <div class="pt-3">
+                    <span class="text-5xl font-black text-llama-goldLight dark:text-llama-gold tracking-tight block">${app.revenue || '$0'}</span>
+                    <span class="text-xs font-medium text-neutral-400 dark:text-neutral-400 block mt-1">${revenuePeriod}</span>
+                  </div>
+                </div>
+
+                <!-- Bottom Stats Row: 1K downloads | 4.8 ★ 6.6K ratings -->
+                <div class="flex items-end justify-between pt-6 border-t border-surface-border dark:border-surface-darkBorder text-xs">
+                  <div>
+                    <span class="text-xl font-black text-ink dark:text-white block">${app.downloads || '0'}</span>
+                    <span class="text-xs text-neutral-400 dark:text-neutral-400 font-medium">downloads</span>
+                  </div>
+                  <div class="text-right">
+                    <span class="text-xl font-black text-ink dark:text-white block">${app.rating ? app.rating + ' ★' : '-'}</span>
+                    <span class="text-xs text-neutral-400 dark:text-neutral-400 font-medium">${ratingsCountFormatted}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- RIGHT PHONE MOCKUPS (Carousel with Floating Arrows) -->
+              <div class="flex-1 relative group/carousel min-w-0">
+                
+                <!-- Floating Scroll Left Button (Appears when scrolled) -->
+                <button 
+                  id="prevScrollBtn_${app.id}"
+                  onclick="scrollAppCarousel('${app.id}', -1)"
+                  class="hidden absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-[#181920]/90 dark:bg-[#181920]/90 border border-[#2d2f3d] dark:border-[#2d2f3d] text-white flex items-center justify-center shadow-2xl transition-all hover:scale-110 active:scale-95 z-30"
+                  title="Previous screens"
+                >
+                  <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                </button>
+
+                <!-- Phone Mockups Container -->
+                <div 
+                  id="carousel_${app.id}"
+                  class="flex items-center gap-4 overflow-x-auto custom-scroll pb-2 pt-1 scroll-smooth"
+                  onwheel="handleCarouselWheel(event, this)" 
+                  onscroll="handleCarouselScroll('${app.id}', this)"
+                >
+                  ${appScreens.map((screen, sIdx) => {
+                    const safeDownloadFilename = `${app.name}_${screen.flow_title}_${screen.title}`.replace(/[^a-zA-Z0-9_\-]/g, '_') + '.webp';
+
+                    return `
+                      <!-- Phone Mockup Frame -->
+                      <div 
+                        id="screen_${app.id}_${sIdx}"
+                        class="row-screen-frame cursor-pointer group/frame" 
+                        onclick="openLightboxFromScreen('${screen.src}', '${app.id}')"
+                      >
+                        <!-- Dynamic Island Notch with Appllama Watermark -->
+                        <div class="screen-island">
+                          <span>appllama</span>
+                        </div>
+
+                        <!-- Screen Image or Video Walkthrough -->
+                        ${screen.is_video ? `
+                          <video 
+                            src="${screen.src}" 
+                            autoplay loop muted playsinline 
+                            class="w-full h-full object-cover object-top transition-transform duration-300 group-hover/frame:scale-[1.02]"
+                          ></video>
+                          <div class="absolute top-2.5 right-2.5 z-30 px-2 py-0.5 rounded-full bg-violet-600/90 text-[10px] font-black text-white flex items-center gap-1 shadow-lg">
+                            <i data-lucide="play" class="w-2.5 h-2.5 fill-current"></i> Video
+                          </div>
+                        ` : `
+                          <img 
+                            src="${screen.src}" 
+                            alt="${screen.title}" 
+                            loading="lazy" 
+                            class="w-full h-full object-cover object-top transition-transform duration-300 group-hover/frame:scale-[1.02]"
+                          >
+                        `}
+
+                        <!-- Bottom Home Bar -->
+                        <div class="home-indicator"></div>
+
+                        <!-- Hover Actions Overlay -->
+                        <div class="absolute inset-0 bg-black/55 opacity-0 group-hover/frame:opacity-100 transition-opacity duration-200 flex flex-col items-center justify-center gap-2.5 p-3 z-30">
+                          <button 
+                            onclick="event.stopPropagation(); openLightboxFromScreen('${screen.src}', '${app.id}')" 
+                            class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center shadow-2xl transition-transform hover:scale-110 active:scale-95"
+                            title="Zoom / Fullscreen"
+                          >
+                            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+                          </button>
+                          
+                          <button 
+                            onclick="event.stopPropagation(); downloadScreenDirect('${screen.local_path}', '${safeDownloadFilename}')" 
+                            class="px-4 py-1.5 rounded-xl bg-black/90 hover:bg-black text-white text-xs font-bold border border-white/20 shadow-md hover:scale-105 active:scale-95 transition-all"
+                            title="Save Image"
+                          >
+                            Save
+                          </button>
+                        </div>
+
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+
+                <!-- Floating Scroll Right Arrow (Exact Match to media_1794500807254_62e114cd.png) -->
+                ${totalScreens > 3 ? `
+                  <button 
+                    id="nextScrollBtn_${app.id}"
+                    onclick="scrollAppCarousel('${app.id}', 1)"
+                    class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-[#181920]/90 dark:bg-[#181920]/90 border border-[#2d2f3d] dark:border-[#2d2f3d] text-white flex items-center justify-center shadow-2xl transition-all hover:scale-110 active:scale-95 z-30"
+                    title="Next screens"
+                  >
+                    <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                  </button>
+                ` : ''}
+
+              </div>
+
+            </div>
+
+            <!-- SUB-BARS: UNDER CARD STATS & UNDER PHONE PROGRESS + FLOWS (Exact Match to media_1794500807254_62e114cd.png) -->
+            <div class="flex flex-col xl:flex-row items-center gap-6 pt-1 text-xs">
+              
+              <!-- Under Card Stats: "68 screens • 66 stills • 2 videos" and "3 flows" -->
+              <div class="w-full xl:w-[320px] shrink-0 flex items-center justify-between text-ink-muted dark:text-neutral-400 font-medium px-2">
+                <span>${totalScreens} screens • ${stillsCount} stills • ${videosCount} videos</span>
+                <span>${totalFlows} flows</span>
+              </div>
+
+              <!-- Under Phone Carousel: "03 ────── 68" + Flow Category Tags ("Home", "Onboarding", "Paywall") -->
+              <div class="flex-1 flex items-center justify-between px-2 min-w-0">
+                
+                <!-- Left Screen Index & Progress Line -->
+                <div class="flex items-center gap-3">
+                  <span id="screenCounter_${app.id}" class="font-bold text-ink dark:text-white text-sm">01</span>
+                  <div class="w-20 h-0.5 bg-surface-border dark:bg-surface-darkBorder rounded-full overflow-hidden">
+                    <div id="screenProgress_${app.id}" class="h-full bg-llama-goldLight dark:bg-llama-gold transition-all duration-200" style="width: ${Math.min(100, Math.max(15, (1 / Math.max(1, totalScreens)) * 100))}%;"></div>
+                  </div>
+                  <span class="text-ink-muted dark:text-neutral-400 font-medium text-xs">${totalScreens.toString().padStart(2, '0')}</span>
+                </div>
+
+                <!-- Right Flow Category Tags (Clickable to jump to that flow!) -->
+                <div class="flex items-center gap-5 overflow-x-auto no-scrollbar">
+                  ${flowPillsHtml}
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        `;
+      }).join('');
+
+      lucide.createIcons();
+    }
+
+    // Horizontal wheel scroll handler for carousels
+    function handleCarouselWheel(e, el) {
+      if (e.deltaY !== 0) {
+        e.preventDefault();
+        el.scrollLeft += e.deltaY * 1.5;
+      }
+    }
+
+    // Handle Carousel Scroll Event: update counter, progress bar & scroll arrows
+    function handleCarouselScroll(appId, el) {
+      const prevBtn = document.getElementById(`prevScrollBtn_${appId}`);
+      if (prevBtn) {
+        if (el.scrollLeft > 25) {
+          prevBtn.classList.remove('hidden');
+          prevBtn.classList.add('flex');
+        } else {
+          prevBtn.classList.add('hidden');
+          prevBtn.classList.remove('flex');
+        }
+      }
+
+      const itemWidth = 237; // 221px width + 16px gap
+      const currentIdx = Math.min(
+        Math.max(1, Math.round(el.scrollLeft / itemWidth) + 1),
+        999
+      );
+
+      const counterEl = document.getElementById(`screenCounter_${appId}`);
+      if (counterEl) {
+        counterEl.textContent = currentIdx.toString().padStart(2, '0');
+      }
+
+      const progressEl = document.getElementById(`screenProgress_${appId}`);
+      if (progressEl) {
+        const maxScroll = el.scrollWidth - el.clientWidth;
+        const pct = maxScroll > 0 ? Math.min(100, Math.max(10, (el.scrollLeft / maxScroll) * 100)) : 100;
+        progressEl.style.width = `${pct}%`;
+      }
+    }
+
+    // Scroll Carousel with Arrow Buttons
+    function scrollAppCarousel(appId, dir) {
+      const carousel = document.getElementById(`carousel_${appId}`);
+      if (carousel) {
+        carousel.scrollBy({ left: dir * 480, behavior: 'smooth' });
+      }
+    }
+
+    // Jump to specific flow in carousel
+    function scrollToFlowScreen(appId, screenIndex) {
+      const targetScreen = document.getElementById(`screen_${appId}_${screenIndex}`);
+      if (targetScreen) {
+        targetScreen.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+      }
+    }
+
+    // Global Search across apps and flows
+    function handleGlobalSearch(query) {
+      const q = query.trim().toLowerCase();
+      const rows = document.querySelectorAll('.app-row-block');
+      rows.forEach(r => {
+        const text = r.textContent.toLowerCase();
+        r.classList.toggle('hidden', !text.includes(q));
+      });
+    }
+
+    // ==========================================
+    // DETAIL VIEW (SINGLE APP FLOWS BREAKDOWN)
+    // ==========================================
+    async function openAppDetail(appId) {
+      try {
+        const res = await fetch(`/api/apps/${encodeURIComponent(appId)}`);
+        const data = await res.json();
+        activeApp = data.app;
+        activeFlowFilter = 'all';
+
+        renderHeroCard(activeApp);
+        renderStickyTabs(activeApp.flows);
+        renderSeparateFlowSections(activeApp.flows);
+
+        // Switch to App Detail View
+        document.getElementById('appsCatalogView').classList.add('hidden');
+        document.getElementById('appDetailView').classList.remove('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        buildLightboxList();
+        lucide.createIcons();
+      } catch (err) {
+        console.error('Error opening app:', err);
+        showToast('Could not load app details', 'error');
+      }
+    }
+
+    // Navigate back to All Apps Catalog
+    function navigateToAppsCatalog() {
+      document.getElementById('appDetailView').classList.add('hidden');
+      document.getElementById('appsCatalogView').classList.remove('hidden');
+      activeApp = null;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Render Hero Card
+    function renderHeroCard(app) {
+      document.getElementById('heroAppIcon').src = app.icon || 'https://cloud.appllama.io/branding/logo-icon-500.webp';
+      document.getElementById('heroAppName').textContent = app.name;
+      document.getElementById('heroAppSubtitle').textContent = app.subtitle || app.publisher;
+      document.getElementById('heroScreenCountBadge').textContent = `${app.total_screens} Screens`;
+
+      document.getElementById('badgeRevenue').textContent = `${app.revenue || '$0'} rev`;
+      document.getElementById('badgeDownloads').textContent = `${app.downloads || '0'} downloads`;
+      document.getElementById('badgeRating').textContent = app.rating ? `${app.rating} ★` : '-';
+
+      const rankBadge = document.getElementById('badgeRank');
+      if (app.rank) {
+        rankBadge.textContent = app.rank;
+        rankBadge.classList.remove('hidden');
+      } else {
+        rankBadge.classList.add('hidden');
+      }
+
+      document.getElementById('btnDownloadAllText').textContent = `Download All (${app.total_screens}) .ZIP`;
+    }
+
+    // Render Sticky Flow Tabs (Exact Match to media_1794501765642_4c262415.png)
+    function renderStickyTabs(flows) {
+      const container = document.getElementById('stickyFlowTabs');
+      const isDark = currentTheme === 'dark';
+
+      let html = `
+        <button 
+          onclick="filterFlowTab('all')" 
+          class="flow-nav-pill active px-4 py-1.5 rounded-full text-xs font-bold ${isDark ? 'bg-white text-black' : 'bg-black text-white'} shadow-sm transition-all whitespace-nowrap flex-shrink-0"
+        >
+          All
+        </button>
+      `;
+
+      flows.forEach((flow, idx) => {
+        html += `
+          <button 
+            onclick="filterFlowTab('${idx}')" 
+            class="flow-nav-pill flex items-center gap-2 text-xs font-semibold text-neutral-400 dark:text-neutral-400 hover:text-ink dark:hover:text-white transition-colors whitespace-nowrap flex-shrink-0"
+          >
+            <span>${flow.name}</span>
+            <span class="text-[11px] text-neutral-500 dark:text-neutral-500 font-medium">${flow.screens.length}</span>
+          </button>
+        `;
+      });
+
+      container.innerHTML = html;
+      lucide.createIcons();
+    }
+
+    function scrollStickyFlowTabs(dir) {
+      const wrapper = document.getElementById('stickyFlowTabsWrapper');
+      if (wrapper) {
+        wrapper.scrollBy({ left: dir * 260, behavior: 'smooth' });
+      }
+    }
+
+    function filterFlowTab(flowIdx) {
+      activeFlowFilter = flowIdx;
+      const isDark = currentTheme === 'dark';
+
+      const pills = document.querySelectorAll('.flow-nav-pill');
+      pills.forEach((p, idx) => {
+        const isSelected = (flowIdx === 'all' && idx === 0) || flowIdx === String(idx - 1);
+        if (isSelected) {
+          p.className = `flow-nav-pill active px-4 py-1.5 rounded-full text-xs font-bold ${isDark ? 'bg-white text-black' : 'bg-black text-white'} shadow-sm transition-all whitespace-nowrap flex-shrink-0`;
+        } else {
+          p.className = 'flow-nav-pill flex items-center gap-2 text-xs font-semibold text-neutral-400 dark:text-neutral-400 hover:text-ink dark:hover:text-white transition-colors whitespace-nowrap flex-shrink-0';
+        }
+      });
+
+      const sections = document.querySelectorAll('.flow-section-block');
+      sections.forEach((sec, idx) => {
+        if (flowIdx === 'all' || flowIdx === String(idx)) {
+          sec.classList.remove('hidden');
+        } else {
+          sec.classList.add('hidden');
+        }
+      });
+    }
+
+    function filterScreensInApp(query) {
+      const q = query.trim().toLowerCase();
+      const cards = document.querySelectorAll('.app-screen-item');
+      cards.forEach(card => {
+        const title = (card.getAttribute('data-screen-title') || '').toLowerCase();
+        card.classList.toggle('hidden', !title.includes(q));
+      });
+    }
+
+    // Render Separate Flow Sections with #1, #2 step badges
+    function renderSeparateFlowSections(flows) {
+      const container = document.getElementById('flowSectionsContainer');
+      let globalScreenCounter = 0;
+
+      container.innerHTML = flows.map((flow, flowIdx) => {
+        const screens = flow.screens || [];
+        if (screens.length === 0) return '';
+
+        return `
+          <div class="flow-section-block space-y-4" data-flow-index="${flowIdx}">
+            
+            <!-- Flow Section Header -->
+            <div class="flex items-center justify-between pb-3 border-b border-surface-border dark:border-surface-darkBorder">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-black dark:bg-llama-gold"></span>
+                <h3 class="text-xl font-extrabold text-ink dark:text-white tracking-tight">${flow.full_title}</h3>
+                <span class="text-xs font-bold px-2 py-0.5 rounded-full bg-surface-subtle dark:bg-surface-darkSubtle text-ink-muted dark:text-ink-darkMuted border border-surface-border dark:border-surface-darkBorder">${screens.length} screens</span>
+              </div>
+
+              <!-- Flow ZIP Download Button -->
+              <button 
+                onclick="downloadFlowZip(${flowIdx})" 
+                class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white dark:bg-surface-darkSubtle hover:bg-surface-subtle dark:hover:bg-surface-darkBorder border border-surface-border dark:border-surface-darkBorder text-xs font-semibold text-ink dark:text-white transition-all shadow-sm"
+              >
+                <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                <span class="hidden sm:inline">Flow .ZIP</span>
+              </button>
+            </div>
+
+            <!-- Screens Grid (Phone Mockups with Dynamic Island Notch & Badges) -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+              ${screens.map((screen, sIdx) => {
+                globalScreenCounter++;
+                const safeDownloadFilename = `${activeApp.name}_${flow.name}_${screen.title}`.replace(/[^a-zA-Z0-9_\-]/g, '_') + '.webp';
+
+                return `
+                  <div class="app-screen-item space-y-2 group/screen" data-screen-title="${screen.title}">
+                    
+                    <!-- Phone Frame -->
+                    <div class="app-screen-frame cursor-pointer group" onclick="openLightboxFromScreen('${screen.src}', '${activeApp.id}')">
+                      
+                      <!-- Step Badge: #1, #2, #3 -->
+                      <div class="absolute top-2.5 left-2.5 z-30 px-2 py-0.5 rounded-lg bg-black text-[10px] font-black text-white shadow-md">
+                        #${globalScreenCounter}
+                      </div>
+
+                      <!-- Dynamic Island Notch -->
+                      <div class="phone-notch"></div>
+
+                      <!-- Screen Image or Video Walkthrough -->
+                      ${screen.is_video ? `
+                        <video 
+                          src="${screen.src}" 
+                          autoplay loop muted playsinline 
+                          class="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
+                        ></video>
+                        <div class="absolute top-2.5 right-2.5 z-30 px-2 py-0.5 rounded-full bg-violet-600/90 text-[10px] font-black text-white flex items-center gap-1 shadow-lg">
+                          <i data-lucide="play" class="w-2.5 h-2.5 fill-current"></i> Video
+                        </div>
+                      ` : `
+                        <img 
+                          src="${screen.src}" 
+                          alt="${screen.title}" 
+                          loading="lazy" 
+                          class="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
+                        >
+                      `}
+
+                      <!-- Hover Actions Overlay -->
+                      <div class="absolute inset-0 bg-black/55 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex flex-col items-center justify-center gap-2 p-3 z-30">
+                        <button 
+                          onclick="event.stopPropagation(); openLightboxFromScreen('${screen.src}', '${activeApp.id}')" 
+                          class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center shadow-2xl transition-transform hover:scale-110 active:scale-95"
+                          title="Zoom"
+                        >
+                          <i data-lucide="maximize-2" class="w-4 h-4"></i>
+                        </button>
+                        
+                        <button 
+                          onclick="event.stopPropagation(); downloadScreenDirect('${screen.local_path}', '${safeDownloadFilename}')" 
+                          class="px-3.5 py-1.5 rounded-xl bg-black text-white text-xs font-bold border border-white/20 shadow-md hover:scale-105 active:scale-95 transition-all"
+                          title="Save Image"
+                        >
+                          Save
+                        </button>
+                      </div>
+
+                    </div>
+
+                    <!-- Caption Title -->
+                    <p class="text-[11px] font-semibold text-ink-muted dark:text-ink-darkMuted truncate px-1" title="${screen.title}">
+                      ${screen.title}
+                    </p>
+
+                  </div>
+                `;
+              }).join('')}
+            </div>
+
+          </div>
+        `;
+      }).join('');
+
+      lucide.createIcons();
+    }
+
+    // ==========================================
+    // LIGHTBOX / ZOOM VIEWER
+    // ==========================================
+    function buildLightboxList() {
+      lightboxScreens = [];
+      if (!activeApp || !activeApp.flows) return;
+
+      activeApp.flows.forEach(f => {
+        (f.screens || []).forEach(s => {
+          lightboxScreens.push({
+            src: s.src,
+            local_path: s.local_path,
+            title: s.title,
+            flow_title: f.full_title,
+            is_video: s.is_video || false,
+            app_name: activeApp.name
+          });
+        });
+      });
+    }
+
+    function openLightboxFromScreen(src, appId) {
+      const app = allApps.find(a => a.id === appId) || activeApp;
+      if (!app) return;
+
+      lightboxScreens = [];
+      (app.flows || []).forEach(f => {
+        (f.screens || []).forEach(s => {
+          lightboxScreens.push({
+            src: s.src,
+            local_path: s.local_path,
+            title: s.title,
+            flow_title: f.full_title,
+            is_video: s.is_video || false,
+            app_name: app.name
+          });
+        });
+      });
+
+      const foundIdx = lightboxScreens.findIndex(s => s.src === src);
+      activeLightboxIndex = foundIdx !== -1 ? foundIdx : 0;
+      updateLightboxModal();
+
+      document.getElementById('lightboxModal').classList.remove('hidden');
+    }
+
+    function updateLightboxModal() {
+      if (lightboxScreens.length === 0) return;
+      const screen = lightboxScreens[activeLightboxIndex];
+
+      const wrapper = document.getElementById('lbImageWrapper');
+      if (screen.is_video) {
+        wrapper.innerHTML = `
+          <video 
+            id="lbImage"
+            src="${screen.src}" 
+            controls autoplay loop playsinline
+            class="max-h-[75vh] w-auto rounded-3xl shadow-2xl border-4 border-slate-900 object-contain bg-black ring-1 ring-white/10"
+          ></video>
+        `;
+      } else {
+        wrapper.innerHTML = `
+          <img 
+            id="lbImage" 
+            src="${screen.src}" 
+            alt="Screen Preview" 
+            class="max-h-[75vh] w-auto rounded-3xl shadow-2xl border-4 border-slate-900 object-contain bg-black ring-1 ring-white/10"
+          >
+        `;
+      }
+
+      document.getElementById('lbScreenTitle').textContent = screen.title;
+      document.getElementById('lbFlowTitle').textContent = screen.flow_title;
+      document.getElementById('lbCounter').textContent = `${activeLightboxIndex + 1} / ${lightboxScreens.length}`;
+      lucide.createIcons();
+    }
+
+    function navigateLightbox(dir) {
+      if (lightboxScreens.length === 0) return;
+      activeLightboxIndex = (activeLightboxIndex + dir + lightboxScreens.length) % lightboxScreens.length;
+      updateLightboxModal();
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightboxModal').classList.add('hidden');
+    }
+
+    function downloadActiveLightboxImage() {
+      if (lightboxScreens.length === 0) return;
+      const s = lightboxScreens[activeLightboxIndex];
+      const filename = `${s.app_name || 'Appllama'}_${s.flow_title}_${s.title}`.replace(/[^a-zA-Z0-9_\-]/g, '_') + '.webp';
+      downloadScreenDirect(s.local_path, filename);
+    }
+
+    // Direct Image Download Helper
+    function downloadScreenDirect(localPath, filename) {
+      const url = `/api/download-image?path=${encodeURIComponent(localPath)}&filename=${encodeURIComponent(filename)}`;
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast(`Saving ${filename}`, 'info');
+    }
+
+    // App & Flow ZIP Downloads
+    function downloadAppZipById(appId) {
+      showToast('Preparing full app ZIP archive...', 'info');
+      window.location.href = `/api/apps/${encodeURIComponent(appId)}/download`;
+    }
+
+    function downloadCurrentAppZip() {
+      if (!activeApp) return;
+      downloadAppZipById(activeApp.id);
+    }
+
+    function downloadFlowZip(flowIdx) {
+      if (!activeApp) return;
+      showToast('Preparing flow ZIP archive...', 'info');
+      window.location.href = `/api/apps/${encodeURIComponent(activeApp.id)}/flows/${flowIdx}/download`;
+    }
+
+    // ==========================================
+    // ADD MODAL & 1-CLICK URL DOWNLOADER
+    // ==========================================
+    function openAddModal() {
+      document.getElementById('addModal').classList.remove('hidden');
+      const input = document.getElementById('urlModalInput');
+      if (input) {
+        input.value = '';
+        setTimeout(() => input.focus(), 50);
+      }
+    }
+
+    function closeAddModal() {
+      document.getElementById('addModal').classList.add('hidden');
+    }
+
+    async function handleHomeUrlDownload() {
+      const input = document.getElementById('homeUrlInput');
+      const url = input.value.trim();
+      if (!url) {
+        showToast('Please enter an Appllama link', 'error');
+        return;
+      }
+      await executeDownloadUrl(url, 'homeUrlBtn');
+    }
+
+    async function handleModalDownload() {
+      const input = document.getElementById('urlModalInput');
+      const url = input.value.trim();
+      if (!url) {
+        showToast('Please enter an Appllama URL', 'error');
+        return;
+      }
+      await executeDownloadUrl(url, 'urlModalBtn', true);
+    }
+
+    async function executeDownloadUrl(url, btnId, closeModal = false) {
+      const btn = document.getElementById(btnId);
+      const originalText = btn.innerHTML;
+
+      btn.disabled = true;
+      btn.innerHTML = `<i data-lucide="refresh-cw" class="w-3.5 h-3.5 animate-spin"></i><span>Downloading...</span>`;
+      lucide.createIcons();
+
+      showToast('Downloading Appllama assets & flows...', 'info');
+
+      try {
+        const res = await fetch('/api/download-url', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ url: url })
+        });
+        const data = await res.json();
+
+        if (data.status === 'ok') {
+          showToast(`Successfully added: ${data.app.name}!`, 'success');
+          if (closeModal) closeAddModal();
+          await fetchApps(data.app.id);
+        } else {
+          showToast(`Download failed: ${data.detail || 'Unknown error'}`, 'error');
+        }
+      } catch (err) {
+        console.error('Download error:', err);
+        showToast('Failed to connect to download server', 'error');
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+        lucide.createIcons();
+      }
+    }
+
+    // Rescan Folder
+    async function triggerRescan() {
+      showToast('Rescanning apps/ folder...', 'info');
+      try {
+        const res = await fetch('/api/rescan', { method: 'POST' });
+        const data = await res.json();
+        showToast(`Rescan complete: ${data.total} apps found`, 'success');
+        await fetchApps();
+      } catch (err) {
+        showToast('Rescan failed', 'error');
+      }
+    }
+
+    // Upload files handler
+    async function handleFileUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const formData = new FormData();
+      formData.append('file', file);
+
+      showToast(`Uploading ${file.name}...`, 'info');
+      try {
+        const res = await fetch('/api/upload', {
+          method: 'POST',
+          body: formData
+        });
+        const data = await res.json();
+        if (data.status === 'ok') {
+          showToast('Uploaded successfully! Rescanning...', 'success');
+          closeAddModal();
+          await fetchApps();
+        } else {
+          showToast('Upload failed: ' + data.detail, 'error');
+        }
+      } catch (err) {
+        showToast('Error uploading file', 'error');
+      }
+    }
+
+    // Toast Notification System
+    function showToast(message, type = 'info') {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      
+      let bg = 'bg-black text-white border-neutral-800';
+      let icon = 'info';
+      if (type === 'success') {
+        bg = 'bg-emerald-950 text-emerald-200 border-emerald-800';
+        icon = 'check-circle';
+      } else if (type === 'error') {
+        bg = 'bg-rose-950 text-rose-200 border-rose-800';
+        icon = 'alert-triangle';
+      }
+
+      toast.className = `flex items-center gap-2.5 px-4 py-2.5 rounded-2xl border text-xs font-semibold shadow-2xl transition-all transform duration-300 opacity-0 translate-y-2 ${bg}`;
+      toast.innerHTML = `
+        <i data-lucide="${icon}" class="w-4 h-4 flex-shrink-0"></i>
+        <span>${message}</span>
+      `;
+
+      container.appendChild(toast);
+      lucide.createIcons();
+
+      requestAnimationFrame(() => {
+        toast.classList.remove('opacity-0', 'translate-y-2');
+      });
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => toast.remove(), 300);
+      }, 3500);
+    }
+
+    // ==========================================
+    // AUTO-SYNC AUTOMATION & MONITORING (EVERY 10 MINS)
+    // ==========================================
+    function initAutoSyncMonitor() {
+      // 1. Initial status fetch
+      pollSyncStatus();
+
+      // 2. Poll server every 6 seconds to sync state with backend scheduler
+      setInterval(pollSyncStatus, 6000);
+
+      // 3. Local 1-second countdown clock for smooth UI updates
+      setInterval(() => {
+        if (!isSyncInProgress && secondsUntilNextSync > 0) {
+          secondsUntilNextSync--;
+        }
+        updateCountdownDisplay();
+      }, 1000);
+    }
+
+    function updateCountdownDisplay() {
+      const el = document.getElementById('autoSyncCountdown');
+      if (!el) return;
+
+      if (isSyncInProgress) {
+        el.textContent = 'Syncing...';
+        return;
+      }
+
+      const mins = Math.floor(secondsUntilNextSync / 60);
+      const secs = secondsUntilNextSync % 60;
+      el.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
+
+    async function pollSyncStatus() {
+      try {
+        const res = await fetch('/api/sync/status');
+        const data = await res.json();
+        if (!data) return;
+
+        if (data.seconds_remaining !== undefined) {
+          secondsUntilNextSync = data.seconds_remaining;
+        }
+
+        const wasRunning = isSyncInProgress;
+        isSyncInProgress = !!data.is_running;
+
+        // Update status text in banner
+        const msgEl = document.getElementById('autoSyncStatusMsg');
+        if (msgEl && data.last_result && data.last_result.message) {
+          msgEl.textContent = data.last_result.message;
+        }
+
+        // If background sync just completed and downloaded new apps, refresh the library!
+        if (wasRunning && !isSyncInProgress && data.last_result && data.last_result.downloaded_apps && data.last_result.downloaded_apps.length > 0) {
+          showToast(`Auto-Sync downloaded ${data.last_result.downloaded_apps.length} new app(s) from Appllama!`, 'success');
+          await fetchApps();
+        }
+
+        updateAutoSyncButtonUI(isSyncInProgress);
+      } catch (err) {
+        // quiet error on polling
+      }
+    }
+
+    async function triggerAutoSyncManual() {
+      if (isSyncInProgress) {
+        showToast('Auto-sync is already checking Appllama...', 'info');
+        return;
+      }
+
+      isSyncInProgress = true;
+      updateAutoSyncButtonUI(true);
+      showToast('Scraping top 2 free flows on Appllama.io...', 'info');
+
+      try {
+        const res = await fetch('/api/sync/trigger', { method: 'POST' });
+        const data = await res.json();
+        const result = data.result || data;
+
+        if (result.status === 'already_running') {
+          showToast('A sync is already in progress. Please wait.', 'info');
+          return;
+        }
+
+        if (result.errors && result.errors.length > 0) {
+          showToast(`Auto-sync completed with errors: ${result.errors[0].error || 'Check server'}`, 'error');
+        } else if (result.downloaded_apps && result.downloaded_apps.length > 0) {
+          const names = result.downloaded_apps.map(a => a.name || a.slug).join(', ');
+          showToast(`Successfully downloaded ${result.downloaded_apps.length} app(s): ${names}!`, 'success');
+          await fetchApps();
+        } else {
+          showToast('Top 2 free apps are already downloaded. Library is up to date!', 'success');
+        }
+
+        // Refresh status immediately
+        await pollSyncStatus();
+      } catch (err) {
+        console.error('Trigger sync error:', err);
+        showToast('Failed to connect to auto-sync service', 'error');
+      } finally {
+        isSyncInProgress = false;
+        updateAutoSyncButtonUI(false);
+      }
+    }
+
+    function updateAutoSyncButtonUI(running) {
+      const btn = document.getElementById('autoSyncBtn');
+      const bannerBtn = document.getElementById('autoSyncBannerBtn');
+      const icon = document.getElementById('autoSyncIcon');
+      const bannerIcon = document.getElementById('autoSyncBannerIcon');
+      const text = document.getElementById('autoSyncBtnText');
+      const liveBadge = document.getElementById('autoSyncLiveBadge');
+
+      if (running) {
+        if (icon) icon.classList.add('animate-spin');
+        if (bannerIcon) bannerIcon.classList.add('animate-spin');
+        if (text) text.textContent = 'Syncing...';
+        if (btn) btn.disabled = true;
+        if (bannerBtn) bannerBtn.disabled = true;
+        if (liveBadge) {
+          liveBadge.textContent = 'Syncing...';
+          liveBadge.className = 'px-2 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-800 text-[10px] font-bold animate-pulse';
+        }
+      } else {
+        if (icon) icon.classList.remove('animate-spin');
+        if (bannerIcon) bannerIcon.classList.remove('animate-spin');
+        if (text) text.textContent = 'Auto-Sync (10m)';
+        if (btn) btn.disabled = false;
+        if (bannerBtn) bannerBtn.disabled = false;
+        if (liveBadge) {
+          liveBadge.textContent = 'Active & Watching';
+          liveBadge.className = 'px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 text-[10px] font-semibold';
+        }
+      }
+    }
+  </script>
+
+</body>
+</html>
