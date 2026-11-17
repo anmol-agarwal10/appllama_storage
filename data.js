@@ -4949,6 +4949,932 @@ window.APP_DATA = [
     ]
   },
   {
+    "id": "6471598754",
+    "slug": "fit-with-coco",
+    "name": "Fit with Coco",
+    "subtitle": "Daily Strength & Pilates",
+    "publisher": "",
+    "icon": "apps/fit-with-coco/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$120K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.6",
+    "ratings_count": "170",
+    "rank": "#1",
+    "total_screens": 67,
+    "stills_count": 65,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/fit-with-coco/6f7f6974726242277df72fa3b2cb6c8a3f67e54f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/fit-with-coco/68d46339e85ace991cb364feac19e5e7ddcb567b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/fit-with-coco/5aa9fc8fc305ea8c2b6cee47b82cbe4cf72450c2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/fit-with-coco/b9ddd6da1db1402e16464ef1b0db57a10d15d641.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/fit-with-coco/e1d6d34ad9729b7e868f237c02053f8130171c06.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/fit-with-coco/8018c9399d541af8bab4fe7b8e47b71c1857de73.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/fit-with-coco/c24db82051aa4b70bf36d314c0f962a3a504dbdc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/fit-with-coco/37c5e1205c32caa47a147d1b8871c500b24986b0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/fit-with-coco/3bb50cfba6236819e1c5f6deaa99e2bde15f970f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/fit-with-coco/8084df9e163a81becab3214476c712976942c5e4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/fit-with-coco/b0c61f5edb3af4490d4aee0f8336cf5aaba5d7e1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/fit-with-coco/903cb917b0e005700ae0ac91f47cb62afc838d65.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/fit-with-coco/b9ccf683e30732547541afea666d73436a02dd0f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/fit-with-coco/c9cc82fef40742f623e57dbc0fe874f257737743.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/fit-with-coco/a8571eb32fbde385b9553a0fd02b8510037e3cae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/fit-with-coco/1374cfe6d1b5b1f2dba3303cfa50969e09a3af57.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/fit-with-coco/4dbdce55479c30bfaa01f5ff28358d6ede241aa1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/fit-with-coco/a230e0d52891d365688cefeb3462529099cadaf8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/fit-with-coco/f10d0981db25250c9f1019ae89272702a43e34b7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/fit-with-coco/e42ea530c776b37e9202449bddd1e75874088c30.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/fit-with-coco/8801ce7642df37d966432d066ee547d919a455d2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/fit-with-coco/bfe437362efc13b7996bc7e4fe045a15fffd0800.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/fit-with-coco/bf4963d272e34627299b3bc0f30781cdc97572d5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/fit-with-coco/ea10383bbc6f925aeef0ca5100d6054b97b86988.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/fit-with-coco/84e26c0a8661ab43ea3559bd4dabc13e53e86754.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/fit-with-coco/a962b066df1e86e1963f668b1952e204803eabd9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/fit-with-coco/fd6690a082040fdd455ddd7bbec8b6611797a55a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/fit-with-coco/4a316c17761b5ea52e16b068578b66d59d2d1d84.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/fit-with-coco/62b46dc986ab5f1b185838f72d009bc944eb98c9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/fit-with-coco/bada3140f36b26d8ba07dd42d7a5935840a00954.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/fit-with-coco/eb3cb4ca431f90fc8bb030ddd34c03a4c4e68100.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/fit-with-coco/447088fba66747f99e078d1089bf934efbc8e0a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/fit-with-coco/49ec5ead43bc32281286e7bee884bf050c329793.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/fit-with-coco/cce262a392e2f234067cff46cd97eb08c149847d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/fit-with-coco/982a42868f025085e25473bb01ed4bc4a707a027.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/fit-with-coco/f02a53facf8150aca8f8662888a353fae7b74f4b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/fit-with-coco/c6acdd784b3a2232c16c29d04b985640dc0d6713.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/fit-with-coco/de722b5a36f4dbf496ef40f0929525e94fe93332.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/fit-with-coco/ec2b8b33e4f0a33864481ad6eab901823593a8b5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/fit-with-coco/006a4980b1fee2c25c5d264325fe1126e26104dc.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 41",
+            "src": "apps/fit-with-coco/85154d6831cd88f41c7191f896fc6c442be916be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/fit-with-coco/3611f44f6d398dc9fbeb924b49d8ffe6a4484678.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/fit-with-coco/db93375e506a36a658ce00ba4083accacff31d76.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 44",
+            "src": "apps/fit-with-coco/27506441769dad23974be1402ec76f3fdbe211a0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/fit-with-coco/82be06d18078dc81a872ede7806e3ea20045919d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/fit-with-coco/1a15b0d4ea925a853107149c36dea57510f3ba78.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/fit-with-coco/af1c346930dbb6130528abbf7857a256fae4e911.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/fit-with-coco/2dbf1ab664401901ba61eaa9c0c4a9f0483b0ca6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/fit-with-coco/fa38b5d7180b8de5ddd083f5814d49ffeaa3e156.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/fit-with-coco/357c6a7a9d9924587e24da81941a9842e2375b10.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/fit-with-coco/e6e3af1cde6113ffaf21e2d22e0eacd32ed7c3c1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/fit-with-coco/19a2f9ca6326e3d1b81f08f3f0d19812f732295a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/fit-with-coco/78e35137178ceba2fcd80ae204063396dd0f7a46.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/fit-with-coco/e3374b59d0e34d58cf34ed9391987788dce9e32d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/fit-with-coco/43e26875bfb26d373dcfaffb363243fb68160d6c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/fit-with-coco/dc64fd4dc59cca2852e757489a459c379f79f4b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/fit-with-coco/f57572738ad7a2ddab322a456967c0e6b5767653.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/fit-with-coco/5d34d12783bd62f0e8482d568a9cfa45694a3558.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/fit-with-coco/847722eb28d8ac4a4ed25c41c8c0239e9d4ecef5.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/fit-with-coco/a96280dee40dd2cb108432b22262e85218b8dad0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/fit-with-coco/64806b72e448a0b38c8f7ae58197033e02306f27.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/fit-with-coco/e59e75a6fed93b8654092c4712325c35b02d5f29.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/fit-with-coco/e3b8762adcaa0fa8e872b9ebc3ed892abf237cf3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/fit-with-coco/baf24b64b83ea72224f4e8164b304eb9157de65d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/fit-with-coco/b01a1bc08b7284f5677953b1b01c36bb1ddd34e1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/fit-with-coco/066853bf1b7c0b9cdbb04cdd3386c4bb88ce8795.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/fit-with-coco/b1e930277f8ebe653c106874b5a90e8dfb5ba630.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1114387800",
+    "slug": "fitness-app-gym-workout-plan",
+    "name": "Fitness App: Gym Workout Plan",
+    "subtitle": "Exercise tracker, home routine",
+    "publisher": "",
+    "icon": "apps/fitness-app-gym-workout-plan/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$250K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "37.1K",
+    "rank": "#1",
+    "total_screens": 97,
+    "stills_count": 95,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/fitness-app-gym-workout-plan/eae16368e75836a7802af0c2fb7c7b6df27ecb43.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/fitness-app-gym-workout-plan/503dc39d393daddf61bd149b81f884b8f5d93694.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/fitness-app-gym-workout-plan/c2519d133b62314e7301bf10a124167f2082332c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/fitness-app-gym-workout-plan/7376aa032f1238a6d6804d3e6f3ad28888814026.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/fitness-app-gym-workout-plan/c616b78b803019ca1b370e9b42307da0d8c91d3e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/fitness-app-gym-workout-plan/9736ec1c9621e38fa8fb84364fcadc45db254c32.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/fitness-app-gym-workout-plan/dd60455f5743f1b1ffed7f4f5bb69647f9733d0c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/fitness-app-gym-workout-plan/26adcecc3ede12c393c44f7b031cb93cb40660d1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/fitness-app-gym-workout-plan/fb42bed3b698a59012ab9ffb5574eda796d8682b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/fitness-app-gym-workout-plan/ace9b4225cf3ad9132eb056e3a51b348243e4aec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/fitness-app-gym-workout-plan/f446f5f567a3f2a609ed51283ff2490d51e5d94d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/fitness-app-gym-workout-plan/a4948dfdd1aeb998085f1e536a4b43facebcadbc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/fitness-app-gym-workout-plan/0f6b085424afc06fae8ec7b94b4bdcade8520da3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/fitness-app-gym-workout-plan/f4d51402c6715a7c6f0c099e665c05741416490f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/fitness-app-gym-workout-plan/363b7c85b383d67747f6d444ba86693d86e9e733.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/fitness-app-gym-workout-plan/804e4d0a6bd10d1ce26f86236a7293a930091b9b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/fitness-app-gym-workout-plan/de33be91c1e15e7cfbded4e64c1f213c5683bb8e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/fitness-app-gym-workout-plan/66ea3e4f5ec2f36ebb506058d81ef46ae107dd7c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/fitness-app-gym-workout-plan/c9e6639175aa5059452f7c2f78c8d92160030044.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/fitness-app-gym-workout-plan/9ad89cf38b7c2a69fb211125262b8e469120686f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/fitness-app-gym-workout-plan/9b1292d6ec7e0f1f69cc473ccaecc7d3aa4f96f0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/fitness-app-gym-workout-plan/3b6fea7814c3ffb5b1b79f728301e1b053bf0851.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/fitness-app-gym-workout-plan/9adf9f22515cd4d1b21710e43598b666a8331bb7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/fitness-app-gym-workout-plan/e3ab9f791d6d2aa2bef8d00ea538d7fc067c6f1f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/fitness-app-gym-workout-plan/1c1fb20012710175122ef7d3ff799d93b00f7d90.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/fitness-app-gym-workout-plan/cabc5364bd4d4cf29d3e1255bdc81a4db51049c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/fitness-app-gym-workout-plan/628b3aff58f4e569d01b0075760bbb80d5478e59.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/fitness-app-gym-workout-plan/7fc2ba20dcc5d30397f233073966f1c82bd9bbdb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/fitness-app-gym-workout-plan/dea969d81863aa9bf3b14d588a967b7f8bbb0d37.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/fitness-app-gym-workout-plan/15df42aba65e4662a3d1b5bdf0840090675cba42.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/fitness-app-gym-workout-plan/9e2fa09d35e959ed0e44425d6bb62cd5ab5e4d75.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/fitness-app-gym-workout-plan/beb8120f464b80e564b67621d61e1816df3e1336.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/fitness-app-gym-workout-plan/9b3f8bb133b4e0a389a3d0b1b743e71d553926a0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/fitness-app-gym-workout-plan/54ac76c9ac5aca17679379c193fdd750921d5050.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/fitness-app-gym-workout-plan/c6945e0e0deedcb9e8dc13103826b57cb0f3de55.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/fitness-app-gym-workout-plan/314667905a148ce5e099ac11386eb512a0d1d097.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/fitness-app-gym-workout-plan/6fd7009eaeb992031266d20e7f25c846c1143848.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/fitness-app-gym-workout-plan/df316644c4d1fb4aeba2a33bdb0e75d609ab6205.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/fitness-app-gym-workout-plan/ee994b8a4ac247dbea16a68036aad1101173cab2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/fitness-app-gym-workout-plan/ffafc302bb1a5f582a3750ee72f1f95d6fa466af.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/fitness-app-gym-workout-plan/6babceb873f71bafc85886b0ec74a2d0cc9694ae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/fitness-app-gym-workout-plan/cbbb6a65c7522f48d538a525355cd14c84396d9c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/fitness-app-gym-workout-plan/1e5778deac43b5b0e0839002574316f5ec512d34.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/fitness-app-gym-workout-plan/5ad473ae07ce5f801e7cbdcd94a72e699409dca7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/fitness-app-gym-workout-plan/f393e8678b95350734ffddada477ed45ecf13ec7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/fitness-app-gym-workout-plan/9786d96ffb0548e48605eff1f167ce3be595d4c0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/fitness-app-gym-workout-plan/d25c527c565ed250daba6b60a95c210c112cb766.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/fitness-app-gym-workout-plan/2ca2a87c4178cca0a060b87358b9db1cdd019326.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/fitness-app-gym-workout-plan/c23b1202e464157219b30c84a7971d54f78a6d57.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/fitness-app-gym-workout-plan/e9040ff2540ae8bb38a06315ce748eb4dd01ed47.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/fitness-app-gym-workout-plan/f07277d6ecc2aa1033c03c8fd60339dc1935f277.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/fitness-app-gym-workout-plan/54d448e084acabeec445f1ff137b2095add3310c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/fitness-app-gym-workout-plan/a3b39cd9ca6ce2b67f248b3b918cd1f5a5970bc0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/fitness-app-gym-workout-plan/86c5642881a6a162f84fc3b97f509eda3d693d93.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/fitness-app-gym-workout-plan/c5e5ddf15e971ad77b2a10611f657572d9cd57b8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/fitness-app-gym-workout-plan/c0adfc96dfbede345b4a823bb956a0e893242629.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/fitness-app-gym-workout-plan/56d9fedde1df53993d3bd4d992edb78d3b769be5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/fitness-app-gym-workout-plan/7df443d19002a323c48907a44fac89e623201394.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 59",
+            "src": "apps/fitness-app-gym-workout-plan/12aaa46c87f152c03d5b66a1bf5230566bf81c63.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/fitness-app-gym-workout-plan/b28005ba8e25d9894e15ff4e63b6535b730e60ea.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/fitness-app-gym-workout-plan/dc99f1c02d22c1529701af53aaeb7b9b59ccd4da.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 62",
+            "src": "apps/fitness-app-gym-workout-plan/cda50447952ef6ece1d5a437b6eefc0ab5ff1e1f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/fitness-app-gym-workout-plan/ec615eb8c8b896da6c2c534c1acb50e69a9e0d5e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/fitness-app-gym-workout-plan/1b9861910919570668d9675ffa4fe0f14249eed2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/fitness-app-gym-workout-plan/b61c9ebfdd99872506adab869a994484a6179712.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/fitness-app-gym-workout-plan/999c71ac2de556c4bf2467901190572c3204fa34.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/fitness-app-gym-workout-plan/4df39a82391f50afae15291e3badfa9dd47b8704.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/fitness-app-gym-workout-plan/96e383f33d995bc3fe5e03955e369c554925d53c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/fitness-app-gym-workout-plan/4fb42c013f00afceab1d8bda9d411f17d7d29593.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/fitness-app-gym-workout-plan/51b49c557218bd7b38fa0ee8ac3e9715fea7deab.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/fitness-app-gym-workout-plan/9708a67bbea2ce5a0542bb0bc13c97199ea45d9f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 72",
+            "src": "apps/fitness-app-gym-workout-plan/4763287b25e4dedb87128619e9c32749978484a5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 73",
+            "src": "apps/fitness-app-gym-workout-plan/e43c9c9799bf6716077ca1a5eadce6e81c9ffed1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 74",
+            "src": "apps/fitness-app-gym-workout-plan/8938a4d318a36c4a6336deba2711467be4a7d40a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 75",
+            "src": "apps/fitness-app-gym-workout-plan/d7fd18b60586c2be5f30d136c772313e87376921.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 76",
+            "src": "apps/fitness-app-gym-workout-plan/d2a4e667c7076437ada1a67efc33ea5460f1aaa8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 77",
+            "src": "apps/fitness-app-gym-workout-plan/391827bd17a2433b5c0fdbe89d9dd5af0207930c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 78",
+            "src": "apps/fitness-app-gym-workout-plan/bc1520f331a290c9c1a1c76071b920e6501b1115.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 79",
+            "src": "apps/fitness-app-gym-workout-plan/009beb6e962fb5d9e2e1552757939aaa76d3e1f7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 80",
+            "src": "apps/fitness-app-gym-workout-plan/25f1e2285120e5f966fa64952d5535342ac90454.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 81",
+            "src": "apps/fitness-app-gym-workout-plan/1e2d9d07e647606cb2676476cd61432a6cd9a4b3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 82",
+            "src": "apps/fitness-app-gym-workout-plan/fb456a9799fcb531687210d16bc061c0ea9fc0a1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 83",
+            "src": "apps/fitness-app-gym-workout-plan/f30461b9cd754509d9b0f6dc80be96677a356bb0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 84",
+            "src": "apps/fitness-app-gym-workout-plan/8555e363c3be2f56ee79631a84c8bf7d3cf66e88.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 85",
+            "src": "apps/fitness-app-gym-workout-plan/0da89a1693034052d5470a01dc68310fa69ea63a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 86",
+            "src": "apps/fitness-app-gym-workout-plan/c1b82f697dd190e11671d20f2024bf012e4f6027.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 87",
+            "src": "apps/fitness-app-gym-workout-plan/5c0722129959d31fa6e56f976eb6e95cb3d3178d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 88",
+            "src": "apps/fitness-app-gym-workout-plan/ef5c64fdcefba6c6fc43ba1f22807da29785157b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 89",
+            "src": "apps/fitness-app-gym-workout-plan/036a78b10e4ef5d5a960cafffc69d4807a548ed6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 90",
+            "src": "apps/fitness-app-gym-workout-plan/34fd4a9b58d3307530676fa2ded1c86b37cb8030.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 91",
+            "src": "apps/fitness-app-gym-workout-plan/8c5de1bb303c0216897bbb1dcaf7322657dbc588.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 92",
+            "src": "apps/fitness-app-gym-workout-plan/e29c7d0fa03096fdc053f2536cfa1af938be51a8.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 93",
+            "src": "apps/fitness-app-gym-workout-plan/78ad9c58fd6193e08bfcd0669236dc706f0eca54.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 94",
+            "src": "apps/fitness-app-gym-workout-plan/8e85833f16a2033b0f77e7c3cb79e8d3458d3574.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 95",
+            "src": "apps/fitness-app-gym-workout-plan/a05aeeadf782a6022c8d927b957eade8dd694592.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 96",
+            "src": "apps/fitness-app-gym-workout-plan/1fd675f8fa6a82ae11f3934809d71647d6696794.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 97",
+            "src": "apps/fitness-app-gym-workout-plan/30f421769ace6ccf560fa396de2babeeb5399858.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "6746771178",
     "slug": "flashloop-ai-video-generator",
     "name": "Flashloop: AI Video Generator",
