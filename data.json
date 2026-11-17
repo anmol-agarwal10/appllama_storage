@@ -7957,6 +7957,707 @@
     ]
   },
   {
+    "id": "1561802302",
+    "slug": "pdf-scanner-ai-scan-documents",
+    "name": "PDF Scanner AI: Scan Documents",
+    "subtitle": "PDF Converter, Document Signer",
+    "publisher": "",
+    "icon": "apps/pdf-scanner-ai-scan-documents/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$180K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "6.6K",
+    "rank": "#1",
+    "total_screens": 56,
+    "stills_count": 55,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/pdf-scanner-ai-scan-documents/a151f6504f4243722ffbc50bac751debfcc1ebe0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/pdf-scanner-ai-scan-documents/26971d5acd523ee433aef129c05dc57f06633aca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/pdf-scanner-ai-scan-documents/99b94b7b891fbcb919c1988a40647009f73a1d5b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/pdf-scanner-ai-scan-documents/f5da6aa0f43b76170d8816ecfcaacef24bd999ca.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/pdf-scanner-ai-scan-documents/e6a2c35f8e93aea4b4205daa071fce5ce5c2892c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/pdf-scanner-ai-scan-documents/91050dca31c700603ba0297749206e7304892c1f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/pdf-scanner-ai-scan-documents/d6a28d7bec1d9a845f622587370dc27a7cd618f1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/pdf-scanner-ai-scan-documents/bd87458e67d917cc404de1cc3a636596b0c0f7a5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/pdf-scanner-ai-scan-documents/1e7451ddcadc6dd275ee179b4b6a1a9eef0dbc3c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/pdf-scanner-ai-scan-documents/38a7dd05ecb2387d59e53636c41c7f27abb3b708.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/pdf-scanner-ai-scan-documents/e339963882ec13d1e4626f88820aab704cdc2083.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/pdf-scanner-ai-scan-documents/fbc01649f4fb4639d74efd902cca4124da6297be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/pdf-scanner-ai-scan-documents/76a5ff83532a21826abc424f83352cfe34e52f0e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/pdf-scanner-ai-scan-documents/8ba312956339e88b19ba095e703233cbcfc10fb9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/pdf-scanner-ai-scan-documents/e8c190466d4a9ab9076aee0777c77af6f3ff19a7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/pdf-scanner-ai-scan-documents/2a13539344c1ddcc94a9d6bde6ca8fefccaa43a1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/pdf-scanner-ai-scan-documents/ba7002a4e6d10dd7eb09a897c6b96830cb37639e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/pdf-scanner-ai-scan-documents/a296f286cb0e85fa1b69346c1ed92c3ac961a0fa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/pdf-scanner-ai-scan-documents/d78579baf66b7190597d4fa494634f2654d49663.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/pdf-scanner-ai-scan-documents/a40694b7de9fef73870289cef70489ae30fd5306.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/pdf-scanner-ai-scan-documents/b8a44b5966500793eaf9e8f46bd56188c70296c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/pdf-scanner-ai-scan-documents/ca09d0fc1b556edf4801725901fa81d155f91d62.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/pdf-scanner-ai-scan-documents/f4ee729cde3b0427cce40cdb59b0b152b1f98a8f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/pdf-scanner-ai-scan-documents/a4b4b74a7a347fec1a95d738b88c63ce01661a7e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/pdf-scanner-ai-scan-documents/d634c216a2f3cbd7677d2880b51cff97b6553b34.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/pdf-scanner-ai-scan-documents/5b4ff23847a0a84d90d7ea84381cd4526e262274.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/pdf-scanner-ai-scan-documents/d4fd26731c6c8d84371e711cced1ad01962fc911.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/pdf-scanner-ai-scan-documents/ccff368762ecad170bb7ef3fd46af982e4b582d7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/pdf-scanner-ai-scan-documents/f085a2a817d9bc6925952b248b0c3d78ed3072ac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/pdf-scanner-ai-scan-documents/7604e4967038a132e8ee0ba4f47f6eb2706d280e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/pdf-scanner-ai-scan-documents/ccabe616cf8fe4487faf64b2c4092a65eb821607.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/pdf-scanner-ai-scan-documents/6a4e0cb9e1baed495ce49e75e15d74e5cd774127.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/pdf-scanner-ai-scan-documents/a07c14ffc1bde1149b9f36a9499ee7b7f28a9b29.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 34",
+            "src": "apps/pdf-scanner-ai-scan-documents/09e7b7c1f9df3b2d6a42e4ee92915d3eb84c8043.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/pdf-scanner-ai-scan-documents/e9228c941d11894b5ef2de85237e8aebe6cd4b47.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/pdf-scanner-ai-scan-documents/470985e234360b2e934e9ed533ee9865be9e7218.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 37",
+            "src": "apps/pdf-scanner-ai-scan-documents/c5ebec386eef42228e61e4795821b18e73100699.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/pdf-scanner-ai-scan-documents/da4ef02ccf42466505c6b24c9ce508916a71125a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/pdf-scanner-ai-scan-documents/83439611740f3fabdcf700e5080ee5f6811caf69.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/pdf-scanner-ai-scan-documents/8e6993c6722e689aa4b21824679b139bde26f489.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/pdf-scanner-ai-scan-documents/d950e5a5a5ea300f562cceac07b2b306a6e949cd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/pdf-scanner-ai-scan-documents/4c37e84762e3cce513e0536e9ff28eafafcd3573.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/pdf-scanner-ai-scan-documents/de193088656a1de3125417d62ccfa83639adb7bd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/pdf-scanner-ai-scan-documents/d35d307c43ccd34b0ab17559faa35d4e7b0a673d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/pdf-scanner-ai-scan-documents/cba42d587f8be935e53e44fb7920a2a7578827be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/pdf-scanner-ai-scan-documents/92921afab3148f2ce8ef8efa49642163477a2a0e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/pdf-scanner-ai-scan-documents/bfbd9f9cd439eaf9b436869713ffc90ca8f61787.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/pdf-scanner-ai-scan-documents/03a0fbafecf14fe30e25fb11ad0176feabd56039.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/pdf-scanner-ai-scan-documents/381d2849102991626835aa06ffef34f1f6367a13.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/pdf-scanner-ai-scan-documents/d7672c9c3d234e64546f120fddd9634268ff1309.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/pdf-scanner-ai-scan-documents/af045fc82d4336ea9e2c818cc510de65ed62aa9d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/pdf-scanner-ai-scan-documents/173df5c3ed8b7f965b3654196d6d1019f86830d8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/pdf-scanner-ai-scan-documents/a40a0b3667cce8534c8dc5d2075d318bcffdf9c0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/pdf-scanner-ai-scan-documents/68167cab5c12a9e7e0848df15143a4d8daa18d50.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/pdf-scanner-ai-scan-documents/160c27616be14d7c2a12bedeb731ae3e0e1f1ac5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/pdf-scanner-ai-scan-documents/7a95d468b914e3b58b808ec740aa497b683dccae.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1504202283",
+    "slug": "pdf-scanner-app-scanner-docs",
+    "name": "PDF Scanner App: Scanner+ Docs",
+    "subtitle": "Sign Documents & Edit, Scan ID",
+    "publisher": "",
+    "icon": "apps/pdf-scanner-app-scanner-docs/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$12K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.6",
+    "ratings_count": "4.9K",
+    "rank": "#1",
+    "total_screens": 63,
+    "stills_count": 62,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/pdf-scanner-app-scanner-docs/2eb9394fd9cc7df5dce24cf55b4f6f26f24aa203.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/pdf-scanner-app-scanner-docs/0ceb5e277d950a77adcb0455e62f6378ad0a0aa1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/pdf-scanner-app-scanner-docs/5aae49b876d729712227e9b8b4547147334ab257.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/pdf-scanner-app-scanner-docs/e9f35d2335f3777a84f49fe594e917e93caf5f5c.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/pdf-scanner-app-scanner-docs/96c723341dddf9bae23694d1168ad178e24c7257.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/pdf-scanner-app-scanner-docs/01b70ea7d0286685cd38b1084f69efc7b2a19f5d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/pdf-scanner-app-scanner-docs/e350606f43450394e3af18c67b3705217bd15978.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/pdf-scanner-app-scanner-docs/0770775d21140a02f7da01cd4f30bc2ec88535a9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/pdf-scanner-app-scanner-docs/fd6c5521a82b2bc5bb558638725adc74af0a4f5f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/pdf-scanner-app-scanner-docs/1b89b3d8db139762b0f15d3933d2aba7f37408a9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/pdf-scanner-app-scanner-docs/007a6f3df7da6457ef7be93341d9b4863ded7083.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/pdf-scanner-app-scanner-docs/f5cc8e4a9f3e89ed9c0636443df662a10e822642.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/pdf-scanner-app-scanner-docs/23693be8a6e9a7ee2ae8810e3e1eb6114bd9202c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/pdf-scanner-app-scanner-docs/0718d4c1f7a25c9c7be0049595b725aa62380282.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/pdf-scanner-app-scanner-docs/3b3024c3cb911a91269c9c6ca5684bf618fd43a7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/pdf-scanner-app-scanner-docs/bb76efeb32a5e89173999f4fa8f1e7e5f3c7daf9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/pdf-scanner-app-scanner-docs/c0376e35b0ef0ebc819617fcb1fa48f404ef4c4d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/pdf-scanner-app-scanner-docs/d052e26fa15320744459fd36b015c6c75e9c5024.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/pdf-scanner-app-scanner-docs/e7cc35cdeb64273042e8fdecd4ab26dfe1439317.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/pdf-scanner-app-scanner-docs/d9b51e024c4c792346bd85103ab90fc1d1c46966.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/pdf-scanner-app-scanner-docs/9d2dbb76cbdcddff3b556cd86a5845ea40ac6dc0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/pdf-scanner-app-scanner-docs/2f259c5c655924c0d4d3fd2be23d2542d604073f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/pdf-scanner-app-scanner-docs/e24f85e2492b09fcad087f7e476cf09dd5269f00.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/pdf-scanner-app-scanner-docs/cf96c5ad177c46b87bf1d7fb9ca861e03e1bf9e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/pdf-scanner-app-scanner-docs/fe528f5c126d28dad4061560727806a07fd8fb27.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/pdf-scanner-app-scanner-docs/5cfd1b6cbdb0d92172123c83430787372bc951fd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/pdf-scanner-app-scanner-docs/09d84519106264f5e10ca405da2a5f8621c27cc4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/pdf-scanner-app-scanner-docs/bd201879844840531ae03e7833f485923713b8ba.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/pdf-scanner-app-scanner-docs/218d00ce4a1e1f1a0338bac7340e7de52bf81408.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/pdf-scanner-app-scanner-docs/e73219a76ca53cb6b75ae4663af5a226c28b1d20.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/pdf-scanner-app-scanner-docs/9ec728ccb6522757058cdb01b651d8be10d7b27a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/pdf-scanner-app-scanner-docs/e6982187a0b82e50e2ae237549d568ee079ebe79.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/pdf-scanner-app-scanner-docs/1d073a87c84ec3d38f369c7557b187aced7f9340.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/pdf-scanner-app-scanner-docs/461e035482dd636e30ec29b6397a727f83535088.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/pdf-scanner-app-scanner-docs/4b355b6d9c736c62d94d8e68b06c390eb5c8a0a7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/pdf-scanner-app-scanner-docs/ded5ed9914c4581c1c8569971d72782f38ea437a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/pdf-scanner-app-scanner-docs/9b765368e62d893726158a2fc20db1204b7746b6.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 38",
+            "src": "apps/pdf-scanner-app-scanner-docs/06a16de4a9fa9703ad57afbc671c32a9d6b57ec8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/pdf-scanner-app-scanner-docs/2d722c8ef910c6e93cd32cddfa4d2262f44a88c4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/pdf-scanner-app-scanner-docs/ecd36bf2932bd2d386c808a95ed30b1052b4e3cf.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 41",
+            "src": "apps/pdf-scanner-app-scanner-docs/997c796c6ce4b9285a029fa577657ba3727b1521.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/pdf-scanner-app-scanner-docs/bd0cf6d2d3c44d5670800acf5e5e2823635e0120.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/pdf-scanner-app-scanner-docs/5c97e76f5b224897d55b6b3cc22a8cd2e39b7d27.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/pdf-scanner-app-scanner-docs/306b88549320d7193d59ec67505fecef0e375531.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/pdf-scanner-app-scanner-docs/df0103d22ed22d01f640dcffd58246cb314b96eb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/pdf-scanner-app-scanner-docs/bb6dc88c1a91c73ae57f40a5321230e84216d8eb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/pdf-scanner-app-scanner-docs/3c0c38ba0c41f5bd53146c4acce7d08d57254641.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/pdf-scanner-app-scanner-docs/071c451be47e1b56e576a4aed4ed41ac00db0266.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/pdf-scanner-app-scanner-docs/e3811009d3c7618020fcbc9b4ef1a591044f8c3b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/pdf-scanner-app-scanner-docs/f8ea7a546f82ee6bf76bd19480756918970bba8c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/pdf-scanner-app-scanner-docs/e62dc429c9e1ef2b5b09fe8294fa8a336f8c3b6d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/pdf-scanner-app-scanner-docs/ef033a4196db4dff5be3f8983bfbeda114da937f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/pdf-scanner-app-scanner-docs/02dba6071138c6d3085344fe8c6a0c1dce0d1579.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/pdf-scanner-app-scanner-docs/4c3539df12c3f2a2277e07521c89f02a6b601b12.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/pdf-scanner-app-scanner-docs/a7496b0d3b28c83ee5d069bc4adf9ad56892d35f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/pdf-scanner-app-scanner-docs/d1737e0c1233b727182d4dc13fa85b728063d3a5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/pdf-scanner-app-scanner-docs/6d0ba94a492a6af80cbbd757f278ca95cd08fba0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/pdf-scanner-app-scanner-docs/f063503f3ea144870077e37a3c0996073e67c5cd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/pdf-scanner-app-scanner-docs/a3f4b4ceb3e484d54c781f9805b5d09f7db4fd05.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/pdf-scanner-app-scanner-docs/446e5c6a192bdc62974417c644c977267ffa60f5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/pdf-scanner-app-scanner-docs/1a8f7988555f7dcb662afdbd9930ab1e82bcfa3a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/pdf-scanner-app-scanner-docs/c609a3bce24c6229f4828a9b4cc7cbfb52dd09ca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/pdf-scanner-app-scanner-docs/04e5312789fb5657155d4e4eb644d8dde640f932.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "peaktalk-job-specific-english",
     "name": "PeakTalk: Job-specific English",
