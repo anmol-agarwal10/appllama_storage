@@ -10311,6 +10311,667 @@
     ]
   },
   {
+    "id": "1527702678",
+    "slug": "soulight-online-psychic-advice",
+    "name": "Soulight-Online Psychic Advice",
+    "subtitle": "Psychic Readings & Tarot",
+    "publisher": "",
+    "icon": "apps/soulight-online-psychic-advice/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$18K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "2.6K",
+    "rank": "#1",
+    "total_screens": 71,
+    "stills_count": 69,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/soulight-online-psychic-advice/fb84ea38f603bb2b11f0f4f86e6dc29efad02a21.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/soulight-online-psychic-advice/da4d0dba6aa891589d13d1be56de4dd9f526590e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/soulight-online-psychic-advice/43b5f7abbf097f9d4ced2da631d81ba45a8b4ade.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/soulight-online-psychic-advice/a109da189a3964d95fb140f00e7565983b4ffba4.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/soulight-online-psychic-advice/e1c2ac208f4366c14bad6ab56737968d2724601a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/soulight-online-psychic-advice/f3e26de57793216f51b1aaba4687e920c6f31ada.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/soulight-online-psychic-advice/00b158c314f52c25a1152040be4f6544efcb00e3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/soulight-online-psychic-advice/b4eb4135f5f0fb8ee2ff04671d7710b7250dcb6c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/soulight-online-psychic-advice/30226c963aed5f2f342313f582ca3cebfddc5467.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/soulight-online-psychic-advice/93b863cc00f15809bcd863d70d5294a6ca22e1f9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/soulight-online-psychic-advice/58af25b87f3fa1fac933f3f1c79167c6d4817ab6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/soulight-online-psychic-advice/fdd95661c649c5a5553ead2daad43988a2a2e3c1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/soulight-online-psychic-advice/f02756bd8622dbce7b3271d3ecff37bde429b1d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/soulight-online-psychic-advice/42f269f58cac876e6efbff7514b8ebb3fb1644a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/soulight-online-psychic-advice/c18c921b3900250e3e562d29493bfa30a9563230.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/soulight-online-psychic-advice/d99794eeecc0e1601d1ef9957fc42b58e4014ecb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/soulight-online-psychic-advice/9a6d024a9456ea4efaa9de7bcfb53be29f26dbae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/soulight-online-psychic-advice/aa13b79d77c03bdfb404b9473cac6de03d269500.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/soulight-online-psychic-advice/a8376363ce5fe55269dc6d21bf183b09742a50ea.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/soulight-online-psychic-advice/a674f4185968f4c783c51c20e8700c6741367680.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/soulight-online-psychic-advice/9cfa275c8a41d320835928caa2a1d0096c587a23.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/soulight-online-psychic-advice/cd0b515c2ee66ab17bbda1363a202cc1767a8748.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/soulight-online-psychic-advice/3735a7db601a13f01b4ae571e7410ecd6eaad7b8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/soulight-online-psychic-advice/f5156e994b95c0a7657d938e80f5c1647882334c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/soulight-online-psychic-advice/c788e80adf0c4f5dfa6f49894cfe8c880b6fb3a0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/soulight-online-psychic-advice/8a83af69840bc6263da4b00cf2e748687f1b3dc6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/soulight-online-psychic-advice/f0b808d336ecba6f5518f7d0a6685fa8cdf8204e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/soulight-online-psychic-advice/026ead478b8de4f2c629805efc96117d3e4d22d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/soulight-online-psychic-advice/761e88671a72401091f530aba1fcc059061def09.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/soulight-online-psychic-advice/5838fee29e68636a595ba2145467d59d0695b4c5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/soulight-online-psychic-advice/ca106162e2f0d104e13db56ccf1b86a23dd52513.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/soulight-online-psychic-advice/c63dbc1341cbea259ec61e7a5557286089f75b3e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/soulight-online-psychic-advice/396ab9438bbf0b448b0e90ba0a466a190a9e3337.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/soulight-online-psychic-advice/08709bd84fa4289f22073c51832da5f5fcdd755d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/soulight-online-psychic-advice/9a15c5cfbc292a19021822650672cb3eb278f3da.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/soulight-online-psychic-advice/343c7435fdec12d66c7464fb00d6b33c5b1f55e0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/soulight-online-psychic-advice/624b84b34c8dd0d602e9f7f724d34ca52c5f2fb9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/soulight-online-psychic-advice/0f89a00ab5e77143b983fa9fbe7c06e99a722e7d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/soulight-online-psychic-advice/086169a632d4f76d010c50c3c3a68aefd19b38cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/soulight-online-psychic-advice/91cee9019a75ff0ada82fc786796bc9e5d192fa6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/soulight-online-psychic-advice/b7c6396850b8885d4fb92f140797e33899f837a1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/soulight-online-psychic-advice/330f56936016901c7ac382fe7c1b691642b8fda5.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 43",
+            "src": "apps/soulight-online-psychic-advice/996a6d102b3c8347abf46e46dac802f24d27a98e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/soulight-online-psychic-advice/ea5c94632ccc52fa781cab381491d85763ede500.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/soulight-online-psychic-advice/6ecfda3a96871c222a1967884231ff82f3b70e9c.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 46",
+            "src": "apps/soulight-online-psychic-advice/213f1711e7569f4f2920cec9275777556eb34867.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/soulight-online-psychic-advice/7e38ebcff050d64912a7abc9dc538b9cecd870c8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/soulight-online-psychic-advice/ac330f0ed995ae5deaabae2fc5dc68f5c555ec97.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/soulight-online-psychic-advice/c4e8c2084c597efa563ca780ee065765bef4fe05.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/soulight-online-psychic-advice/45280d1eeef83e1cb0438ae7a23ec8deebfe1e89.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/soulight-online-psychic-advice/6d4bafbf8f02350d6d5a160e65a6d5f306278a75.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/soulight-online-psychic-advice/ece5ffa1bb14be043197f5d8bce714b3e623eaf8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/soulight-online-psychic-advice/f45fd6179b682033af18b0fd97cb0bf6ea484085.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/soulight-online-psychic-advice/9566a5a164909fefd7977dbbb4ee6375878bb598.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/soulight-online-psychic-advice/bfd6863a213484516e579db1c769be7deb24a10c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/soulight-online-psychic-advice/8144f85ed4be8f8a8b70fc987d85b24f6226bf59.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/soulight-online-psychic-advice/8ca58e97fc630e10ffaf5fb8b0b166a6b3f0d2cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/soulight-online-psychic-advice/e1e9bb37537c6d7006f4b63c2694c69c15c70bd4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/soulight-online-psychic-advice/1fa8137a8cb4e60a392cf2160aa098509ec8b8be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/soulight-online-psychic-advice/d5704245feda95473b71701f654eb1c9e24317c1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/soulight-online-psychic-advice/23bf7e0386230c5d9bb08820d31578bae8398326.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/soulight-online-psychic-advice/903aaffc864267fb354aab1fd5d8e1930e470db3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/soulight-online-psychic-advice/2903ee9f6cde488a21d718f9483c7e7f1b0e2089.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/soulight-online-psychic-advice/202eceefc78d5f6781e68e7ec6d583bced8afce7.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/soulight-online-psychic-advice/3826867dab894b7b6026f3ce451dd75546c33561.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/soulight-online-psychic-advice/6119c3aac375a3dc3821ca5cd1b6bf02774bea6b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/soulight-online-psychic-advice/1974f3af6f9fac16464279cb66047a109a037c9d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/soulight-online-psychic-advice/7c55b7c3c6fa6545b2acf44a23cc7cf7b072adad.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/soulight-online-psychic-advice/a04a7c5b59d6dd6c019e57523d9b707141cffd90.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/soulight-online-psychic-advice/0af07ac92237e3671c33412d871fb61600a543f5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/soulight-online-psychic-advice/d5ed770884f51d19986d1545b76bb7e72ad4b4f7.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6504668266",
+    "slug": "space-cleaner-file-manager",
+    "name": "Space Cleaner: File Manager",
+    "subtitle": "Cleanup Duplicate Photo Clean",
+    "publisher": "",
+    "icon": "apps/space-cleaner-file-manager/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$5.99",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.5",
+    "ratings_count": "3761",
+    "rank": "#1",
+    "total_screens": 40,
+    "stills_count": 39,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/space-cleaner-file-manager/ab50c5d59a500dc752d9d9540984ca77c8e756e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/space-cleaner-file-manager/adeb717a6e2aaaba9971e40cd0120fc1c31cfcf0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/space-cleaner-file-manager/4b5c1b3d48c909006833df054dac1c6c26cc9274.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/space-cleaner-file-manager/320140ce2acb45f1a540a583832ca169af46922d.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/space-cleaner-file-manager/e3ed7a0e4467e9b1c65865941658436c7b7a7634.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/space-cleaner-file-manager/92d31393b62ea061cd58a1d1b5c55e6c6bfdeff9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/space-cleaner-file-manager/f2d581cf7bb67eb3b81273ac9ec176b0e28de7cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/space-cleaner-file-manager/3953eab504626ecf9dc945b581d39270c611aec6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/space-cleaner-file-manager/facaf6ec8cc821cdd9876301665874349abe51c3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/space-cleaner-file-manager/57bd2a3a509205f2492e41c6bda7aa8a42327d97.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/space-cleaner-file-manager/8ecfa94422697d82ae4d4a3809ec33f5415fe339.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/space-cleaner-file-manager/dda34e08df041c30e74ad113d88ce18ee3f46232.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/space-cleaner-file-manager/b4c9c0c330b9647515a1b4bce972b4ac7a7f31a4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/space-cleaner-file-manager/ae5bfd442abcc9d501e174d2147b696b410b6085.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/space-cleaner-file-manager/3ce93eb093301697b120916fa6df5780cb4eca35.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/space-cleaner-file-manager/b66423ad34c5f63dd287bbd68138b00de1c16476.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/space-cleaner-file-manager/eeb427a7b0fc2dd19c25cb318cde875661047d18.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/space-cleaner-file-manager/80f268c676c641f50c1850290248d7d9b9385498.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/space-cleaner-file-manager/b9a1366f2d3dca1024fff232f6a28d87a17bee73.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/space-cleaner-file-manager/7317d4aec35d4ac622c3650e8e2ab996ce1bc4f4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/space-cleaner-file-manager/c0b14eb81ffcf3d4d8fdccfbb060aa2c73fc7d02.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/space-cleaner-file-manager/e227be2e78a13af5802b9a835e57d397982104c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/space-cleaner-file-manager/227c9661883b3fe1f158fac0b6cdd960b35a90b6.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 24",
+            "src": "apps/space-cleaner-file-manager/65b0c8208e73c6ee754aeaa7cc027c2ab2eb8785.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/space-cleaner-file-manager/b814714ce7c18eeb22961af382ed315b1d1c9ced.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/space-cleaner-file-manager/68df98c7a6a69383b13b10b314f00d403b40b310.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 27",
+            "src": "apps/space-cleaner-file-manager/810572d4b3e3e767443716e02da5bd05304d806b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/space-cleaner-file-manager/08b0650b8db11645fa97bc1d2f91e4c11dda4559.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/space-cleaner-file-manager/8753b38de8c1d279aaf79e1ae03d2e5c353b5c5e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/space-cleaner-file-manager/3bb92bb8150b26a78d0df4095303d407291cee4c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/space-cleaner-file-manager/9e051d2a6648ca816e72c0d94cc59905a177b90e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/space-cleaner-file-manager/408780d5a2657b7aa1576f7b30df5ce1d399520b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/space-cleaner-file-manager/4cfc5e3273ce67e5f9d55285f468c34c8d2bd903.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/space-cleaner-file-manager/1756714692e0a59e0e92f482d829c0309d184eed.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/space-cleaner-file-manager/028b8ee873834a396e9c94afe3293f378ae48058.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/space-cleaner-file-manager/f0f05f0cfe3747f597db50a1b03e24e99e992d07.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/space-cleaner-file-manager/bf3a671c2d5b07dcec783611aa50496409471725.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/space-cleaner-file-manager/0e7555ea4631c1d29c18560a61b118c16e258e9f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/space-cleaner-file-manager/1a351ab227b3b4791e677705eb9a66891e4548c9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/space-cleaner-file-manager/2d08384a37e788229b598335f2e70a90d137b8aa.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "whispy-ai-create-your-story",
     "name": "Whispy AI: Create Your Story",
