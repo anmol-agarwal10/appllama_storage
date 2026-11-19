@@ -1,5 +1,338 @@
 window.APP_DATA = [
   {
+    "id": "6740055543",
+    "slug": "acadai",
+    "name": "AcadAI",
+    "subtitle": "Notes, Flashcards, Quizzes",
+    "publisher": "",
+    "icon": "apps/acadai/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$70K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.5",
+    "ratings_count": "2.2K",
+    "rank": "#1",
+    "total_screens": 56,
+    "stills_count": 54,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/acadai/81c8c672c1c64a6a292328470f79d4bc5086cd1f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/acadai/bafe8e05737ca04a4bcf9713345745589cfff565.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/acadai/95e3a3a0ab0a27155bb11b2aa54b0072d38cb26b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/acadai/2832e0d0981a5741acfcf255bdd4f430f528adc3.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/acadai/6c913694277b5dc29870dba9c7cad001e992fc8d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/acadai/fccb89ce531531e5be2b786f1455fd2271321db0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/acadai/770597ac93dd2b8facee3befca164d779d11f3d2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/acadai/1be9d9fe5bdab6954b04cc8f853311ba9806e9ee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/acadai/505deb39b4589cbee10375047b9641ba0911a9b1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/acadai/2316d7e3be41980169e8a4519d2371ecf2ef4ac4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/acadai/51abc491d59ed01091fa5fc23b2012a895d814e4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/acadai/95ffa80880581ef6b35db66dfc9cd8145c55d939.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/acadai/2bc8b41f05a4fbb67bc7c502c568bd978a1b117f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/acadai/79a34fac23d9667082bd77005b17a605397fd09e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/acadai/f71f25c26586d7fa615dab0e532e2d44f51e3273.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/acadai/d4a5d7c594c2a21acce98dabde80a5041278c0fd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/acadai/447aa563d1a87838380d4072a074e7feddbe0466.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/acadai/e6581abc673dd662ca301db7c8f0f639215ef85d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/acadai/38d56fa8db7043433e36f8e67487c8ab58ed95bb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/acadai/c0b5f3989b4d2998e6a1a0432d8f4fb771326027.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/acadai/9ea15d582fcd8ab2e9e11768c5cda69dce70f13a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/acadai/dd99db5dbd3953a8897343d1852b9f20774e6f03.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/acadai/694c51efe03b18cd02bb44b098188f9edbc2761a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/acadai/1e366b35d7b09916c9b6a75adfc4936f1f6170b2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/acadai/df5ec2d44e0d6ca934f7096f197a93bf3c69fc19.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/acadai/eca73aa0e685c94e4d82ec7013491092ca0acfe8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/acadai/764d20ea0c6014cd7e948b3bf00c41b57b35eb38.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/acadai/9582ec445edee27b6f6c7e38ce8ef0a196db5f36.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/acadai/d3bed76f9aa3e18ba7efc2f652939fb4ab511eb6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/acadai/46b8a0c91c097791d88ac7e31c5e494f135127c5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/acadai/eb6e7e1d7b505f0142eceb0a43fc490f5b6b4d11.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/acadai/ac2c94d094ed1cadd3eff5f8a872a898f5debddf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/acadai/0244c7a6924d87d4453b3a6019fe975e282784f4.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 34",
+            "src": "apps/acadai/0a5a72485ef75c53e8cedd1eb6f5cf7310736594.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/acadai/a061adce246781f2b24323385a66306fdfaa228f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/acadai/29d8a18db838a01d08447d22108d8995f7e92d35.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 37",
+            "src": "apps/acadai/46ef4212d2be9714c98084d73a563e694994b80c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/acadai/0a42705e3669defe7c8a21e75181ae0b66b8fa4f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/acadai/324ca5bdf7958967a585358389d6d7bc67592e9f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/acadai/f89adb1525e932ae6cc69dddb2570129b57d337c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/acadai/57bf9deff595e407fe097be9bb92d602957e5873.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/acadai/1813e028eedaec5207431a92a109028b55e6e1a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/acadai/93d075a94e4a0e9a5ab6b1ef75fa5b5fbe432524.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/acadai/01f9c86ddbfa30887ecd4e9917afe1c00a9e6450.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/acadai/936e574a89ff5d35788373b891ebe1d82569ff8a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/acadai/c3a58c1852246a277cdb7bf7f23ba54d615baa79.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/acadai/c912cd91946549e2dbecddda657a9ff95a704dfb.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/acadai/04cc85bf0fbdeeb03986df2912cb5d1db1d34863.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/acadai/9c01a79e31ed51f40c0736bed39431c89a28113a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/acadai/14ced69edc3d07ef85c24c71b56359ce6614f74a.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/acadai/b2b3e2625434485e2b7292c0d280158d7d87ad36.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/acadai/18b26435f6fe01dc10d5f9de24b4258efc8bd7e1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/acadai/cbd021d8c688ae11d7ac646936f2ecf638aabc50.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/acadai/b04d347ca2749ce4f552622e2e9ad7169b647c4f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/acadai/b75c452b5eff19085c526a214086b7de7f685998.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/acadai/27da742176f39bd52ad8e8fc5f47cbb32354419d.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "ai-calorie-counter-appediet",
     "name": "AI Calorie Counter - Appediet",
@@ -9688,6 +10021,289 @@ window.APP_DATA = [
           {
             "title": "App Information Sheet",
             "src": "apps/pet-chat-cat-dog-translator/screen_048.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "368494609",
+    "slug": "qr-reader-for-iphone",
+    "name": "QR Reader for iPhone",
+    "subtitle": "QR Code, Barcode & PDF Scanner",
+    "publisher": "",
+    "icon": "apps/qr-reader-for-iphone/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$180K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "1.4M",
+    "rank": "#1",
+    "total_screens": 46,
+    "stills_count": 45,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/qr-reader-for-iphone/0ba967461b08b7115413165ed748c86109214ede.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/qr-reader-for-iphone/eac0bc61f8011324e273544ba46f0cef3703a680.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/qr-reader-for-iphone/47b94f410ea1196d12ff57cdf13b7497088d2612.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/qr-reader-for-iphone/a12830a5d5a1fef687e3826207862c15b0b5e001.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/qr-reader-for-iphone/898b0cdbe924572d415e10f435a303ed1c2156c0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/qr-reader-for-iphone/29da0b7824359f40e78cffbf669c8b9b0463723b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/qr-reader-for-iphone/1368bd5168e6bc349d013ce6bea3f6afe68edfe9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/qr-reader-for-iphone/f2dd57220f83e0f1b4f64ef09d3814ca3086a4fa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/qr-reader-for-iphone/fb3805f0b08b0e097888f21adf18c73fcfceba5c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/qr-reader-for-iphone/4558f42c99cd3040c0369d02fda02b5249e4006e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/qr-reader-for-iphone/025c80500b7224160815240469a56173d50eb102.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/qr-reader-for-iphone/b04460ea7f78ec64e524c621b05455666ae1819b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/qr-reader-for-iphone/b10c5dabf345265a1205569f7c547db7be220da0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/qr-reader-for-iphone/8446e4a0b297361550903a6fae9ef01778b7cf17.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/qr-reader-for-iphone/6e05148f5088f42172257d6d0c825522bf11ca12.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/qr-reader-for-iphone/1b588e6f1917daabe8638c8d86139ecfc42f4713.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/qr-reader-for-iphone/8f6c81213c13c72570e1fda97daaeb0dc79acecc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/qr-reader-for-iphone/772e0ed8585a4cc1593c9f6696fd3f69c42ab76d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/qr-reader-for-iphone/e04939b48a447d38a8714a4b16383c1af2d8a37c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/qr-reader-for-iphone/a5dcacbc0bf4106269cea8d1d6087c3b1a38083a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/qr-reader-for-iphone/f535c0aea8e72b285a461622c22f73c2dd27a7c0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/qr-reader-for-iphone/e61ae1d1368bb446162c9b65e3120fc03b499883.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/qr-reader-for-iphone/f95c685c638a7363a71fd1b7a590c4978c9c561e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/qr-reader-for-iphone/ae4b3e10c3086069d6d6183cc3a988cbd4f724df.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/qr-reader-for-iphone/064802a13b7987c4b91c7bdcfded87d9c927b1e7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/qr-reader-for-iphone/18ef1403317a54e74a13136bb783b2ffa229fd1b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/qr-reader-for-iphone/345bf9f31e3d9d00cde88c661e7bc60e4385fdef.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 28",
+            "src": "apps/qr-reader-for-iphone/95f4578754f0d8c7eb0e07ed9c6c48531c95e6d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/qr-reader-for-iphone/611ce9e94f3fe6a3ab8bc2e961b20dd797a9e170.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/qr-reader-for-iphone/4f73b1ef680bb64ae14f6f63e45475382e9bb34f.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 31",
+            "src": "apps/qr-reader-for-iphone/eda4f6131cea2b94dbb51f8e20472a9258d537c2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/qr-reader-for-iphone/542e194519ab6e0b9d80ed47a9ea34406e55ec0d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/qr-reader-for-iphone/5678b268380e765fd316e58911836528f62fb4a9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/qr-reader-for-iphone/8680d0d31112f2b33c8a36efaebb7eb7d96e13f9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/qr-reader-for-iphone/d8335957a925336baabd41db497d401f944b6520.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/qr-reader-for-iphone/1835a1295880ce950179eecdcc0ea4055dca4ab0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/qr-reader-for-iphone/694c97fee9c2a2b9f5bde7bd6b5131cde7a23f72.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/qr-reader-for-iphone/e8471e4f5771f90bde80dd78aa6b82be5030babf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/qr-reader-for-iphone/dc3259cd00ea2acfa09ee477a93547438bd4ada9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/qr-reader-for-iphone/059ce3e0852215ff3909006330ef43492861522c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/qr-reader-for-iphone/b558db7a1552277738e2f55d5d52eebd34692680.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/qr-reader-for-iphone/ce6db74c11dc0a189f6efe29b663c4724f30792b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/qr-reader-for-iphone/f6a32ec3d56377668f9c90fa2df15e56332f80e1.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/qr-reader-for-iphone/839fabbd4464aa584bbd140e32fb1a1666f6c346.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/qr-reader-for-iphone/db3f0a01961ec2ccd7d2991d2fddd3f22a5ad395.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/qr-reader-for-iphone/2f5c5032129b9ad17cb887c8fc967243f450bfe0.webp",
             "is_video": false
           }
         ]
