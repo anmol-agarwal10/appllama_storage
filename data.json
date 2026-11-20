@@ -4518,6 +4518,229 @@
     ]
   },
   {
+    "id": "6758965666",
+    "slug": "doodraw-animated-drawing",
+    "name": "Doodraw: Animated Drawing",
+    "subtitle": "Wiggle art & doodle GIF maker",
+    "publisher": "",
+    "icon": "apps/doodraw-animated-drawing/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$3.99",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.3",
+    "ratings_count": "163",
+    "rank": "#1",
+    "total_screens": 34,
+    "stills_count": 32,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/doodraw-animated-drawing/1722d5ee42adaac7ad7ab685d9c806abcd060616.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/doodraw-animated-drawing/35985f23a79fb98bcf20d8a1e88c9609c52a2238.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/doodraw-animated-drawing/559c634a9b93a08d1581548a0bd76b9c1969ad5e.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 04",
+            "src": "apps/doodraw-animated-drawing/6e6795dbec3cf32e18930f6e20f2883e74b07a08.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 05",
+            "src": "apps/doodraw-animated-drawing/2f6c2196c1709c029a35a0eb4c2c37a7c7b8a89b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/doodraw-animated-drawing/a48f59a3f35c1a4ef56ef06aeb1ea35c1e97dc61.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/doodraw-animated-drawing/27ef7ef3565bc4e8ea4bb37ff28955dd941d0c9b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/doodraw-animated-drawing/512f77c8eae6e899ae06e9979e8be77f60b63c38.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/doodraw-animated-drawing/f1726d1ffb4ebaeb4f39339ee95a68259aa77649.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/doodraw-animated-drawing/96702501aba6af28f94aaa813e3281a5f4d5af21.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/doodraw-animated-drawing/233b022137b6e3b327544fdac4e556f1122f4eee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/doodraw-animated-drawing/fb3174422ab110fe92e2c2a7abb5ac6b233af40c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/doodraw-animated-drawing/eb9245585ac4df4eb97b011a76d688ff38bef9bc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/doodraw-animated-drawing/4489b29f7a9bf73db786cdb2d16c2dfa5ef3122c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/doodraw-animated-drawing/783b49c2813656e9291cbc15b836ed9e59cbc1e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/doodraw-animated-drawing/d063882b99aa2e58581d71dbf48e4b7cbb60e2de.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/doodraw-animated-drawing/59c6a9bc31e931ee47da15bc060a1836de22f41d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/doodraw-animated-drawing/df3fb82013405df70ffec97e3f113eabd9fa2502.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/doodraw-animated-drawing/ef4bca02aaa3d346c1d630bdfff6860ff8ac20ec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/doodraw-animated-drawing/a62f3fc5c5dd61ed669d98a965fbb2732a237661.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 21",
+            "src": "apps/doodraw-animated-drawing/bd67e74f8cbe757e9a0e20599623f8a2f8c46b4e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/doodraw-animated-drawing/e3907e6fef814d04a66a6497dde759a2b77f9944.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 23",
+            "src": "apps/doodraw-animated-drawing/b71967164c60cdb04af043e06a48aee44fbdbbc0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/doodraw-animated-drawing/ef652f02cf61d19837be378f29f1f5687b8d407b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/doodraw-animated-drawing/5b923f8088e5c95c8f28e2f390a766e5ef9b3990.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/doodraw-animated-drawing/64bc41fb3fd2f094628cbcec6b0dca6b34155a09.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/doodraw-animated-drawing/026dc642a104a00d6b5b78145b07bbd36aa9beb9.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/doodraw-animated-drawing/4e0df65f5d74411db584795c019866c967288406.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/doodraw-animated-drawing/2220e31f156e5651521a749d9508b180f07840ad.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/doodraw-animated-drawing/f97377bfa7606aa98fe10cc742e9186550d48447.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/doodraw-animated-drawing/69f3e7aef159d690553fc9d36cec1d560e9b6966.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/doodraw-animated-drawing/a607a55cbac7a582c3b76a0014e6009b5f666287.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/doodraw-animated-drawing/c43a9a827ff31880a130ee69d4bcd80110b7eac1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/doodraw-animated-drawing/ee06950c49a17112d2d50aacbe04399c22f2f2bf.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "feenko-cancel-subscriptions",
     "name": "Feenko: Cancel Subscriptions",
@@ -10304,6 +10527,349 @@
           {
             "title": "Screen 46",
             "src": "apps/qr-reader-for-iphone/2f5c5032129b9ad17cb887c8fc967243f450bfe0.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1665024375",
+    "slug": "runway-ai-image-video",
+    "name": "Runway: AI Image & Video",
+    "subtitle": "Generator & Maker for Creators",
+    "publisher": "",
+    "icon": "apps/runway-ai-image-video/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$6.5M",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.5",
+    "ratings_count": "20.7K",
+    "rank": "#1",
+    "total_screens": 58,
+    "stills_count": 56,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/runway-ai-image-video/2960c9aff841ba73e51ecbf909795fbcbbd7a03b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/runway-ai-image-video/5da9da33f6a79b7809da320ee8762b5c1340e184.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/runway-ai-image-video/5a46b5892306c229c10b75cbeec233d9cf0e3b3e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/runway-ai-image-video/7b98794a5d5d5f598364bf5a2ddc1b93ab7bc2cf.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/runway-ai-image-video/86180e16538b761c0e29fd9eee89c54221d060ea.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/runway-ai-image-video/15d9c04bc1fd1f929940e73836fdc7bf92ff7a57.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/runway-ai-image-video/9aa4cb1e0c376e1689a661dd79eb3ee2d8e79d52.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/runway-ai-image-video/efaab44155939a7d2ad6998b3c93a227f2101f2a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/runway-ai-image-video/c3572cf8ceac5228ecd211895b6193c522445302.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/runway-ai-image-video/dc96f77c712c0a738463ee633c2ef4dc5b65fac8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/runway-ai-image-video/dd07183f21da40a1ec32bdc04a252f34f4e9fc2e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/runway-ai-image-video/a7a1d2ef91fae17ca1e1a3e74808e90a0854bde5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/runway-ai-image-video/00bdce769defaad861ccb34e3d5512de3e8d8de1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/runway-ai-image-video/b790935118e176e9b7c2d08a9d1c871f1fbefc39.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/runway-ai-image-video/07da2fe26d7f556e645b7d8ea2024e893f4353f0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/runway-ai-image-video/36bc658de010eef73b593f7b511bd45c523f708a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/runway-ai-image-video/a7423d977db92f25cb4e99f9514f55af63e2a9b3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/runway-ai-image-video/259e0af77596f1c204752d6be7d484490386aef3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/runway-ai-image-video/378fcdd1006d3f7286317ee4c7e45801afa9d599.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/runway-ai-image-video/3b1ae1ffed8b78038a33ef90e0f5e11e3b469585.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/runway-ai-image-video/84d53e25ad91d24060daaaa1d131a812dadc70da.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/runway-ai-image-video/30ee17f7688b6d34bb5d8ca2ee6a100b24920925.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/runway-ai-image-video/6c42567d83468af39a1be2193a68e456616bc0cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/runway-ai-image-video/5731b4ffe942ed9529373954c62bbad576dba76f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/runway-ai-image-video/ac20c60b58b328ae5b7b49353ddacfcde2eed67c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/runway-ai-image-video/51d956aaeef39c7e3672d7fe56977fa8336b1e34.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/runway-ai-image-video/5fc1f622b0213a8b8554d0140e15eeafbb305dd8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/runway-ai-image-video/dc93cdf0150fa50f8b19ec0aa319c262e6a9ab1d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/runway-ai-image-video/31c7b7ac7fd61d37488a23ad5d80fb3e8d9ece68.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/runway-ai-image-video/a38cbb12406288040c380c2e23dc1ae2f87f7748.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/runway-ai-image-video/40e604fde88a13022d6c5771011988417e42f3e0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/runway-ai-image-video/62c764a49ca5a04d4666d6703d3c7f6cd422c87e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/runway-ai-image-video/b85b7697dbba50ba794ef11372301c05640cd210.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/runway-ai-image-video/b45f153d402eb312c21fc858fb53d7919ef2eafa.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 35",
+            "src": "apps/runway-ai-image-video/3b0d9d7c8746eb99c03410a80f1713448e7a3776.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/runway-ai-image-video/2faacf701f62b6f294a15cc42ffd2e1066e3c5ec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/runway-ai-image-video/38707ce2c02c7bf10ff7773abcf38d0f047897d9.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 38",
+            "src": "apps/runway-ai-image-video/bcf6bf31479a8d89098c68e5eebf9777d2eb7932.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/runway-ai-image-video/82cf79ba88de9798e3b27b8447fa638eb8ed637f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/runway-ai-image-video/b63e636d41073284c315378169a2805eae04e4e0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/runway-ai-image-video/a2f5f86c73922bb3d54bc4030c667ca0da422e8c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/runway-ai-image-video/8d721a591b0dc6bc287c414c539f5356fb4f3e6b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/runway-ai-image-video/a9ce778de65431adda084b36ac1da401b7db4145.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/runway-ai-image-video/7f11fc223952e36d1fd0b772292d5d6540385356.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/runway-ai-image-video/699edae655b5db589d7a48bcaf500d9980031bda.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/runway-ai-image-video/069059d4dfad3cc462562f676dd462b6c3b66b0e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/runway-ai-image-video/88ad6416051aca8604af9b2a6369934c673d2529.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/runway-ai-image-video/02a549f293763a6a6c143ce3d13bba65f861d8ca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/runway-ai-image-video/a29e73dbae2ae954aecb4be7901c2a1642c0e89f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/runway-ai-image-video/76170d4764598e66728625aae855e7b8b9bee7f2.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/runway-ai-image-video/4d57a1277d5708e1ad0a9c6bc953654d2610731c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/runway-ai-image-video/d8410112b08f174be311cf088e5b97bba9e4fefb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/runway-ai-image-video/0dfc05b105db34d9f913500127d582bf104ae2e5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/runway-ai-image-video/d5f6b7acab649654120391e37ab9b12322e065e7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/runway-ai-image-video/552d58fdaebc7ef9744b30aa6aea44489576182a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/runway-ai-image-video/5a1cf55ad90474671ab9b065f6798a848a7dd3bd.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/runway-ai-image-video/96c47a91d7fe4b40ff0a5786e4098a99230eccf7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/runway-ai-image-video/062033d20074725b69e0733d4b198e388dfe2fba.webp",
             "is_video": false
           }
         ]
