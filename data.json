@@ -11538,6 +11538,494 @@
     ]
   },
   {
+    "id": "6752488142",
+    "slug": "tai-chi-walking-gentlefit",
+    "name": "Tai Chi Walking : GentleFit",
+    "subtitle": "Qigong & Tai Chi For Beginners",
+    "publisher": "",
+    "icon": "apps/tai-chi-walking-gentlefit/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$12K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "2.5K",
+    "rank": "#1",
+    "total_screens": 87,
+    "stills_count": 85,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/tai-chi-walking-gentlefit/d7a06348705aaf975c7418c98322316c54e15128.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/tai-chi-walking-gentlefit/19c92a5704f52c155fb045a9246f12dad24a749d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/tai-chi-walking-gentlefit/d2b70970f597d8b125187227269591ce96a8f4fe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/tai-chi-walking-gentlefit/a895fd5d02735c8fa375729723102cab8470c1dc.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/tai-chi-walking-gentlefit/84fd8205040fb17e60ff48103e61b0e178615189.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/tai-chi-walking-gentlefit/00c1366490c4f2ad56e9c2619ea179f0ce65dd5a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/tai-chi-walking-gentlefit/d819c377b68a47f050c38a86dfc4e313d3990d3f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/tai-chi-walking-gentlefit/5f085a4905a0d1e30708b3686a5637d755eeaaf1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/tai-chi-walking-gentlefit/8948329b06aab43e4281895f2c7cf6a39038b487.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/tai-chi-walking-gentlefit/b563cf7fd86c687a95f9045a6ff568097a63e866.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/tai-chi-walking-gentlefit/6599300ecf109aaba74fd3ab9fc393699c8aec0b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/tai-chi-walking-gentlefit/9db3f7fea1a3b8f53d610874743c5470874aefce.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/tai-chi-walking-gentlefit/5ae771872a8060788d6d7ccf91b22db976434c99.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/tai-chi-walking-gentlefit/0eb11c314452de753c17f16f07638e966dadc30a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/tai-chi-walking-gentlefit/22fbc0ed8ad0a9528456a013f47154e83e336096.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/tai-chi-walking-gentlefit/3892eb5be54bea036d63323c00fa1b72b350c842.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/tai-chi-walking-gentlefit/a7dcf1d800a882aeebfb0b1a7d7ebd15f3dd0067.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/tai-chi-walking-gentlefit/5911f4dd8d343e9e429498308cf82f72b2d8d0f8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/tai-chi-walking-gentlefit/2478ed59da9950ea53dc0be16c8e0c03120a247a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/tai-chi-walking-gentlefit/5780b40b9eeabbe2588c376f964bbd303cfc596d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/tai-chi-walking-gentlefit/dd1bc867cd78aec0e0055ab06b204c2dfbd55b47.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/tai-chi-walking-gentlefit/dc79c08cab9834054b4cda277b4a8ef4e0ce8d73.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/tai-chi-walking-gentlefit/a339c8a7826f3a3d238759fea8861b704f56bb94.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/tai-chi-walking-gentlefit/1a4af24be3b703f404097c42f4c8bea2f014f9cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/tai-chi-walking-gentlefit/c0acbc8bd09585ea1cabdac803b0c4e0bcb778d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/tai-chi-walking-gentlefit/fb9bc7794e413188304182b2c84932b6b9a17394.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/tai-chi-walking-gentlefit/9e3416691f4154f8b7d0e60456c8fcb4c5248b1c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/tai-chi-walking-gentlefit/3d6825543003bbb3a44baf401e39ed9468be3086.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/tai-chi-walking-gentlefit/154d86e81551602b5c2bb8258e5e79559a00f9d7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/tai-chi-walking-gentlefit/cb89c022ba91a6e350e000b201bf8588f108aaf7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/tai-chi-walking-gentlefit/0d079212dfc2177083bec671124cbe00900f227c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/tai-chi-walking-gentlefit/26e8c5ae4a6f00d4105931c3abcd38b8de39c493.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/tai-chi-walking-gentlefit/32f62bc8571285aa89785d4ed049057066ba7030.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/tai-chi-walking-gentlefit/cbfc7c6aa538cb30013bcdc52364dd88d96fd6cb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/tai-chi-walking-gentlefit/e8cbcff72b1e0895c27067b2e59c16b404344f1e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/tai-chi-walking-gentlefit/19e1e1036a4e36b0cfdac204c764cd1dc3d05a65.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/tai-chi-walking-gentlefit/0e2cd1f10819e8ec7c78085d0134e7e14abc3059.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/tai-chi-walking-gentlefit/ca2561759923589063e6ed872cc1561d7155ab20.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/tai-chi-walking-gentlefit/7dbf1b6215a81bd15a5e713c9a610e64468a6a22.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/tai-chi-walking-gentlefit/b81c84dd1b895e395459c8be141ea7634f63c5b1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/tai-chi-walking-gentlefit/d047d23a8aa44b5a61de1c7e3b3c33492c490d2e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/tai-chi-walking-gentlefit/aedb92998e45ced1d20cc0ac53bf2bb5fd6c24d7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/tai-chi-walking-gentlefit/ec870c70a48e9b529e2ea80a288d4cb7d3d0faa4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/tai-chi-walking-gentlefit/f5a06658dd69241906bcab782e75d40d09237aaf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/tai-chi-walking-gentlefit/6d85e602cb143c751332c5c24475a963b6d8df0a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/tai-chi-walking-gentlefit/32fe58b20acea0be28909e434e06770d67c8377c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/tai-chi-walking-gentlefit/9872210820892eb464cbaca263523ff5ce12d60c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/tai-chi-walking-gentlefit/b3dfb3798a8ad4563c2b61eea32baecf587398d2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/tai-chi-walking-gentlefit/9d630e70240286635c81a0746d061ace5165d8b0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/tai-chi-walking-gentlefit/d154d9d48b61dbe582855729feb5a845a94e4fba.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/tai-chi-walking-gentlefit/55c8b473f707d23fe785bd81b5637fc214125366.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/tai-chi-walking-gentlefit/66e5983741d8b10e2bf1470ff73bce4a3a1713cf.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 53",
+            "src": "apps/tai-chi-walking-gentlefit/7072e222abdf07a13249d229273974707f89a6f6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/tai-chi-walking-gentlefit/0d77c5e0915018e4e815e84b5ca3d12cda59afe5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/tai-chi-walking-gentlefit/28ebd991acc6275c761bd3acd2db1a1acf9c7258.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 56",
+            "src": "apps/tai-chi-walking-gentlefit/579df69cc1ffc576d613cf9cc26e42caafa91af0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/tai-chi-walking-gentlefit/c83c639a5e1290b540911d2de2151013cdd29f88.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/tai-chi-walking-gentlefit/e21bbc25e79ec204cf6d3415b261fb53c47b4655.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/tai-chi-walking-gentlefit/ce29015cf6d4d38f2c4d1bc212948b8030b4cb38.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/tai-chi-walking-gentlefit/6708c83d00fbde0286500ef993df340134367b43.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/tai-chi-walking-gentlefit/efb4d5abdb59126e5f35dc79998450fcc9305aab.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/tai-chi-walking-gentlefit/941b79a61b6936ad457f1eb0f50d16dc39a7c6b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/tai-chi-walking-gentlefit/fc7b4647c6fb0a554f6de7602481c758be417db6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/tai-chi-walking-gentlefit/9fbbe47b5ba238ee8e73ae69cebe74d5b3232dad.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/tai-chi-walking-gentlefit/aaf3d09c7da0983788477d108da0a2012718768e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/tai-chi-walking-gentlefit/c300bd14695f0e7c428679587e2a60c1fc952fe5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/tai-chi-walking-gentlefit/4033d269c17616af1b258859b083579668cf385b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/tai-chi-walking-gentlefit/9b0fff778c1c94cd36e393b6ab254f9cc2ec73fc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/tai-chi-walking-gentlefit/d3f054ec0de6b7d3d7b9d62920f1bdc28811d76a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/tai-chi-walking-gentlefit/c4a32defab5d70b29c92b6681b7b5930ec9237d0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/tai-chi-walking-gentlefit/496c176df9d7a866a5862eff3abd9e31e53121b2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 72",
+            "src": "apps/tai-chi-walking-gentlefit/03016b72d839a4e8bcea1f4f9b8328bc294d4cff.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 73",
+            "src": "apps/tai-chi-walking-gentlefit/d617e25674afd9d9a013e311414b2d1ab919608b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 74",
+            "src": "apps/tai-chi-walking-gentlefit/7adb2c8d1df4c5a789889e46793277200130b4eb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 75",
+            "src": "apps/tai-chi-walking-gentlefit/24b6a74f1f359380e7723754bdd8b75ae38987df.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 76",
+            "src": "apps/tai-chi-walking-gentlefit/27b12252f3e5bc46d6e13148b7bf5e8b6ad172cb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 77",
+            "src": "apps/tai-chi-walking-gentlefit/b6525bb7467647520d557742e8d0162bf39bec42.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 78",
+            "src": "apps/tai-chi-walking-gentlefit/1547567de31ac9d224c0fafb8a5e701e5d4efd1c.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 79",
+            "src": "apps/tai-chi-walking-gentlefit/12aaff8f24a74e202d1a8f6b1986278abbfdea03.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 80",
+            "src": "apps/tai-chi-walking-gentlefit/28da3c1ff8ea7a849469d3ed6807d79860446c47.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 81",
+            "src": "apps/tai-chi-walking-gentlefit/f00d648a8533a49a5e2e9b08e828dc221c7e7d3c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 82",
+            "src": "apps/tai-chi-walking-gentlefit/51fc2622dc6286b4251ffddaebfe69c699574697.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 83",
+            "src": "apps/tai-chi-walking-gentlefit/479987a500ae6f5158e07fa7abf2a332c33c6488.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 84",
+            "src": "apps/tai-chi-walking-gentlefit/695a13e75b83f5ca2753bab3ccc0c90e1c37fac3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 85",
+            "src": "apps/tai-chi-walking-gentlefit/d5343fba78044cae9dc26d6ace640f2e23421d24.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 86",
+            "src": "apps/tai-chi-walking-gentlefit/fc780d359e3637d18ef1c7be0311890928217be8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 87",
+            "src": "apps/tai-chi-walking-gentlefit/33b3f62b7001836a1f3aaa3f6bca28e2df2772c3.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "whispy-ai-create-your-story",
     "name": "Whispy AI: Create Your Story",
