@@ -7644,6 +7644,842 @@ window.APP_DATA = [
     ]
   },
   {
+    "id": "1669952628",
+    "slug": "mymood-ai-ai-photo-generator",
+    "name": "MyMood AI: AI Photo Generator",
+    "subtitle": "Avatar Maker with Face Swap",
+    "publisher": "",
+    "icon": "apps/mymood-ai-ai-photo-generator/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$12K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.5",
+    "ratings_count": "7.3K",
+    "rank": "#1",
+    "total_screens": 64,
+    "stills_count": 62,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/mymood-ai-ai-photo-generator/3bdb734fe8d61ece24fc76d1c00a1484bd77fd21.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/mymood-ai-ai-photo-generator/f8ebd705a75cb1d6fb64370410997454435f6ae1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/mymood-ai-ai-photo-generator/809a875ed29e92d9cef0b74014a4be139a2583bc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/mymood-ai-ai-photo-generator/130e594e1addd7a90086631ed0fa27daffe2f129.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/mymood-ai-ai-photo-generator/837e6534f2979b7268a8671fe733d87e2a14ae00.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/mymood-ai-ai-photo-generator/53de7adb0d69a091673a91d5c28f77402c3e3bf8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/mymood-ai-ai-photo-generator/470c27320993a3853ba3bb44773ba744e2a3d103.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/mymood-ai-ai-photo-generator/771fdcdbb5cabbd9edf026b9281264e71380e1e4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/mymood-ai-ai-photo-generator/a9afbb7517812e43f2c9f0b726e9463e1303f8bd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/mymood-ai-ai-photo-generator/462cd02d2c3234ab79375544703202e7b856f645.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/mymood-ai-ai-photo-generator/ab7459bd5339926df8db0c6f7ba48b9f48207b51.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/mymood-ai-ai-photo-generator/6313c7dc3d65b75d3011bc4b57456f991f316a36.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/mymood-ai-ai-photo-generator/34ad599dc10e85a07b8b65dfb1cb1e427d371142.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/mymood-ai-ai-photo-generator/582922fcd8bbb84e599a290b6915e4cf04de3b70.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/mymood-ai-ai-photo-generator/43ff344d9fc877ca4abb65fc8a57ed8da43c6013.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/mymood-ai-ai-photo-generator/1daff25bef8f0969131cac8ddc150a597ab338b1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/mymood-ai-ai-photo-generator/ccf140b0b1677ee44b4b3c3f3a5fd9a4ac223b88.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/mymood-ai-ai-photo-generator/a9aa8f137cb5f5df2543a3430d95d61124303a7d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/mymood-ai-ai-photo-generator/c3e2e2584a85aafac6b1d44df63192595be3e432.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/mymood-ai-ai-photo-generator/d177c350e51d1912c656562b9d1f00ba5120fa4c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/mymood-ai-ai-photo-generator/6db4873a189d82e86168cafbe3d6f66e162157ef.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/mymood-ai-ai-photo-generator/fbf467de0a21263694a542d33ebf5eb12c560926.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/mymood-ai-ai-photo-generator/c15bceba99a012bfc7df72e7f9f604739f52d15c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/mymood-ai-ai-photo-generator/eb84a016fce108af3ce805db2ceec60baa8a452f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/mymood-ai-ai-photo-generator/200b6e884d7496b9e7131b41d2a522b25ed11d0b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/mymood-ai-ai-photo-generator/aeb81e6d1e60c3d215d625c266f3e671f84a37ee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/mymood-ai-ai-photo-generator/e33af27d198d25b3b284d957a8ad82a7d740e752.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/mymood-ai-ai-photo-generator/96676b29dfd8308313cebe8fdc297b3302ffedf6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/mymood-ai-ai-photo-generator/06095c1bfd4d425a845a28b35bfeddc3a0156172.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/mymood-ai-ai-photo-generator/e2dbec4a26a2fe31aa328d721cf3ee341c8b1f45.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/mymood-ai-ai-photo-generator/fbb3fce780819527791c77ddd15f6e721da6d17d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/mymood-ai-ai-photo-generator/bf819f735523aa71de36bfe3607d8c60bc90c959.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/mymood-ai-ai-photo-generator/9f22c296246a858f63ee8b07d51743bdb54bc118.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/mymood-ai-ai-photo-generator/335e37e32eefa399ae6e0e1341411d79170825d5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/mymood-ai-ai-photo-generator/6a969c4ad62f73492583fcf60b6023ef71ff124d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/mymood-ai-ai-photo-generator/8fe7ebf58699158297fdd66164adc5441dc89517.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/mymood-ai-ai-photo-generator/5446b9431786afbce55e0d09a6943fb67e0299c5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/mymood-ai-ai-photo-generator/6e38a246be002720cf99334447b689b2b0e37e4a.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 39",
+            "src": "apps/mymood-ai-ai-photo-generator/d24da3b32ae14ea17cbd739f4b1290968ee255fb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/mymood-ai-ai-photo-generator/f035e7dc96a0158646539c5bf3d143919d7008e4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/mymood-ai-ai-photo-generator/d19b40c8e989e055eef750b3604c014c9017da7b.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 42",
+            "src": "apps/mymood-ai-ai-photo-generator/13c05cf85948aeb6fab69e1bdf29f8c514223051.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/mymood-ai-ai-photo-generator/154bcae494f5da621f33438fde34aac1776e7579.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/mymood-ai-ai-photo-generator/7bf4043132afffd8929cedf9769945947f8a7c80.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/mymood-ai-ai-photo-generator/f3eb57c6d602c246026811424b46f67799c09b30.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/mymood-ai-ai-photo-generator/7184601db3b9ffddf7b2efd9cdc2d71b20ce14d2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/mymood-ai-ai-photo-generator/5ba2d9511a0ae714858941c59f032d3f05b139c1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/mymood-ai-ai-photo-generator/014b5961a787d45e9dbecdbf5edd310830561c59.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/mymood-ai-ai-photo-generator/3cd79a324d7eb2361078a003df98afc33a1b6afa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/mymood-ai-ai-photo-generator/6a4fb885fb8bfa85964cd664431ce683bbb441b4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/mymood-ai-ai-photo-generator/384c3357330b81e399d2209fad0a2ca96a3e5898.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/mymood-ai-ai-photo-generator/e687aefdc4262ab92650306408fd65a35dacd561.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/mymood-ai-ai-photo-generator/0056852f2e8ff691a58b93048261bf4867579e70.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/mymood-ai-ai-photo-generator/4179cc75d14877cd4754b3c3f4265768d3604620.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/mymood-ai-ai-photo-generator/01ed0b6536a8d570fcd5b8a1e715367bd02547c6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/mymood-ai-ai-photo-generator/c8b9ff1acafcbbc4eb576951ba109a2e4a18477b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/mymood-ai-ai-photo-generator/f8acbd3c0398c5c0ddbf4661007f09bdf4aecfce.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/mymood-ai-ai-photo-generator/7072b9f3f3521f50c7af27645e23140f68856eaa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/mymood-ai-ai-photo-generator/a99672487f394a9e7909d4e1e2637748f2344076.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/mymood-ai-ai-photo-generator/68a1316dbeb10f715aa67b13f4a201b60b1b022a.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/mymood-ai-ai-photo-generator/6ad345946f48badf2be37b33dddd9daec935c35b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/mymood-ai-ai-photo-generator/405c99bab3d3abb29d2623e8e9713092c5bd40bf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/mymood-ai-ai-photo-generator/39448cba635137666b2a40f593c1d9c653f3b85a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/mymood-ai-ai-photo-generator/544edb202e73d46f10a8acdc12dd995290c00fd2.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6783742855",
+    "slug": "neateat-meal-planner",
+    "name": "NeatEat - Meal Planner",
+    "subtitle": "Recipes and Grocery Planner",
+    "publisher": "",
+    "icon": "apps/neateat-meal-planner/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$70K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "1.5K",
+    "rank": "#1",
+    "total_screens": 82,
+    "stills_count": 80,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/neateat-meal-planner/587be6e20b2aad2d5adec92a8bae3fc3b531c377.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/neateat-meal-planner/5c712ba444ef03326c3109702098f923ce4a5cca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/neateat-meal-planner/2e8724fb910a3119aec0d7fd3b3b0fbfae87b7ae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/neateat-meal-planner/407af2082c7c4b773f13d632b367e6c2c297b54a.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/neateat-meal-planner/75315dca3206f04adf375d41ab6ea2eae7deb7e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/neateat-meal-planner/adc2948f6d6a2928e55499fe56157d97e28d5690.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/neateat-meal-planner/1ec3efb01881dab8b4a5eb55c373933a7fc10bca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/neateat-meal-planner/4e202a571ac2ee82aceb58012da66c8d46e21ebe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/neateat-meal-planner/08628bbe1fcd42afd2f47f3eb914369f13c50aaf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/neateat-meal-planner/46ca059a33c1edcb524ecfccc80e79d1f23f046e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/neateat-meal-planner/83f1fb699bc94203d4e0452035ebf8f698333a43.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/neateat-meal-planner/bdf45fc43bc8ff7e9c71dc2619105d8d4a82200a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/neateat-meal-planner/9a12aec7bc4f2efb51a2b9db102d5954fe16aaae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/neateat-meal-planner/46e2a2db3c420c3bafd1039b5ebfcd6957989146.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/neateat-meal-planner/974038145ae353178c017a0c023b178fea3a1217.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/neateat-meal-planner/d002b2bb0492631cb4eb9e604c86426496f6f4a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/neateat-meal-planner/69db6d15398b900e4e9d2f56748a4de318b733bd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/neateat-meal-planner/946dd2290d44d9beaf17e21f27413dbf5de33e28.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/neateat-meal-planner/0e0b24fd3d8595e5141aded1fe13bcaddbb2f75c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/neateat-meal-planner/95bb9b19d71e24924d5f37d7c20539da33507689.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/neateat-meal-planner/077217fed8771ac4152ff9019a1f97d9124540dc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/neateat-meal-planner/16828cb2e22fed0ef3cc4811ced9a6f4e89c697b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/neateat-meal-planner/f1ecd4d934f700a2ee78c2e5237fce67b5c112e5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/neateat-meal-planner/0ebba3db8d80aa55129b90fa13af1f16cd061202.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/neateat-meal-planner/f83bbe5ff5b5ada1f5d413151c036045974fcfa1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/neateat-meal-planner/395c1d3dd3c488f354879cfdd4d9eb0abcdef75f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/neateat-meal-planner/b7b542fabf5c220b70b2bebe1ed18d7857cb40ab.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/neateat-meal-planner/38a00c618c0296c4ab81f481806305e28487b7c6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/neateat-meal-planner/b6b797538ad5d2ad004ffced93a12428dbcd801d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/neateat-meal-planner/2e7cbdc41b69f140af5ce0e58ed0ce28b7c09441.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/neateat-meal-planner/2cdbb740f569f2f0af15a95f896c000554ea4deb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/neateat-meal-planner/757e4467588790ac699ab416d285820f05d8e36f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/neateat-meal-planner/3d33713b3244bc279c04bd7dc12a6a0c27f33ec8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/neateat-meal-planner/41f1d5452f644bebbc99ff8e46abaca6cd4af9a1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/neateat-meal-planner/4ce7638ffdc28506a21eaf4bf1bdfce76aaefbb7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/neateat-meal-planner/1856eee731fdaaaf26f5512efaeaeea850465dff.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/neateat-meal-planner/97507564d26d2660c17f466311b2ce0a1471fbbe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/neateat-meal-planner/93c151c5a753f6b40e5872c171e0adf301275987.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/neateat-meal-planner/d445c2e02a86a91d1792184441a37e8578f82543.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/neateat-meal-planner/560b8d227062aabeff78a9803b9f98f228cd338d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/neateat-meal-planner/ebb1565aff95d27ca9456308d19dcf89c09a1eb5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/neateat-meal-planner/5a095e9d2094080a3c5b16389931da249085ac32.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/neateat-meal-planner/94e7704d2d68b6afe8b1edaefa922bb4e8db41ed.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/neateat-meal-planner/5efd9c24f582930d3164eebed4c9046756468122.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/neateat-meal-planner/050b6b0addc842fbe99542fb94e6d4126848d1ba.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/neateat-meal-planner/8a527be8ef8b9fc43292e0bd5d232e2dd7d511a4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/neateat-meal-planner/33c278908622aef69376cc6281fac2c8dcb068ef.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/neateat-meal-planner/f63a68e0ad1c04816a6a009582b35dcaed4a0959.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/neateat-meal-planner/bf7703b952ecda9073a2b68f8c33014500eae2d8.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 50",
+            "src": "apps/neateat-meal-planner/ee62304f99f00f2d7784c42db05316d958a2e7be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/neateat-meal-planner/157475e8ee7b4d594d1d5c54b8a7651c8ce3e262.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/neateat-meal-planner/3738300af1a5f44c841341102bc30f6b9c3b0666.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 53",
+            "src": "apps/neateat-meal-planner/7744e66a24ce1b498b3092caa9ddd5904037e35f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/neateat-meal-planner/f5252e7e113e0864157330edd47692f4b63c6817.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/neateat-meal-planner/55b9040816afce023ed1c74cad880b66bd93482b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/neateat-meal-planner/07b6bc758ffa81156d3ae502ba5836dbe373cd17.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/neateat-meal-planner/9100990ae07e0bb917889120bdfb217f0267574f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/neateat-meal-planner/ed29ebe9d9a12d8aaf36504bdfb2128c4ddf2637.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/neateat-meal-planner/ac1e40f1cba5378ff51cb67ba4da0edb1ecbdc47.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/neateat-meal-planner/b6c3db151003584deb803306f23f31159cff02a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/neateat-meal-planner/56b774e9a529e0c97e80078fd151d2c57c16eb51.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/neateat-meal-planner/db5a3e0afa9337007356b32f9b3eab8c12055559.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/neateat-meal-planner/bc98c48433bd3c87b9ccfd2c7ee70f4e79f51751.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/neateat-meal-planner/7eb9ede7c02bf874c42e59f2b7d5f417f45ff9c4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/neateat-meal-planner/721cc232f3ecbd7aa779105c88fd1303d1049a65.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/neateat-meal-planner/a09f7efe0221584589cf70fb2445668d1ed3474c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/neateat-meal-planner/c4d089b220ae944303e9f16765ebaf8dd60c4ef6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/neateat-meal-planner/a509e245ef96db047c1dbd50c2e44a4726ec8878.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/neateat-meal-planner/cddddcf3761e275ea8f857edf4523091cca981ac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/neateat-meal-planner/874a1ce1404eee58b002a5155b93f3a2f2eaf9eb.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/neateat-meal-planner/382b40222427e916f272c81b9ab60f286a555d2a.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 72",
+            "src": "apps/neateat-meal-planner/84f7d2a31406cb98decad6e24e35575ca4624840.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 73",
+            "src": "apps/neateat-meal-planner/df2a3a957fe5f374de4eaa12a92383aaffa955f3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 74",
+            "src": "apps/neateat-meal-planner/949bb0d6b029d17da6a4d4d14741e264b9b5115e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 75",
+            "src": "apps/neateat-meal-planner/7adc0ae524f0a64ff91df46d65c5f7540449ae16.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 76",
+            "src": "apps/neateat-meal-planner/a4606ace3d5b1788739c6e16cc20b9c012c22d23.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 77",
+            "src": "apps/neateat-meal-planner/ca78212d07b7458d86623f7aa62a387c06ab62c0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 78",
+            "src": "apps/neateat-meal-planner/3165407dd469217f59906b558867ae3c7a71a732.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 79",
+            "src": "apps/neateat-meal-planner/2ac50270adbc13aa7f07c40a615e0343194fcf31.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 80",
+            "src": "apps/neateat-meal-planner/9dd45c4e98bc667622655e68937618ce25d950b6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 81",
+            "src": "apps/neateat-meal-planner/c65b7ccd9d1e4dee8508114017dc278445fd9561.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 82",
+            "src": "apps/neateat-meal-planner/888dee0353268e3906b1d69ef978fded38e235b4.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "none-to-run-beginner-5k-10k",
     "name": "None to Run: Beginner, 5K, 10K",
