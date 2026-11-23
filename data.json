@@ -7257,6 +7257,374 @@
     ]
   },
   {
+    "id": "1661969777",
+    "slug": "friday-ai-email-writer",
+    "name": "Friday AI Email Writer",
+    "subtitle": "PRO Letter, Mail & Text Writer",
+    "publisher": "",
+    "icon": "apps/friday-ai-email-writer/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$120K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.8",
+    "ratings_count": "9.8K",
+    "rank": "#1",
+    "total_screens": 63,
+    "stills_count": 62,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/friday-ai-email-writer/6c0752832781a92742ac226c6799e70f5df99fef.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/friday-ai-email-writer/2e99f51a87fc050b156f983f871123a6b46db912.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/friday-ai-email-writer/91b6b4ced4e3f2057b3a9845553aa626a9180d4a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/friday-ai-email-writer/7c202f4e2b1a7e0d85f339fd4ec855401476ec31.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/friday-ai-email-writer/e3e3fcad2f571e333d2a79bb26df4059999d1abc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/friday-ai-email-writer/ae1f84e70181ee68974efb18a4507b378b448f55.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/friday-ai-email-writer/7ee2818c8ed5ec14b2f2f90e625ae3b1967cb6d3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/friday-ai-email-writer/67a5156b55cf3ab100be77fc651217ebe657eed1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/friday-ai-email-writer/fae6cddca4baa5ee20cd892b103cefee211a9696.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/friday-ai-email-writer/f1a8a7479c1426c50c0df4adc25e2ea845d26293.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/friday-ai-email-writer/aef0af11ae98602062741c8db90c93159720b4c0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/friday-ai-email-writer/97d8a94ce4537ea807102507a4219d391af4f780.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/friday-ai-email-writer/399113d34f4e655ebe53f8f8beed8aac214dc5bc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/friday-ai-email-writer/5cd21e5abd910b374c9a5af033b5cf0b7c2ead9e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/friday-ai-email-writer/73b88ce513b727b508127ccedeb78c918d54b0f2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/friday-ai-email-writer/52faf678551be150e823f10fd080b641c6923da2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/friday-ai-email-writer/c2cc422f272f9c8a09087dfadc489dee3dc82d50.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/friday-ai-email-writer/ba102a49eb1acc79da1fbc202d11e8dbfaab5b37.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/friday-ai-email-writer/071638b073ff2ca35d28c882b8fe823817c18e02.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/friday-ai-email-writer/1c161931515c54019e11ffeba898086129ec5e81.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/friday-ai-email-writer/ef746f202b5b07705051827a009a2a193de8d201.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/friday-ai-email-writer/ae5c9a5151eaf5125429902821de59ef12203bc3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/friday-ai-email-writer/084f6ede5318a9fed5649050ec22953c0184c147.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/friday-ai-email-writer/68d45700afbc34e8de0c9f89a7f902f470dc3f4f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/friday-ai-email-writer/088d9fc72c681a5e735e38e9f5a8ddeaef1518e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/friday-ai-email-writer/68fc75a3f6046ecf9255d83ebd2035e9ca464cbc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/friday-ai-email-writer/b1bd696a31ff6419f10be94315c954c59e54675d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/friday-ai-email-writer/2335fbb43b8ab6a51da0339adb1c462a827d7c1f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/friday-ai-email-writer/bb63be0b247e62dc4688b94b9df9b0222f25a3a3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/friday-ai-email-writer/65c7b7aaa45cc931e65bbd041f2fe15c688e68c4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/friday-ai-email-writer/be49eff569cb735dfa409968571f57122383eef7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/friday-ai-email-writer/1c8efa08c65287be3ecff4ee85deccb46c14d1a6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/friday-ai-email-writer/a45cfa0010f828dda9a5c2edcdbaa63f353eccd5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/friday-ai-email-writer/d1869a6a0eaf8c96e45be24234207e298c1aa244.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/friday-ai-email-writer/def98fcb1a72e6b058734de2651412a1bafbca81.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/friday-ai-email-writer/3d162c1795a0d6e39ac1c6b68890d61d4bd575a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/friday-ai-email-writer/ba28cef7ed852cc95f81541d412f544cdd1d22ff.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 38",
+            "src": "apps/friday-ai-email-writer/a9b0907215084025aad1f4ea7aed577974b9ecb6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/friday-ai-email-writer/d69ea9c3c8d3f99442567256cf650322fb7abea9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/friday-ai-email-writer/a8086c576e38f4c1081b2109cd9a466cfee598e3.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 41",
+            "src": "apps/friday-ai-email-writer/355d4037d72d2ca32701a26a6041017381dfa5ad.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/friday-ai-email-writer/1848ceec996155936d2eda44aa24d9c054362dad.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/friday-ai-email-writer/87f3eeb7ef1596abf0002d3ea4045021a4011513.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/friday-ai-email-writer/7074f340ce7f5cf83baeb165c2697aea9ee2b9ff.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/friday-ai-email-writer/3a7369f41de4b6f6690df9e6e895c07d33e7ce94.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/friday-ai-email-writer/b351ceec1e7ef13367456ff1113aa40023378c04.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/friday-ai-email-writer/57dd9371e1f298d7e26b7270a9402e820da103ba.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/friday-ai-email-writer/083d1350c0d0aea79e9e3185ca9437f5fbefc918.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/friday-ai-email-writer/76e5fbd42c565cdd3c81161d787e49816077758d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/friday-ai-email-writer/f443c7b1dc511710c320c2c75918d010ac404ba4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/friday-ai-email-writer/a43d999e0e37a82703a85d50cd9ad4ee81930013.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/friday-ai-email-writer/58c50605a16d41222759b325fa14ae1b319b69c0.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/friday-ai-email-writer/01b616cfdb2b816e610348eb27e3445f3914c4a8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/friday-ai-email-writer/ff2cb8c48140719e9b1744a73459c02a10efa091.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/friday-ai-email-writer/6ca88456ce339d47f78d786c24df9e7517da6dea.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/friday-ai-email-writer/9e293b748a328c8f3f010aa069c9358fdc0d4c20.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/friday-ai-email-writer/155aea58cd85aecbf17182493fb064944d335822.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/friday-ai-email-writer/705e9747d2a82c011291b9fdf517237dfbed34bf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/friday-ai-email-writer/d192af64203d5d201a0b845e11c837e4b3ca2611.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/friday-ai-email-writer/1405c08c43d1f3a381a364bb6f239d114cad0911.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/friday-ai-email-writer/eb2ca62e5c8a21ff6323daf151fa3b8e8a3626b6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/friday-ai-email-writer/d1d445a30d122c73c10842065c73598cbc352efe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/friday-ai-email-writer/6959941a261c841084c5d96f35b52d94c7715af0.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "glow-diet-coach-meal-plans",
     "name": "Glow: Diet Coach & Meal Plans",
@@ -7637,6 +8005,444 @@
           {
             "title": "Exit Discount Offer",
             "src": "apps/glow-diet-coach-meal-plans/screen_068.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6758730467",
+    "slug": "layla-ai-trip-planner",
+    "name": "Layla – AI Trip Planner",
+    "subtitle": "Plan trips in minutes with AI",
+    "publisher": "",
+    "icon": "apps/layla-ai-trip-planner/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$9.99",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "220",
+    "rank": "#1",
+    "total_screens": 77,
+    "stills_count": 75,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/layla-ai-trip-planner/fd8524bd1c2839f5efad331f332bdbad6fcfc0c4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/layla-ai-trip-planner/69d5f34985a429e7a008806a687f6f27d8cf159f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/layla-ai-trip-planner/b295653e2e1a6fe8bfc38469bff574af589fe8fd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/layla-ai-trip-planner/405e495388875a22bb95e39e7c66e694adc96cb9.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/layla-ai-trip-planner/0f9c8da56dd0bf422beb90c3ab658f9c1af403b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/layla-ai-trip-planner/8fe5dd3acec0dd75c930960078f09ea2117cbb07.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/layla-ai-trip-planner/33718e6a531b2d199a420cf5a374d42945789213.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/layla-ai-trip-planner/81a8daa7087c61aec21eea50ae82384f377d20e2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/layla-ai-trip-planner/fdde64c4f208ebf336b56c31591e1d4b7e15b548.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/layla-ai-trip-planner/9358a143d414a974cc96da20eea5689889c242a4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/layla-ai-trip-planner/b54262a491160a1f4bdcdc7273ea35b347ae87ae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/layla-ai-trip-planner/24134f04fd1ac4a4ddf095ed8d291df00e42faac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/layla-ai-trip-planner/c258b3c8d118ff2074ff0acf9fc12831fedf5016.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/layla-ai-trip-planner/468662cb418665c4e5195273677b9d51408c4392.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/layla-ai-trip-planner/de04df0616ede6466f9d3880a0da7b9be5498b3e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/layla-ai-trip-planner/afc81f2e74482fd6abb67180a722da7f4eb76ae2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/layla-ai-trip-planner/bfd1c6f0f61edce3db15be2fb0241bc9fbc42459.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/layla-ai-trip-planner/1f71d01cc67751b2d279357fd278a30f772e9182.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/layla-ai-trip-planner/35ae46f6a7bf783be7871acd6016699c5c2bfad9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/layla-ai-trip-planner/1d4b4187f8567a632e22158866e417898a54be45.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/layla-ai-trip-planner/de6cfa137c1be977842754b43a9a2c4769a7ced7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/layla-ai-trip-planner/3db506a03afbe3e6064d41821c8af585bc92e96d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/layla-ai-trip-planner/bb76ccbe5324e9c698c7ca5589fd5d03328686f5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/layla-ai-trip-planner/4a2eaf8c870ac107ec14329965995b091f4f87f7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/layla-ai-trip-planner/f24a7a641348c08ab21b348b5dbe42821c15ab6e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/layla-ai-trip-planner/abac61536d580075786c88a37e0beac95d9da1b3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/layla-ai-trip-planner/e1ac528db70fbd95f42d30087ade4af2affc8775.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/layla-ai-trip-planner/3a5764e48da7f4298e298e3c8c5d18ce94eddc65.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/layla-ai-trip-planner/f3078c7beac849da0bba0f81f16f1c5f905e3e30.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/layla-ai-trip-planner/a830c032a85520bb0ea24203a61b7093641bbe57.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/layla-ai-trip-planner/ceaab02cbc95d9f1dd05a7e57c608e7eee3b5df6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/layla-ai-trip-planner/ee7d1e6920d9d7300ce62509e9911d75a51a1b84.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/layla-ai-trip-planner/7bf4093f7b3d8a1301dbf2287a9e33c3e59a2843.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/layla-ai-trip-planner/581782824ae015fc50052bb2c8f6ae88f4be45a6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/layla-ai-trip-planner/25af212b5251520f99d8bf4b9b29777dfef8cd35.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/layla-ai-trip-planner/5da9ef346c221b02480ffbe85a38564b5eab4b8a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/layla-ai-trip-planner/0c583790d6e70764e4165cf18c4b6e976fc8fba8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/layla-ai-trip-planner/d705f3e970071b5d194e086aea977c7ddb3ec106.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/layla-ai-trip-planner/bb0881c6fb325c72a87fe59ec918a8ec9ec4713a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/layla-ai-trip-planner/63c065d3e01f27779856e0fc933bc96f8805fde0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/layla-ai-trip-planner/1407856252b890f224a7269c5b2e8dcae4556067.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/layla-ai-trip-planner/4ae21770f5a0f375f2ed5766d88b36fd1c62176b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/layla-ai-trip-planner/900aa4ed3d41d547681b1a93fe2d08a93bc5343d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/layla-ai-trip-planner/58fc3449da74303b73082c175026a7940c37f8a1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/layla-ai-trip-planner/9b8ae9f708e341b43f5803808114903f1902d430.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/layla-ai-trip-planner/d9294116f036f78bc7429c05e136a2d6b33568eb.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 47",
+            "src": "apps/layla-ai-trip-planner/549d8a4913796f45bc2e792a1f854cd6767bc18e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/layla-ai-trip-planner/f408af8bf682c6617f8527f0346e2abf0ab46bd4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/layla-ai-trip-planner/8a8aa8047a925c29484c6879c8d0b2f05ba13b39.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 50",
+            "src": "apps/layla-ai-trip-planner/8082fea02f1215acf4f40c077a1b78f99ea80827.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/layla-ai-trip-planner/b7f642a7448e5f0f617d5597b1555987faa54619.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/layla-ai-trip-planner/286c288bcbaa3d57ab4a805dbad58f218b026def.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/layla-ai-trip-planner/3108d787a029a97fc17cdfbebbddbdcffcae0b3d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/layla-ai-trip-planner/cad9a7d9621aa1bc228323723c40006d0af03a5c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/layla-ai-trip-planner/7803b33bc0c5e8c8cc8a400d4da783e9d74be6ea.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/layla-ai-trip-planner/1b951a7277644cb34555511b21b62dfc199ac077.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/layla-ai-trip-planner/1174a3edba631b9d62f4cbb1dca08e98b121c1e5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/layla-ai-trip-planner/8ff36e760fd6baea9365f1a08129ba06a5b96fc5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/layla-ai-trip-planner/d06250f5e58eba36d6a853d954e4d3622f371218.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/layla-ai-trip-planner/2d62cb353b84b66b8eacd7e1bc7fc2756f4d2db6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/layla-ai-trip-planner/26ae42715df91a714dc7274f98a82b0d059cf8a7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/layla-ai-trip-planner/94d096d862cb835d273329053d9d823f888aaa58.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/layla-ai-trip-planner/f0e9f2d23583f449b9f015de378fbaa33a22292b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/layla-ai-trip-planner/27e142419b99f5cc0c581388105c6d8a8b4fffaf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/layla-ai-trip-planner/4509d55f9c34737afae318959e1b57c1a90808b3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/layla-ai-trip-planner/a41be5ecc2d5e6984f7c615235f743efd1603b18.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/layla-ai-trip-planner/f7ceca49f1a0e1864c6edb1507451e6365c98237.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/layla-ai-trip-planner/8c2f7bc8e8bbf5e318032fcf690ec7d913e8b8db.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/layla-ai-trip-planner/129f34ac7c100c01536afc866b16353de2ac6f3a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/layla-ai-trip-planner/dfac6b6d86ea40facfc8dfaf6a2c862e2d2a96e7.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/layla-ai-trip-planner/4e9c69eafadbb0450081600e18105e94c6b7b98c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 72",
+            "src": "apps/layla-ai-trip-planner/1ec0fa3106f3e6d3715a5c6526401733463f6511.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 73",
+            "src": "apps/layla-ai-trip-planner/3d2e109f1b2ea1f3d44f597aea29611dea84e12c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 74",
+            "src": "apps/layla-ai-trip-planner/617f5df69a67bf6a6043a1bc9ea67545c65955b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 75",
+            "src": "apps/layla-ai-trip-planner/2a19708f2525716ea42795696e20543df1c3c2a7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 76",
+            "src": "apps/layla-ai-trip-planner/d64b78ff076ed93fd3ee24fc517352ca67fee972.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 77",
+            "src": "apps/layla-ai-trip-planner/e0190fd2dff2027e1bcb7a31066c3615a005e269.webp",
             "is_video": false
           }
         ]
