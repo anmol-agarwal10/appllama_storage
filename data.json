@@ -3362,6 +3362,549 @@
     ]
   },
   {
+    "id": "1166940722",
+    "slug": "beginning-sleep-meditation",
+    "name": "Beginning: Sleep & Meditation",
+    "subtitle": "Sound Therapy & Binaural Beats",
+    "publisher": "",
+    "icon": "apps/beginning-sleep-meditation/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$10.99",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.6",
+    "ratings_count": "18206",
+    "rank": "#1",
+    "total_screens": 98,
+    "stills_count": 96,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/beginning-sleep-meditation/44a3516653f4c8c5f6138d8488e3ff0f2e7b8237.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/beginning-sleep-meditation/2fc8b283ebaf21b9998bd3e35172853db691934d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/beginning-sleep-meditation/02596aaa1feef9e4bc70acda9b0bf80204b0b140.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/beginning-sleep-meditation/f181739b18a9eee8807b1f215494373130030a00.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/beginning-sleep-meditation/3bf62c7f65f1784327c7082ca013bdb2d5e6641a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/beginning-sleep-meditation/f81753a52c0cbfc32df4bd97946b45eb57c953f9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/beginning-sleep-meditation/f538f71e7fa5ca0ee91f558d97d5a089688517f1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/beginning-sleep-meditation/d20a2de97c489ac53f257f65096829f2f54b6b3f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/beginning-sleep-meditation/5985a9b2a152845b14fc4c4c31464d02877801e8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/beginning-sleep-meditation/1cfd5014f4a805e31210b2af641a01544453e4f5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/beginning-sleep-meditation/ad3d16186621b9955fa58611d3d163c019bdd586.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/beginning-sleep-meditation/9be95e4cc84e08e5af04c27852eb5b78c8157cd6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/beginning-sleep-meditation/24d4ea98cf9bc569d62ae2bf750acdb2c14d1d05.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/beginning-sleep-meditation/bc4f2c5fc7c8d3addec8928d392d7ca428840aa4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/beginning-sleep-meditation/49f441a42ad11c320bb24ef66195fecbdd89919a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/beginning-sleep-meditation/665b48eb7242fccff11197daef76af1ffff28c36.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/beginning-sleep-meditation/404f52bb51d7794963b106b6119d8b3ea3b7d544.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/beginning-sleep-meditation/89c5f73dbb0b672fe33ad62c573cfc47d7372daa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/beginning-sleep-meditation/143c1800002d8a8de82862b3039f0da3601a69ca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/beginning-sleep-meditation/ca9b0ead98f32cb1d1a905dc70e4a471227a309a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/beginning-sleep-meditation/f2c61550c6ea9f436fc6d5fe5b2d90dea47f1e78.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/beginning-sleep-meditation/4ecf8f7266d6b3cccf7bd196a33b35d2ea20d2e3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/beginning-sleep-meditation/488af44bf408cff23197ae7083cf8df5d35ea6e0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/beginning-sleep-meditation/1ca9668507a153ffd8314c062d03861fa1d605ed.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/beginning-sleep-meditation/5eeef9e19c7a746a35294cc13543213442528e41.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/beginning-sleep-meditation/944eedb3ad8b9892e38ba65a09c5d5185797b3f7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/beginning-sleep-meditation/a30cb82439cc3e08a509a9b773eada72a4b5ebae.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/beginning-sleep-meditation/555c555a6b10010497d34cabdc40767c033e23f6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/beginning-sleep-meditation/e76aac8672fe07278a7dfeee5c33b6684a8f9ff0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/beginning-sleep-meditation/cddb9b526efc288a07467d9e302f295716a6b8fd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/beginning-sleep-meditation/32cc2aaafe4cf2ca383b3a35f265bd0ee210a0a3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/beginning-sleep-meditation/8ffc3a6c4ae94287bdb8e0bd910645093092b762.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/beginning-sleep-meditation/28b5507aaa0e6200a054bbb196f191a0042655ce.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/beginning-sleep-meditation/24106026b5468218bfb2b0f4a5c30b17afdbe956.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/beginning-sleep-meditation/47b159923bafe36fb2ca27e9ea7b5c26e3eaa8c5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/beginning-sleep-meditation/814949dddc8610ae28021b7eda68b23fc59fbc67.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/beginning-sleep-meditation/0980ccaaefed12534a0bd66e9b2a84dc502565e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/beginning-sleep-meditation/065fdb4055457b79001562afec900ac6867cb8ca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/beginning-sleep-meditation/c762c5366e617a0c0659500ac6de71822a121ace.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/beginning-sleep-meditation/589be03846dc74abd823771313c8cd5e8c8be830.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/beginning-sleep-meditation/08cee034d70bd2bad05e649719e99237823e08bf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/beginning-sleep-meditation/229478490a231aded6461077314787c28cf1ca14.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/beginning-sleep-meditation/fc69a44124875bba4d5420db95cf0a75c69c4f61.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/beginning-sleep-meditation/a05794f22d726398cbaced50a88804d15ca0d516.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/beginning-sleep-meditation/6752d22ffc85d665bb330bf28f324cb8d0d316b5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/beginning-sleep-meditation/ec0249a3403d74f4a5dfeb54a1d35757c7894ba9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/beginning-sleep-meditation/e2d2c128f627ce84a5f9c3f1af1c39a095979e66.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/beginning-sleep-meditation/05f26a525e6cd8bf0c2405ce2d5ded4e40937135.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/beginning-sleep-meditation/8d86fb6dee8286027d60ef2c305270e542fa2e54.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/beginning-sleep-meditation/811ddcd250d6bcf81a945ca020ec62c3f8719950.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/beginning-sleep-meditation/881211e06c70d324d23e07c7d5e0ac3e54db3bc8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/beginning-sleep-meditation/e37ff4d80e2be8f04ac920b9e70b11674ddacebc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/beginning-sleep-meditation/1279873b100e53bae89e4f3756c9d62d5b0cc801.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/beginning-sleep-meditation/37957e6ec8dc53e3cd2addf61323b8816178e298.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/beginning-sleep-meditation/8ada7b6478e616944a54f0a8cbf34f3b1cad015f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/beginning-sleep-meditation/d02ae1d41a3988bce3a285eb7301aee25bb31f47.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/beginning-sleep-meditation/138c852ff2f16430a39815a37ebf01f833b092c0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/beginning-sleep-meditation/cb7fec032c9d0a657fc616727b7bdab94a7023c9.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 59",
+            "src": "apps/beginning-sleep-meditation/b29367713f9a8285fbb8547721d359b718db5308.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/beginning-sleep-meditation/952d87f6f1ab84a4860ae39565b80bcfe565e338.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/beginning-sleep-meditation/4fbfd0c52cacb7f4725045052cde38b592d872a6.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 62",
+            "src": "apps/beginning-sleep-meditation/0c51f9552fa666184401af2fb6161886c44fde57.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/beginning-sleep-meditation/1b7ec74720eab87d0ef715bd534810bf7dc78577.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/beginning-sleep-meditation/8a1939bf0fa7e2526cf7ac2162c170b1b7ab72a3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/beginning-sleep-meditation/e5461a99a593d26bf7e5817d9205a28624696cac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/beginning-sleep-meditation/c59fc476ff4f62607a7ef728464fc09555173a80.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/beginning-sleep-meditation/2ffdfe55416afc5709fb99da7c5f3f58b00f7221.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/beginning-sleep-meditation/fc61685b43988a929b68675c3e30e342bdc2f172.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/beginning-sleep-meditation/8947bfd52ae276146efa342c84e438df755670ee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/beginning-sleep-meditation/5e2ba3916450fca7c8f8c90c737fd4ca4520edc0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/beginning-sleep-meditation/d381a26f12d09111ac50b9c3fed99588835b6cac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 72",
+            "src": "apps/beginning-sleep-meditation/d962a9e6baca1ab7f74bc982a7aa59452637526d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 73",
+            "src": "apps/beginning-sleep-meditation/33a2aa75f34a8fd8363c15b8e9180dcfb8c987e9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 74",
+            "src": "apps/beginning-sleep-meditation/0a399a2c6a131a196e608a4f38a11de5728ba7b6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 75",
+            "src": "apps/beginning-sleep-meditation/c77aa7a378259711218fa1a0d9d3c425fc0cb770.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 76",
+            "src": "apps/beginning-sleep-meditation/26572e09858a1c4a8ead2c051879a7d42b9e7071.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 77",
+            "src": "apps/beginning-sleep-meditation/0cdea87f6f9e07a27a5982fdd1738dbcce9e4f72.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 78",
+            "src": "apps/beginning-sleep-meditation/b8df442b2b8905d498de30e438a9137beb2e518c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 79",
+            "src": "apps/beginning-sleep-meditation/f900adad1ec0bd6a2ed4838dc6678df894c95fb0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 80",
+            "src": "apps/beginning-sleep-meditation/7d166967eac8dd25d828e7a1bd2e8e3c624abd6c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 81",
+            "src": "apps/beginning-sleep-meditation/d416d022ad581eed479b3241ce5e4fbe22984e7c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 82",
+            "src": "apps/beginning-sleep-meditation/2203cab43c3b9911a4aab293fb19c08ba62c7904.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 83",
+            "src": "apps/beginning-sleep-meditation/387c390c4a78fe16c692fbbba57dae0ff8bb963b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 84",
+            "src": "apps/beginning-sleep-meditation/0faead1aee821e93501f98d1c6e13adc3df3404c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 85",
+            "src": "apps/beginning-sleep-meditation/1cace6e0b92f7296aebf4fef535f8dffaa922e0e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 86",
+            "src": "apps/beginning-sleep-meditation/7b21db7e22eeb23a3b85abc8605e09fe3bc1cf93.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 87",
+            "src": "apps/beginning-sleep-meditation/16acbf5621e8b3ac967d58c868e20e0709dec274.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 88",
+            "src": "apps/beginning-sleep-meditation/594bccc9a1333ed7f07094ad17973fc9eddfc1b2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 89",
+            "src": "apps/beginning-sleep-meditation/63f8a70ec5af1496c013e9540d31bf7966b000d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 90",
+            "src": "apps/beginning-sleep-meditation/b4c3ec23aa6d8e5fd590a4de677bfcefe7156230.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 91",
+            "src": "apps/beginning-sleep-meditation/83fcb7e3ff2ffa9b1cd2fe225eaa893904c2d622.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 92",
+            "src": "apps/beginning-sleep-meditation/46f1c6fc0237698f046e234109f75bfc7dbc9d3c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 93",
+            "src": "apps/beginning-sleep-meditation/74c3c5baafe6d1d01b970656a8612c09c26c141b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 94",
+            "src": "apps/beginning-sleep-meditation/d09521263896381d14d57dd2af54998b055df746.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 95",
+            "src": "apps/beginning-sleep-meditation/4b34e82f18cc502a387884de5d7f027a9f0263a7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 96",
+            "src": "apps/beginning-sleep-meditation/68f52dde9d06a2c12c99dd1133a07213f3d7746a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 97",
+            "src": "apps/beginning-sleep-meditation/7e03d46035b126a7cc119907fe2143588b7ad5d0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 98",
+            "src": "apps/beginning-sleep-meditation/f5ac113abce613ffc4cce7a032870c870e0242f4.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "betternet-vpn-super-fast-vpn",
     "name": "Betternet VPN: Super Fast VPN",
@@ -8005,6 +8548,464 @@
           {
             "title": "Exit Discount Offer",
             "src": "apps/glow-diet-coach-meal-plans/screen_068.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6476790495",
+    "slug": "ideogram-ai-image-generator",
+    "name": "Ideogram AI - Image Generator",
+    "subtitle": "AI Design Tool for Creators",
+    "publisher": "",
+    "icon": "apps/ideogram-ai-image-generator/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$15K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.8",
+    "ratings_count": "2.7K",
+    "rank": "#1",
+    "total_screens": 81,
+    "stills_count": 79,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/ideogram-ai-image-generator/e8c4a27e40e8dae2056fe3ac1fff29610c2cce0b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/ideogram-ai-image-generator/466b53fc654680f32de72953bf7235f39cb1d8ec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/ideogram-ai-image-generator/80aecc6c508c9547b57496d5a4ba2443ee21bbe9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/ideogram-ai-image-generator/19bb9bec9e86371c3ceba0ae9b418abf5611c44e.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/ideogram-ai-image-generator/a6656741b3d4760fd058e6914d24f1356d382515.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/ideogram-ai-image-generator/edec5bca90ffd3b513b11e8b56c0267271d4a139.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/ideogram-ai-image-generator/55b30a70a8d609d73d0fe52f2c217ca0a0d6cd42.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/ideogram-ai-image-generator/95c1fbb024e7ed5a2d42ecad8b33fb62e61b4794.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/ideogram-ai-image-generator/2551a1d943168c04529158feef4c7a4764257538.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/ideogram-ai-image-generator/4f568bcf065cc56bf396545b023a0758984caffb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/ideogram-ai-image-generator/bd382e4de7734adff307d5228d66dc143fdf998b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/ideogram-ai-image-generator/45f7a1234eab52b7b4e863b11405401ed7b8c1e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/ideogram-ai-image-generator/614e239a00a41a53942c647400dfc814961de115.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/ideogram-ai-image-generator/49641046fd2e99b6cfa78917540b0f117ab1c436.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/ideogram-ai-image-generator/01af6a3bb96b54f3de96aba0466c10434f46fc02.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/ideogram-ai-image-generator/e3530f448dcdb9fc190b8e01abdb0b488b33cc68.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/ideogram-ai-image-generator/3171d1ff752c0e9df79bf2f168b36943d12ef8bc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/ideogram-ai-image-generator/2d73156e7c876fcb339fc8f77fb7efde7f50c603.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/ideogram-ai-image-generator/dd36a2a60caa34c3c536bd3efeb5a3cc78884eee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/ideogram-ai-image-generator/af929506a13d3134e73cec04c2b0952d6c166f8c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/ideogram-ai-image-generator/f883fb5104184dc9178789de29426d39e8ba7ec7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/ideogram-ai-image-generator/e48e3cbfd8b5eeb3c63d33aa3cc34efc9055ed3f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/ideogram-ai-image-generator/dd8af16bf209d991024cd40aa04709db8ea06e07.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/ideogram-ai-image-generator/0d3d532f7a73e59958e2c0f559e9d725446aa4b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/ideogram-ai-image-generator/25712a72b888f588827a4d2a6723ae73eab11c14.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/ideogram-ai-image-generator/581caab35032732fa85f3d2feeb506294cffbeb3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/ideogram-ai-image-generator/a9cca35c1dbabee50e552da1c754c315d3919cba.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/ideogram-ai-image-generator/f3d84824c097525a3285c92918ad49e596799e03.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/ideogram-ai-image-generator/cdf8c306f4123c40a10c3f8f5e617b91a0c1dda6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/ideogram-ai-image-generator/78edb99ecb647260bbc7bb7d8e4a153caca964a4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/ideogram-ai-image-generator/c780d052b23aae0c35ac88b0b081a0afa2c4bf33.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/ideogram-ai-image-generator/a8fae1f4de0a49e8239a89beecbbe2e7646898d4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/ideogram-ai-image-generator/94bce3abe046b7713398799b8198c0409c90b749.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/ideogram-ai-image-generator/68ec39b8445fecb1e9ac32faabb4c4c61de7ad0c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/ideogram-ai-image-generator/f154983dd0d55d11f24c7e4456a8894252e89269.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/ideogram-ai-image-generator/7d32321b7a86ae72e2337d4650899ae77180e101.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/ideogram-ai-image-generator/19312c1069a4132809e3d9ae65980ed25bf8730e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/ideogram-ai-image-generator/ec0d4b55067abfc429566c9efddc69e18b688015.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/ideogram-ai-image-generator/efd6d85c603af1b2027098623bfe45877c113cde.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/ideogram-ai-image-generator/225376b0cf901245cdc88a84e610a1b26ac1eddc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/ideogram-ai-image-generator/1ab54537adbc38659411e54473dfb8381c91d9d3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/ideogram-ai-image-generator/397fbca42de596f80a1f38699203f7cd8186da00.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/ideogram-ai-image-generator/b03d275721fef56f0cb042ba9c0aa9e7abb73cda.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/ideogram-ai-image-generator/a8f2f2d4b753b084e5d83e90568df480e06cae7f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/ideogram-ai-image-generator/6b08341d2b53fa38786b5c858373dcb5964fa45a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/ideogram-ai-image-generator/75f1565009f2ad5b59ec0eeb5a3c2e7743bd88f5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/ideogram-ai-image-generator/7a11d9f7063c07d32b406e43bcebd33c5e36c7d5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/ideogram-ai-image-generator/d6964369022956e5f3211c5510fb1ce103e7b7d9.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 49",
+            "src": "apps/ideogram-ai-image-generator/98d645c665dfe73ebcbdc3389f9da0fd53fb4ea5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/ideogram-ai-image-generator/b44f1735e9d47fd0b6ec17791ea534b4feff1fc6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/ideogram-ai-image-generator/0dcdfde9682b8a886b547bcbdc8560f01262e82f.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 52",
+            "src": "apps/ideogram-ai-image-generator/2a2620f66c7aa7223800fcb95c4615974826034c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/ideogram-ai-image-generator/425a7427cf52bed26693551b13198438aa996bcb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/ideogram-ai-image-generator/4d7e1d747dd215b6457a445d726300b5c934b93b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/ideogram-ai-image-generator/f14705dcf8776b6aab69f23bdb9d3d4148d5de4f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/ideogram-ai-image-generator/c333252e7ad0e0d8d56eac7dc6509f78f2f1004b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/ideogram-ai-image-generator/af8180174fce98f2bbaafcc29fa9eeb80532c925.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/ideogram-ai-image-generator/bce9836028b8db6da3dca9d658a515a607a0a4e2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/ideogram-ai-image-generator/85e66ed835d4bf6eb6a424f2a3b0843fcb48d5a0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/ideogram-ai-image-generator/ebd6806004af28a3ae2906de987dc39b10ba1c69.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/ideogram-ai-image-generator/0ee09ea6e604ad9deb77de72a716095a66a164f5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/ideogram-ai-image-generator/cf762c0a4c5e82a87b193d553d5d9b8510ca12cb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/ideogram-ai-image-generator/4941f14e3d28f125a7dbdcfe943770965f227e0b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/ideogram-ai-image-generator/711be6a3465a656c642e538c5d99ff86b840aaa4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/ideogram-ai-image-generator/7af4958d7368795a195df4552cc1e032a9b26cea.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/ideogram-ai-image-generator/465b27c31a4b58701b4c95bca11a92dbf1fb138b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/ideogram-ai-image-generator/f4efa309a1239269933e41a1316bc296d4b1e0e5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/ideogram-ai-image-generator/f1fa1c50a605db27f6b667d6f1c219498ca14905.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/ideogram-ai-image-generator/9336f0faff939dfc0f290df78543c4ec4c034bde.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 70",
+            "src": "apps/ideogram-ai-image-generator/6e9e95c9602af8e5439f01f78165d2f665254c0f.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 71",
+            "src": "apps/ideogram-ai-image-generator/be6d3d2d51081a0e355bf61a811d151e602b035b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 72",
+            "src": "apps/ideogram-ai-image-generator/9ee170699534a5afb375412f31d1bdec62925e83.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 73",
+            "src": "apps/ideogram-ai-image-generator/c512f9be91f1df9145c59dcfd430e437a1f8102b.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 74",
+            "src": "apps/ideogram-ai-image-generator/98e538256a200a628e374d65401c8bc51ffc12db.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 75",
+            "src": "apps/ideogram-ai-image-generator/5fea051a8412fdc5657d47d797f290a6a654ccc1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 76",
+            "src": "apps/ideogram-ai-image-generator/440c58432671ce65b267e358bfc8d55346974b3a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 77",
+            "src": "apps/ideogram-ai-image-generator/0ea559c216514cea58f9c9e9aafc01fa06ea17cc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 78",
+            "src": "apps/ideogram-ai-image-generator/d0338111d852b0e6f0a766339c7006d55e47fa82.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 79",
+            "src": "apps/ideogram-ai-image-generator/411e5a01696235abd198c5fedebbb8a78973025e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 80",
+            "src": "apps/ideogram-ai-image-generator/e2dcaa906f82b6a9a1f99b99ac407ee39d60a953.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 81",
+            "src": "apps/ideogram-ai-image-generator/33eb00470be4700cf1574fa53630c1ae583737b7.webp",
             "is_video": false
           }
         ]
