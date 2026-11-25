@@ -14794,6 +14794,284 @@ window.APP_DATA = [
     ]
   },
   {
+    "id": "1569873335",
+    "slug": "relay-quit-lust-addiction",
+    "name": "Relay: Quit Lust & Addiction",
+    "subtitle": "#1 Trusted by Therapists",
+    "publisher": "",
+    "icon": "apps/relay-quit-lust-addiction/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$18K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.9",
+    "ratings_count": "3.5K",
+    "rank": "#1",
+    "total_screens": 45,
+    "stills_count": 43,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/relay-quit-lust-addiction/549b5fa83c791b7651f99c8320839c900a811b03.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/relay-quit-lust-addiction/56d6dccd94340659b15dff547f573eb4b25628b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/relay-quit-lust-addiction/c202795010b5a2f98cc4d76afc07b5590551d7b4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/relay-quit-lust-addiction/92731f8a60b54858ddb87e9256f5128da9ead3f5.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/relay-quit-lust-addiction/39b39b26a351fd596f476bea2740776d7b5d84d3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/relay-quit-lust-addiction/7e87f3dd116736a2ac6b25c596cfb1b65a5435ff.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/relay-quit-lust-addiction/cf6b95f6781ab83e07c36009f9534b120be3aafc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/relay-quit-lust-addiction/b954c1be8b98f7be864c08bd6c8f6b1f4be96427.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/relay-quit-lust-addiction/26275004de3b0398e47e78d6ec4b5b6f39577350.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/relay-quit-lust-addiction/a323e27f22277127bcfe371f8d47cbe6ffc7e0f2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/relay-quit-lust-addiction/e0a98021d39dd2c78a2aa09e42877ff9debc3b5e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/relay-quit-lust-addiction/5f096b19aefcac8b02747dd5f408b06d651d8956.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/relay-quit-lust-addiction/dbd524d9df83787b5fbcc8dd556b4e3978f6beb0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/relay-quit-lust-addiction/f565b5bf07b8d7266a52e86bfd2a301724232da3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/relay-quit-lust-addiction/a941cbe5cbb87c1a72eddf585d208a767d1ad93c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/relay-quit-lust-addiction/39971841c44b0d8ed844036ce82dc0ba05a23546.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/relay-quit-lust-addiction/c0c8b0f799e821c34683abf8af626aa3c22d8378.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/relay-quit-lust-addiction/dc0b05c4ce25f3a6b6d21a2de354088a4918555d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/relay-quit-lust-addiction/da9b6acfa1607f0405cc50780ef7dd7299087d35.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/relay-quit-lust-addiction/39200414d252bf58a8a1b1975ba9b942780c4e5f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/relay-quit-lust-addiction/820e8ebc19ae2de330ac45ebda4daccea77a098d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/relay-quit-lust-addiction/cc02ce581514e34bf02611af248c8c970b5017b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/relay-quit-lust-addiction/93f163ec2fb816c32e4058dac4bcaa6bc4154d5b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/relay-quit-lust-addiction/02b06ce3f913d901e7eb0eeabac02878767bfb4e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/relay-quit-lust-addiction/b7d2c1283fe0af76571576963b316e05657e9038.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/relay-quit-lust-addiction/ffdea6af4c26f803e9e753cbe735b7f0a4d5d66a.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 27",
+            "src": "apps/relay-quit-lust-addiction/efa36f18314c9963a1dad99acfb6587714793cb6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/relay-quit-lust-addiction/9c13f7c4cb6be731f485d0446fec12491d1e8d6b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/relay-quit-lust-addiction/aca1f4e13bdff51939519bc0d6530bd2f43703e8.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 30",
+            "src": "apps/relay-quit-lust-addiction/84512f29d2bea5ab8fc08828fbce80970d54aef8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/relay-quit-lust-addiction/5c18a37ca878920ac1b9bdc156ec4cfd3fcdb9cc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/relay-quit-lust-addiction/e39af188e9edde8061d992a32427d143f74f52a4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/relay-quit-lust-addiction/377158b2e1659a7aa384c9c85b4ea9f4592bf46e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/relay-quit-lust-addiction/d9c6c803c9ef2886c8cccee46c0162dc34da416b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/relay-quit-lust-addiction/60f34544a6e325a201f4b6b99587428e82f87146.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/relay-quit-lust-addiction/c328a24ce81e98f0ee05371b4a6ae4228d4218af.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/relay-quit-lust-addiction/c025df6fe65e1db18188dbf6fa51401820e922cb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/relay-quit-lust-addiction/f1cdc0c960e94121cc4f1b1c7715297d526a19a0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/relay-quit-lust-addiction/9ae592ab5d56224e786d54dd0097ed4acd65649a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/relay-quit-lust-addiction/1b9f55af29a88313adad667ac357748c7e86d241.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/relay-quit-lust-addiction/d8acc3b874ab60fa0fd8ec192623963d15eaa8fb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/relay-quit-lust-addiction/f2baaa29ad7c14d19eb20d899aeaa277462fb232.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/relay-quit-lust-addiction/86f08417bbda5ec5e068dc151aa92e37604cd5aa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/relay-quit-lust-addiction/7fba035e3129159e6b3a5fc13d330b7ec0a65b66.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/relay-quit-lust-addiction/aee0f5410196fda14b5e0d6042700a132395afbe.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "1665024375",
     "slug": "runway-ai-image-video",
     "name": "Runway: AI Image & Video",
@@ -15130,6 +15408,279 @@ window.APP_DATA = [
           {
             "title": "Screen 58",
             "src": "apps/runway-ai-image-video/062033d20074725b69e0733d4b198e388dfe2fba.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6745820631",
+    "slug": "shots-photo-video-generator",
+    "name": "Shots: Photo & Video Generator",
+    "subtitle": "AI Image, Text to Video Editor",
+    "publisher": "",
+    "icon": "apps/shots-photo-video-generator/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$1.8M",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.5",
+    "ratings_count": "18.9K",
+    "rank": "#1",
+    "total_screens": 44,
+    "stills_count": 43,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/shots-photo-video-generator/3e221170980fd99f98fc4dca2bd332d69a81317a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/shots-photo-video-generator/31c362b79e0450b4d95a178770c39c0ffe610125.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/shots-photo-video-generator/af61ccdde262030e23a65655ef02fcf8a64da9f2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/shots-photo-video-generator/e74fc4160f3294f6deeb5124634874579f9f6e5d.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/shots-photo-video-generator/36ff70ac085163b5be6fe3dabe9f91e5046f9ab3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/shots-photo-video-generator/5a36b8d63f05437279488e6ff8daa0115badcef4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/shots-photo-video-generator/5929eeba428e593b49b736bc2497dc01b93a2cfc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/shots-photo-video-generator/97056eef47d40fd9b10232318c935447df5e374d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/shots-photo-video-generator/ac27aca9d9eec5f46b41472c77f3e1abff0104a8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/shots-photo-video-generator/2a09911307752c00aee5650bdff397e2b7a29cd4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/shots-photo-video-generator/cd35c706199f538e0676c608b3d5de2194f1a50f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/shots-photo-video-generator/1fb643bce1f8c6cbb7bb66a84ca19ed2f7655c8b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/shots-photo-video-generator/0be7acd17b21914196be5db1265b0704ebc16b18.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/shots-photo-video-generator/fda2ba643488ee03993f220ec852a34ea76b7f53.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/shots-photo-video-generator/a6f228fb64af28476291ec8960a42315485a1317.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/shots-photo-video-generator/93f97e33feb059e9c65075e5d499ba4b2f1f1fbf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/shots-photo-video-generator/cfa50064f705f258f2fd00703b8cfeaed2d0440d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/shots-photo-video-generator/f888dff4f3eef19518ce9bac3a13eeb61e893568.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/shots-photo-video-generator/00992c1995fed54ad969b73e87179ecd9d6c4309.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/shots-photo-video-generator/6fae3dc9ed974e14a5e8a2c57f4a82cccf4c93af.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/shots-photo-video-generator/956c1edf6afd74127320372731a54fc189eef00a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/shots-photo-video-generator/08b05925f706beb82ef9eecac8619bfa2029a183.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/shots-photo-video-generator/230c44c0d4a69fc499f6f4fe6692236862538ea1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/shots-photo-video-generator/8383beccc1cf436a2738cee8b1bbf02572e718c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/shots-photo-video-generator/d769e05d90194f4eaa5386f0f6663745f8e87240.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/shots-photo-video-generator/6eaea792dec9a8970bca95e2977b95143e5d359a.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 27",
+            "src": "apps/shots-photo-video-generator/233d204357f2d9662e0c46a51c74f354b774a1a1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/shots-photo-video-generator/024a2f691bf95938c236048991c5df1627df38ef.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/shots-photo-video-generator/bcd6e3adb4d129881cf7def095b8a14ada9d5034.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 30",
+            "src": "apps/shots-photo-video-generator/5aa35c52949def0515b2d9bf4f2c9f1b1d1e6dc0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/shots-photo-video-generator/46cc0136e6207715b994ecc7f56dd814c272d9fd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/shots-photo-video-generator/539e2709f21058354ea3e572eb9526ff96c95d1f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/shots-photo-video-generator/7eb608258f6e1ef1c645edb7b9e07134ede24f02.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/shots-photo-video-generator/8e5ae5169a775e4a57ba49f65b2839f12916184a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/shots-photo-video-generator/40a4b5fc7032c1a01a69521e4acc36c29870eff2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/shots-photo-video-generator/ffe8e320459340d9da8979338d94e18d4fabdeab.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/shots-photo-video-generator/e8db146c578d29017dba70989fc96445792d7709.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/shots-photo-video-generator/5540816ea811fb3cf6da9e80be86e2e26530df93.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/shots-photo-video-generator/8145c61356d85fb2b75a63f2a87be971f8af7896.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/shots-photo-video-generator/53a1bdfe53587fcd0994c935dcdd78d365d01d7e.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/shots-photo-video-generator/9c4fe5692bed895fdca67d30d7391b3633e37a79.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/shots-photo-video-generator/51d2d4f3ad729be51a434d281e8e49d444bc814b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/shots-photo-video-generator/8a3d9881e8a3db36e53c79e4c59eedb3f9c0e3e6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/shots-photo-video-generator/23af025279086af8c018184f5f73f08d2898d213.webp",
             "is_video": false
           }
         ]
