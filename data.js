@@ -8555,6 +8555,214 @@ window.APP_DATA = [
     ]
   },
   {
+    "id": "6471968553",
+    "slug": "hunting-game-irl-manhunt",
+    "name": "Hunting Game: IRL Manhunt",
+    "subtitle": "GPS hide & seek with friends",
+    "publisher": "",
+    "icon": "apps/hunting-game-irl-manhunt/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$15K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.8",
+    "ratings_count": "295",
+    "rank": "#1",
+    "total_screens": 31,
+    "stills_count": 29,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/hunting-game-irl-manhunt/c3b1273c3db9d06ce00ba942b121f2acb8b516cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/hunting-game-irl-manhunt/a95d61a998a6d89fd8e43efb73e70c3a7f4f4a54.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/hunting-game-irl-manhunt/d8d7bfea774fe74e3df35ffefa4d5378b2058657.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 04",
+            "src": "apps/hunting-game-irl-manhunt/1cc6ca3f745cf16ee1a274e9e709468328e9bdbb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 05",
+            "src": "apps/hunting-game-irl-manhunt/f1a683aff8da9db4e83c988a36373b6141ea7494.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/hunting-game-irl-manhunt/0275489b4e8ddd89897c7656bda871e68f089734.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/hunting-game-irl-manhunt/b5b239399b8640b158a7573afffdcc226039343b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/hunting-game-irl-manhunt/81863bb1e2567aef58aa00e0d51d26a7de3502dd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/hunting-game-irl-manhunt/f66ea8df8945b764357b9dde3c2d5c189f57f3d6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/hunting-game-irl-manhunt/f652b2cf272585b19193e92cfc485b326fceaebe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/hunting-game-irl-manhunt/5b1525944321de08fdba6452002e885da6914e88.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/hunting-game-irl-manhunt/cbf7d4e6e1a7f94f5d6a2b87d1eacd9dfc62a482.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/hunting-game-irl-manhunt/bc996a7e05617708e96680b8a47a9f20d5ee2ceb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/hunting-game-irl-manhunt/36e0bf027daa9cff98169b0cda5288f581221b09.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/hunting-game-irl-manhunt/dabbec5467e13b033ba8a19f43c45f30f07022b6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/hunting-game-irl-manhunt/f6f513f950f498b1f88c038dae95911c4a2545ba.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/hunting-game-irl-manhunt/e7669cf479a4fd35291f7869509fabdee9c43009.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/hunting-game-irl-manhunt/b2daa3626979cdf7c069d54b7234bbff184b4cdb.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 19",
+            "src": "apps/hunting-game-irl-manhunt/1ab315897768740a58478f943cda9d4d0474dd71.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/hunting-game-irl-manhunt/dcda904c6e35b5469af6045f9fa780b9f06a0556.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 21",
+            "src": "apps/hunting-game-irl-manhunt/d6cd5d09b1c3686135ceb7db554c404bd3b2a47c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/hunting-game-irl-manhunt/0c00832e3bae4f5d0dee7602d1d3ed407828e4ac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/hunting-game-irl-manhunt/aa28407c735424d1df275f934b6ccc0a2f8ba8e3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/hunting-game-irl-manhunt/d6b951cf09b2a0157f0db3ffb5355898be4ecff7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/hunting-game-irl-manhunt/3330e5ee2335db5e5c641eda84a3c2114d8ce11b.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/hunting-game-irl-manhunt/3dafac6fd68b33aeebe3f0c0c36466a542d0b13b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/hunting-game-irl-manhunt/16d941b7f3b5b16ef8f42ad420fc7c1951331a50.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/hunting-game-irl-manhunt/242376b71990eb3824d1aead05d26e3f35b4feec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/hunting-game-irl-manhunt/c5e32375daf1ce87a677ee9c02194d6250949b25.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/hunting-game-irl-manhunt/a179ae6feb8c90184e37d5f17a3a3d612f113e29.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/hunting-game-irl-manhunt/7c9686d719f83d1c2f61d66edf727f6deda9c0da.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "6476790495",
     "slug": "ideogram-ai-image-generator",
     "name": "Ideogram AI - Image Generator",
@@ -16830,6 +17038,334 @@ window.APP_DATA = [
           {
             "title": "Screen 87",
             "src": "apps/tai-chi-walking-gentlefit/33b3f62b7001836a1f3aaa3f6bca28e2df2772c3.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1487668791",
+    "slug": "vixer-ai-video-editor-maker",
+    "name": "Vixer: AI Video Editor & Maker",
+    "subtitle": "Slideshow, Music & Captions",
+    "publisher": "",
+    "icon": "apps/vixer-ai-video-editor-maker/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$75K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "67.3K",
+    "rank": "#1",
+    "total_screens": 55,
+    "stills_count": 52,
+    "videos_count": 3,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/vixer-ai-video-editor-maker/570a0c9492b407f1f424c8153dab368aa21cabec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/vixer-ai-video-editor-maker/04dc15d7aa717b5349564a5bcdd382d6101b388a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/vixer-ai-video-editor-maker/7e0b55007efba737d3943d59ee8c7a93f4556725.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/vixer-ai-video-editor-maker/b2f321e85b0d75d1ef18dce52730607f9091f27a.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/vixer-ai-video-editor-maker/9b46a812c1c90083bc7840c8dc771ea68ce3b6f8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/vixer-ai-video-editor-maker/3341c6ad9b168245315f277be9d2aa82a9de10c7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/vixer-ai-video-editor-maker/7abb6e7a26c7824e7314885d5de34bc58ec332f5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/vixer-ai-video-editor-maker/5e4d388e423ce1012c42a4f6d7d930dc11ff06a9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/vixer-ai-video-editor-maker/8a8f5a81845f19d7a31fd143bcb28edec575b828.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/vixer-ai-video-editor-maker/465eca146303883caa25e00128b5cdac570234eb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/vixer-ai-video-editor-maker/8200b2b33eb579bae9cdd84fbd0747fcacf784fb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/vixer-ai-video-editor-maker/8bd12ddc855c8114e163ec8c24cf261ed308af64.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/vixer-ai-video-editor-maker/0f24e03ea04983f1d64115c44cddcded76a8134e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/vixer-ai-video-editor-maker/4cb41bb6900238c1b935a6a95ebfabccdfdea54c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/vixer-ai-video-editor-maker/326eb85850022b128a41be689fd15c4993726ceb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/vixer-ai-video-editor-maker/97264239dff3ec5a33aa60e63c6e22268fd09fd5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/vixer-ai-video-editor-maker/f6a2a58ccda8710948b3b46e8b33384c995bb162.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/vixer-ai-video-editor-maker/e5bfc19a97a153faf1926005f1c7349f466660a9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/vixer-ai-video-editor-maker/e967b5b4c6300d07122091a7ebef345d3267988f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/vixer-ai-video-editor-maker/8c7ab22e3b464383e9ae24edc8b7dc9837c7da2a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/vixer-ai-video-editor-maker/b6b1233d2fe70565bf7d4c853571dd5481485057.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/vixer-ai-video-editor-maker/26076a645a29f82d97596aeffd5b58bc9d46af8a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/vixer-ai-video-editor-maker/17f0c10bac36a5f89e80857822cdb465bee51ad9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/vixer-ai-video-editor-maker/94b92759ed5bd92b970620892d12de678284efb9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/vixer-ai-video-editor-maker/ed2c8eb38753fb279d03b9b5f9066390c49da2dc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/vixer-ai-video-editor-maker/aa27cd940eb10d96d14f6cc37fcc85f9a305545a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/vixer-ai-video-editor-maker/40af29276577b70a83406491303eb99a9e0349e8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/vixer-ai-video-editor-maker/0bcea321716b2dcdb961c104813dd565a687f90c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/vixer-ai-video-editor-maker/ff3f902e70b9e94834400ae229b3ec1c91fc1ec8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/vixer-ai-video-editor-maker/74249b7adbd785f661daa67d6f09b4276dc01de0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/vixer-ai-video-editor-maker/2b5201f6a2a9faca1e72e09d24357e2858d529f2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/vixer-ai-video-editor-maker/27b33fdbe0badd291320fdc52daec323b23248e7.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 33",
+            "src": "apps/vixer-ai-video-editor-maker/aa72bf4151506d53248f0076d74ee4e71d80b6b8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/vixer-ai-video-editor-maker/c205e5679a7f1b698863c6b98f0171ab12a62411.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/vixer-ai-video-editor-maker/fe9f96010016139182e7b83186f295fd6dcf4fad.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 36",
+            "src": "apps/vixer-ai-video-editor-maker/58ca8502c6cbcdb477f36529d43c0815e5e5c8ef.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/vixer-ai-video-editor-maker/c7c0037fecbb33ab43d0ac5ce9b9d2a521b499e8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/vixer-ai-video-editor-maker/81a95d20617238c6321031e895d0e0af6494a5f7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/vixer-ai-video-editor-maker/3f91b4e72831c992c2e07f22e797e711df373181.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/vixer-ai-video-editor-maker/388d628ce54091992c2f54908fe9f3c08abc10ff.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/vixer-ai-video-editor-maker/ea1693b96e209279c109cff5b7596e9bc93eb329.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/vixer-ai-video-editor-maker/83f0bc9cd073510a4a98aa5c5263ec2e3da6ba0a.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/vixer-ai-video-editor-maker/4f10d474a36aa47467006cf0fa8b7620d7999ada.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/vixer-ai-video-editor-maker/8fb3e0fbcf1a0593edb56a098a355e6aba7ba1d3.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/vixer-ai-video-editor-maker/8ba3b56baa0f17b34e264e4aacdb8546433b6ded.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/vixer-ai-video-editor-maker/2a8b39d13b76a9e42e907442554b4a82971d3cdd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/vixer-ai-video-editor-maker/e22e220a61c933af240a6d6a65a96276ed037dbe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/vixer-ai-video-editor-maker/60ad7477fc1a893cd0901744abccb979a65debff.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/vixer-ai-video-editor-maker/3211ad38cd457849a30ec58c969940aaf7309dcb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/vixer-ai-video-editor-maker/740446e9e4e5ea408a374f1720ab471fdeb416d9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/vixer-ai-video-editor-maker/ccd8016fb4a4a1ca108cc05d6a11947502911a64.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/vixer-ai-video-editor-maker/c257251f77683d2229105a735924caca19201a85.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/vixer-ai-video-editor-maker/4b1bb4f7ee158b889304334a7291cacaefe9be1a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/vixer-ai-video-editor-maker/2134d6572950c7ba404ee82251d639dc858aeec5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/vixer-ai-video-editor-maker/7c1abe06380d58d076c2541386746b352d64c352.webp",
             "is_video": false
           }
         ]
