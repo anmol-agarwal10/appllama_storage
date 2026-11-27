@@ -333,6 +333,299 @@ window.APP_DATA = [
     ]
   },
   {
+    "id": "6738582006",
+    "slug": "ai-art-generator-logo-hexa",
+    "name": "AI Art Generator & Logo - Hexa",
+    "subtitle": "Product Background Changer",
+    "publisher": "",
+    "icon": "apps/ai-art-generator-logo-hexa/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$12K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.4",
+    "ratings_count": "3.3K",
+    "rank": "#1",
+    "total_screens": 48,
+    "stills_count": 46,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/ai-art-generator-logo-hexa/4e8ea96d03668de1981d47465f4ae82bcb42d036.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/ai-art-generator-logo-hexa/62fd097871905f5a8642a0c9b6831206b47284fe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/ai-art-generator-logo-hexa/787319656f605c66dab910a721283e4054370c43.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/ai-art-generator-logo-hexa/b39f1483758cb21ae9cf1d1318647493a1d28a4b.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/ai-art-generator-logo-hexa/697e52b16297f7b1b59e990e95b3ea3fa24af53f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/ai-art-generator-logo-hexa/995280b938f66510344fab1fbdb43877736167cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/ai-art-generator-logo-hexa/6788d93d5657e172a0f78f44745290ef71e12c90.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/ai-art-generator-logo-hexa/c5672bc717eb69a36f6983e5aae7e10da7753637.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/ai-art-generator-logo-hexa/7bd18060f198729e38e0fc56d10db5d213e19c82.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/ai-art-generator-logo-hexa/dca448405322bd184a49c9573530b6f8ea9c5792.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/ai-art-generator-logo-hexa/5a3d63ddfb7bb61de899420962caf6469d4dbaf3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/ai-art-generator-logo-hexa/58d1abb955240b4c1b8b9286644c0a198955a4b2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/ai-art-generator-logo-hexa/e90aed023c79ec58031404108531df04003cddc7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/ai-art-generator-logo-hexa/2dc1d0ccf0506c77a51a16d4d90fe76af19fa2c3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/ai-art-generator-logo-hexa/922f680c2e68332383f3b2a9b3b28585258870ee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/ai-art-generator-logo-hexa/3245b16d52a71c7e2417c0490e95e823c89116c6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/ai-art-generator-logo-hexa/ca233947350b6707949d13ea455a5dfe8bd40d2a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/ai-art-generator-logo-hexa/85cd8957f34df86f59dae53928a02419278efde0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/ai-art-generator-logo-hexa/97c755a2a8e64695f43a18b4b3c4d23257a8c152.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/ai-art-generator-logo-hexa/c74c3a9ba46d95009a1f4ecf33895927a44ab137.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/ai-art-generator-logo-hexa/86ef24cda42d5fa699dbac62db46f3b5bef377ac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/ai-art-generator-logo-hexa/8f035f1d01c47c0b8999801fab63259d6b4f90a8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/ai-art-generator-logo-hexa/0890693a3e241df32bad0fc41d480c31d7057bc2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/ai-art-generator-logo-hexa/f48011a89dfc75c03ea390b620e713116f3d9dac.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/ai-art-generator-logo-hexa/5d8967f6e185fb4c418496a47d136b4d91d1c662.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/ai-art-generator-logo-hexa/2d318d015b9f253b3f32ae6984f0443177ecf451.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/ai-art-generator-logo-hexa/64e58aad85ef150167858352487c443661c7eefc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/ai-art-generator-logo-hexa/03355cfe3c5d1278c9aa0f48ce7b8e8ea9ca7cad.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 29",
+            "src": "apps/ai-art-generator-logo-hexa/e794897eff7fe7e3c36a87882bb79b63d08f1049.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/ai-art-generator-logo-hexa/e19eb9373d14859372473a19cc433a43e4d02cb6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/ai-art-generator-logo-hexa/a6ade7c891d83ee8931df65b14832b4edfcc0ce0.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 32",
+            "src": "apps/ai-art-generator-logo-hexa/f3de460d28c7a86465d5c989d31a99413a6037c8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/ai-art-generator-logo-hexa/df4730c10fb82ad03a92301829fcb5cbda709bab.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/ai-art-generator-logo-hexa/9a28ce296260eb8dd4c43e66bf10962fe0449be0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/ai-art-generator-logo-hexa/dedac97193d65921773d5979dafe2ba54d556df9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/ai-art-generator-logo-hexa/068d1d80a6999167c2dbf8c5e2d411cabdea9a8f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/ai-art-generator-logo-hexa/994a07b6f538f44e877517fea24214c9eaeab659.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/ai-art-generator-logo-hexa/13237bd4e4685da26f3670d0fd7fc5e9d57ed81e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/ai-art-generator-logo-hexa/54b655cb200229b4d2a34289b507e3b5dde6c336.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/ai-art-generator-logo-hexa/c55818ff2ee1f1200fe3e1e43a1629de7bf7ff8c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/ai-art-generator-logo-hexa/0151dbbb1df337c2ad269b8cea2501356f72fa1d.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/ai-art-generator-logo-hexa/ec1692b8b25ff72846a664c3a63ada6f448202ac.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/ai-art-generator-logo-hexa/0752f1a11fd48bbb2515e80134787bc2900fea83.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/ai-art-generator-logo-hexa/0e62ba659783c54a3382b9ca1362c6323f876f91.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/ai-art-generator-logo-hexa/d8b23a0cfb0f62fe9ca5f3fc6f5640a9513534d1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/ai-art-generator-logo-hexa/db77b23e381fd7db1487ad882cd7915a630a4e18.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/ai-art-generator-logo-hexa/9dd6be684076d5295770e8fc82d25f64d4d6e206.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/ai-art-generator-logo-hexa/1b190203696b4ecedeb5e39979685465979a61eb.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "ai-calorie-counter-appediet",
     "name": "AI Calorie Counter - Appediet",
@@ -17038,6 +17331,404 @@ window.APP_DATA = [
           {
             "title": "Screen 87",
             "src": "apps/tai-chi-walking-gentlefit/33b3f62b7001836a1f3aaa3f6bca28e2df2772c3.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1639508158",
+    "slug": "vivisticker-carousel-story",
+    "name": "Vivisticker: Carousel & Story",
+    "subtitle": "Aesthetic Sticker & Template",
+    "publisher": "",
+    "icon": "apps/vivisticker-carousel-story/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$70K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.8",
+    "ratings_count": "1.7K",
+    "rank": "#1",
+    "total_screens": 69,
+    "stills_count": 66,
+    "videos_count": 3,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/vivisticker-carousel-story/507384a13a648777c5ee11838cbf7ddf34e4ea14.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/vivisticker-carousel-story/acc4498c7f4d03424fe9dd2cd6b3f796f26f74a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/vivisticker-carousel-story/098f075b02b36a38aeaeb717f874d813baed4001.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/vivisticker-carousel-story/6eb4db16c6cc03f6bc342c84891066151cfc6199.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/vivisticker-carousel-story/51d86b0f6da7d2a123e50c84f9362dd1d180851d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/vivisticker-carousel-story/cbcdb75761c6fcd1d5d06ca1af17bfb0b7b25efa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/vivisticker-carousel-story/3b0720264c1162eb460efaa43e1dd4d15852512f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/vivisticker-carousel-story/dc14b0b26bb62a823b18affd4f4558693c2b9aec.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/vivisticker-carousel-story/0f480156df2e07f90346e2660b74739d4e2c6311.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/vivisticker-carousel-story/2b3da13bd93eb2d3f45e48a5b9e1da79cd9862ee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/vivisticker-carousel-story/1ca4acec8fde379c13a81b26d5500e44f6b9d892.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/vivisticker-carousel-story/e2576b6f2ab4cdc0b8ca9ec1f17073ecec16be60.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/vivisticker-carousel-story/20c82133bf8ae9156946b7208e883d8db80690b6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/vivisticker-carousel-story/7c631631ee14c72d1091a6c483b5d4c147afdb32.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/vivisticker-carousel-story/8bd8491775fb3ebd9a4ad17689df220daa38492b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/vivisticker-carousel-story/40bb021a9f85dac91a15a8dfbdd0ffe2efe7cc3e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/vivisticker-carousel-story/b849993f45560a7ce3341adde38ae363b83d82f4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/vivisticker-carousel-story/4e0e184e08a0531a97616f0ef8528a1f2799bde0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/vivisticker-carousel-story/af4c59f95093bf99cb6d14481548172f41e4ad8f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/vivisticker-carousel-story/289a3e5785ddbe1767804b0090428a3b11f49dca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/vivisticker-carousel-story/4d7503140539c4a4b3feb415d842ff13998c8f45.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/vivisticker-carousel-story/9f38a222d74de30cb2fd739acfee0e299808c4d3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/vivisticker-carousel-story/057022d2d19d80e6614bc0da7920747430d6ff46.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/vivisticker-carousel-story/39a9091ff213823e8f9e88403944ed3fd4c14c63.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/vivisticker-carousel-story/2f51c8010554501497aaec855fec2be8ec041e9e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/vivisticker-carousel-story/82766a3e598655f3337ff380a11740487b7ef010.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/vivisticker-carousel-story/7244e413715b1e33acd2b0c98471a50c1ac71085.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/vivisticker-carousel-story/26133096366f45e068eca500315c1f8a15b4ff37.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/vivisticker-carousel-story/74a77a5b81419d0682ce9ef397a651f3d439731a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/vivisticker-carousel-story/f2f6ae036dbecc96e2e0fe0d909d08f8f2266f2d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/vivisticker-carousel-story/79b9c8eeb511882a0cbe79156158d08a1c6ec267.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/vivisticker-carousel-story/654f4ea9d749616ceafdf23a6956ad2d8333986e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/vivisticker-carousel-story/9ec9a7a5a065781a24d62bda0f9261a36581cce4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/vivisticker-carousel-story/d0ef4afa6147f977fc737a330cb2f629fb5c31cf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/vivisticker-carousel-story/5b167173d71d822ee734ddb86c4dbe8db6b8b997.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/vivisticker-carousel-story/9c8e824ea6c90eff7581ff9e3780e91b16f2beb4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/vivisticker-carousel-story/572d81a81d7193119d37a1d8d2e3750e72a09328.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/vivisticker-carousel-story/931397e8858cb0497bbad55f3d989f27c4f09f32.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/vivisticker-carousel-story/9bf806cfae22544edbe9c5b8db9cfce34e2bcfb4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/vivisticker-carousel-story/b8407836518745b81cdde81a852bd13658048c4c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/vivisticker-carousel-story/284e70c1194e9683f3ddad89dae28589c941a020.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 42",
+            "src": "apps/vivisticker-carousel-story/868e5f26d0723368aedb92581d56d6719ba3ee96.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/vivisticker-carousel-story/9f1e05e4f149c304784eb4cd2389b3951158b01a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/vivisticker-carousel-story/5b7968d70a4a273cf164d2d454888e5101a4ad36.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 45",
+            "src": "apps/vivisticker-carousel-story/697a0042cba00daf8d3bed95aa7e34836446c7d7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/vivisticker-carousel-story/15007686a8cc216e2fd5ad1c4b56b84201fde1fc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/vivisticker-carousel-story/4767d408518448859b111a2504f09b748800ed3d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/vivisticker-carousel-story/241376390a3f2adfc7a987642bd027ca56e10f6c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/vivisticker-carousel-story/567ca37d1e409f3a47684800fe89d1fc3b0b6826.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/vivisticker-carousel-story/545f6fb81f2b3dd51bfb6920abdb960123072fd3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/vivisticker-carousel-story/96319d67acfbf856b9e3c47c44a9e66756902e5f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/vivisticker-carousel-story/8a35053a033a6ce5a75f0a409941bfbea61c68fa.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/vivisticker-carousel-story/a7e449620c7c601404c9b02e347934209e08822e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/vivisticker-carousel-story/77e82a8eb4dda05937da96e6319a8f45364a4e3f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/vivisticker-carousel-story/725615ab793bfa22427d7fec9867b40b4a41ef32.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/vivisticker-carousel-story/ea886987cb5c6d3dffcfe41da82f427db7f12416.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/vivisticker-carousel-story/d68be8ebe9aa625e3d1fe1a7559e9d9bc85cecc5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/vivisticker-carousel-story/7eb148f61715f052158911aebb6f14d3935a2e31.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/vivisticker-carousel-story/78a448fc79ad91c9a4eabfb38c8e34ded7ebd40d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/vivisticker-carousel-story/646b116eea2006861022f689be2ec6ac1cf6ed76.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/vivisticker-carousel-story/8caf790721345b6ff12501ba381b2394bfb249fe.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 62",
+            "src": "apps/vivisticker-carousel-story/53b56700794046e0d88708b7239b387445db1138.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 63",
+            "src": "apps/vivisticker-carousel-story/41166219748ee24973eaf7af16f5b59c3d11e0ee.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 64",
+            "src": "apps/vivisticker-carousel-story/0a59f691d59b1e9a008db8ff77cf320bf53bc97e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 65",
+            "src": "apps/vivisticker-carousel-story/45d89eb145f5ec8b6a63a44610143cdfbed32bdf.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 66",
+            "src": "apps/vivisticker-carousel-story/561f95ad7506bbd58f4231172c398b02618f0739.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 67",
+            "src": "apps/vivisticker-carousel-story/0b22fcf37d3095b4b64a97242b2b4716eb3bf725.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 68",
+            "src": "apps/vivisticker-carousel-story/dc1983d6b69e0e488f4dde8c42794a146c258bb4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 69",
+            "src": "apps/vivisticker-carousel-story/681820ce5d2e5974e61f8424f1a35bde416bc79d.webp",
             "is_video": false
           }
         ]
