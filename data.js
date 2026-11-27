@@ -18064,6 +18064,617 @@ window.APP_DATA = [
     ]
   },
   {
+    "id": "6503227362",
+    "slug": "voice-recorder-ai-note-taker",
+    "name": "Voice Recorder: AI Note Taker",
+    "subtitle": "Transcribe, Summary & AI Memos",
+    "publisher": "",
+    "icon": "apps/voice-recorder-ai-note-taker/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$65K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.7",
+    "ratings_count": "7.7K",
+    "rank": "#1",
+    "total_screens": 52,
+    "stills_count": 51,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/voice-recorder-ai-note-taker/f535c7107a7c9f4ecb4f64872b6642d28f20a127.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/voice-recorder-ai-note-taker/73a58e71699c97045a0cdbce7f54231f3e9732b4.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/voice-recorder-ai-note-taker/ebd91eabe210ed90742c7ef183b811cf0f3b6158.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/voice-recorder-ai-note-taker/ff6b55e8e5b8ae53029d0fe629881b15f50a1d71.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/voice-recorder-ai-note-taker/25c6586911b268c0545297561f8bc75fa7e3dd8d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/voice-recorder-ai-note-taker/c6053c5cc41449abb08869a230e4e83465632661.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/voice-recorder-ai-note-taker/bb7a69d0c4a2cb9d34c4d1b5c9353b8d6cbe0cf1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/voice-recorder-ai-note-taker/22128e44fcdbd12b8cbe9a4bb1c32b1a093d1b22.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/voice-recorder-ai-note-taker/fc679a14bffe8c5eeb0fd63b8c6b7f95c3ff9450.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/voice-recorder-ai-note-taker/91f76c4d12072c19a2ce2b2a66e2bc5fcd9684c8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/voice-recorder-ai-note-taker/613a56b7ea35a595f3be8c923ba7f2f77fb90afc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/voice-recorder-ai-note-taker/47861573f7eee8d28d4dd043e69e11ffc27e95f1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/voice-recorder-ai-note-taker/98df3cc3f6e14985c80d99a19973f2833553703d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/voice-recorder-ai-note-taker/fdd7b0d9629fb0fbe5e5b8bc0df4c9ca4eceee64.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/voice-recorder-ai-note-taker/b829c68a9185b6d468eb339e30dfb53f770a53b3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/voice-recorder-ai-note-taker/fc231e28913f180c332261b504b5a0a6469bc3f3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/voice-recorder-ai-note-taker/94c239dd35dbffe698e5bc2dde5c1ba222058820.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/voice-recorder-ai-note-taker/28d5a1afecdcd6dcc618c7679e4930a39a4ef650.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/voice-recorder-ai-note-taker/336a25158a77288837f1db4bcd7b82d791a6428e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/voice-recorder-ai-note-taker/49b562ed60ff96ce41bcd5e988fad4985e7ab661.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/voice-recorder-ai-note-taker/b19864e5950022057e7f1f635e4254103f548b79.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/voice-recorder-ai-note-taker/3a4d9b5fcb95135f2902890bf90782287ae7082f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/voice-recorder-ai-note-taker/d4d314d64eb960b62cb2ad03fc117e36f49f764b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/voice-recorder-ai-note-taker/6e361d7c1b60c590dd2523d31c53f65d052f41c6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/voice-recorder-ai-note-taker/d0deebe7cad13580b9e083a881644dc1cb785b70.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/voice-recorder-ai-note-taker/783c2aaf81504ff2e987c1a5e39487d4be9b4f27.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/voice-recorder-ai-note-taker/d227e9a5fba06a188d337c978f5d666fbacac66d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/voice-recorder-ai-note-taker/9a1568c3499d707fb8de417782dc0864d185030f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/voice-recorder-ai-note-taker/7652add9c9e11c64ec0df1c8cc080b81791c8328.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/voice-recorder-ai-note-taker/285be3b3e305eabb4db083dd67f6854d4f6e52be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/voice-recorder-ai-note-taker/27cceae605f487a4502e48d0b0004b75f974e6b8.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 32",
+            "src": "apps/voice-recorder-ai-note-taker/bba70c5df2af1db3914bf78bd144fdf83f019839.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/voice-recorder-ai-note-taker/6f71345a52b6bf58232045d1ee429bbef6682c23.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/voice-recorder-ai-note-taker/7d770a432082fa178ac3fb45ae018158118cabf3.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 35",
+            "src": "apps/voice-recorder-ai-note-taker/03300666434572ffee28c4e7e450c7d5abbeb29e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/voice-recorder-ai-note-taker/04be7dc103dea2f859d63fe78866c14edf27d465.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/voice-recorder-ai-note-taker/e9b8c60c028b0d289fe67badd6dbd20758a9c0be.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/voice-recorder-ai-note-taker/2631160e764fabbeee0ba565171d498597dbee17.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/voice-recorder-ai-note-taker/a19ef4d964a34761298bd8631a1dc5f48aad12b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/voice-recorder-ai-note-taker/57295a72d693bbc106f3618652becf6f2e8dcb07.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/voice-recorder-ai-note-taker/80ca8648947e944ccdb77ad14dfb81df7f3a4be2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/voice-recorder-ai-note-taker/e740b1f0654c2094523912cd6250b5aa789edede.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/voice-recorder-ai-note-taker/6f7e4239e01d17ed9892114d49009805e407497a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/voice-recorder-ai-note-taker/d5cac97b33d9b5564e3cc0e999a79133418e74fc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/voice-recorder-ai-note-taker/2c91dcb82c0c764b96282eccf7821ee8d0a4ab14.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/voice-recorder-ai-note-taker/aacaba66ae610d5166085f5b7e8e47cfd039296e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/voice-recorder-ai-note-taker/470a1fdd95581a615672949a3b4efb81c511992b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/voice-recorder-ai-note-taker/14ee1f08a751c29034cfa4b0cc9996682e3bb055.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/voice-recorder-ai-note-taker/db085f9490ee6f4e8f8053e8c1fc48417265f166.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/voice-recorder-ai-note-taker/cbd02a17c3d640965f11807e5916624f8102fb9d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/voice-recorder-ai-note-taker/1f21008fe3e460ba7ac23d6d9c1684492c5747de.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/voice-recorder-ai-note-taker/771c789ba3d942a5b8c7414010202a3f169f2869.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6447246237",
+    "slug": "volume-booster-eq-amplifier",
+    "name": "Volume Booster - EQ Amplifier",
+    "subtitle": "Bass Equalizer, Sound & Widget",
+    "publisher": "",
+    "icon": "apps/volume-booster-eq-amplifier/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$25K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.3",
+    "ratings_count": "7.6K",
+    "rank": "#1",
+    "total_screens": 49,
+    "stills_count": 48,
+    "videos_count": 1,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/volume-booster-eq-amplifier/f5e77db5d2504f7aed62746d6d2d70518c78c787.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/volume-booster-eq-amplifier/0cde0384c12587f318fdf87cde14088483d9c71e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/volume-booster-eq-amplifier/20129e87880ec218f27c50db7b825ad4c21c5aff.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/volume-booster-eq-amplifier/203df796e0b9576676333e1419117b94e7388baa.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/volume-booster-eq-amplifier/e9d43f0174b8535dd83c5cdbbcb60ad6eb9cc4ca.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/volume-booster-eq-amplifier/9e91ce10101d73b75fc29487e54a5256a26a0e98.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/volume-booster-eq-amplifier/9c345f524590a16bc35fafd3955e752eac3dcd9a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/volume-booster-eq-amplifier/a458d461880e1facafd8f6ae128ad03f4625c3a1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/volume-booster-eq-amplifier/9533a837a647ed1742861a4cfce132b631e17c41.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/volume-booster-eq-amplifier/fad4b5b90836e9f0d584a84273e2636f093267b0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/volume-booster-eq-amplifier/3c5a32a27167c553b1fa0f954a4239862c396f44.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/volume-booster-eq-amplifier/0bbba378c1d1be60eb38763c99629a603e4cb5d9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/volume-booster-eq-amplifier/f7ecde680de53e9a6709ed9488f52ba0a6546472.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/volume-booster-eq-amplifier/899246352afede2cc76320084bd2b6d133a37cf9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/volume-booster-eq-amplifier/99e2432c9d4523fd0e0c56e0cf39151b3eb8c669.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/volume-booster-eq-amplifier/3b9584adae301af8733c80da6d6b1bd2265a869a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/volume-booster-eq-amplifier/d00d316ecb26f6ce7c21922d46e965551a4494a8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/volume-booster-eq-amplifier/05854e90d310f4507eb710e183abf4de1deb2774.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/volume-booster-eq-amplifier/ab77eda48ed29f38a5bcaa5968e694e2470f7ffd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/volume-booster-eq-amplifier/3a70d60963f5527a5720de87ef2c674a3a0a6078.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/volume-booster-eq-amplifier/0d1b074aa43d94b0459d537934983d6b647b5cd6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/volume-booster-eq-amplifier/e4e64fb1f65f222f1c915761aa6d147d3a8d2733.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/volume-booster-eq-amplifier/7ab9efad43ed32701322f0afd1fbead697a51ead.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/volume-booster-eq-amplifier/f1d147959e80311261b7c550c73c5abc07ad7cf2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/volume-booster-eq-amplifier/88d290ccb703129a0184b79fec3763f77baa1e09.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/volume-booster-eq-amplifier/ec45737ac4cd647b0d1387045ca6d3dac469eef0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/volume-booster-eq-amplifier/290bdb26744735713cdafa44951405b8c5849fe2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/volume-booster-eq-amplifier/0d8dd4f5bf5c665242309c68bf069428daac18e2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/volume-booster-eq-amplifier/28687b5bd54d83986dc0be1dc3d40365e8743a3e.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 30",
+            "src": "apps/volume-booster-eq-amplifier/0a2e0ad3d2fdef50df3321f57fbd719677fefca9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/volume-booster-eq-amplifier/9d6b01ae12b1cac17641cd7fb9cf17d7c2254831.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/volume-booster-eq-amplifier/2141999efa058a03e18aa6a7261e1fd8dfa49e3a.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 33",
+            "src": "apps/volume-booster-eq-amplifier/f5e39e6c66d97df8e222289ab4208c5b50604f63.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/volume-booster-eq-amplifier/81523e292dcbf872d363fa0206b43bc6db464559.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/volume-booster-eq-amplifier/71df77686ae8ca3c605bdf16c1439af75404a6c9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/volume-booster-eq-amplifier/052c4caef88a4f846589b90b59a7ef8a79c1e6c5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/volume-booster-eq-amplifier/9e935f6db2a2536f4ac5407ee1c5f7e2e9d7a3df.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/volume-booster-eq-amplifier/7f96262c6cb8db1009e1bf8f6f07ad7d4e58e094.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/volume-booster-eq-amplifier/df42b293f71c4506bad27cb7fb94a277217e4fa9.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/volume-booster-eq-amplifier/b991bf4d8a24f89d33d38d24446b6f0441a9779c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/volume-booster-eq-amplifier/9460e7226d391746842aa79001ffebc20f834266.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/volume-booster-eq-amplifier/6d1a1168412c5c6da1b75d0ff53c4d5ac9839995.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/volume-booster-eq-amplifier/6c38b7532d2c6a6c282c1bdd7d536ad41f97722e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/volume-booster-eq-amplifier/7f3b8cb88d04fc0cad8ff2a3d28baa32e6d42f4c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/volume-booster-eq-amplifier/cf6121a29b1e7ceade6820dc504724624a8fe2bb.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/volume-booster-eq-amplifier/d3e8fe8e03f28de1dca8836c8f448ab0a57b9925.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/volume-booster-eq-amplifier/213e4bed703cc3dceaec9a77c2614fbc765a9def.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/volume-booster-eq-amplifier/5d84e3c8870049949e8d485c8dbf2ce1209182a3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/volume-booster-eq-amplifier/715b2f7aaaccbd75b1920e2a05c6b2dd6ab9aed2.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "202611101538",
     "slug": "whispy-ai-create-your-story",
     "name": "Whispy AI: Create Your Story",
