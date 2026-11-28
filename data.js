@@ -16810,6 +16810,364 @@ window.APP_DATA = [
     ]
   },
   {
+    "id": "1485259500",
+    "slug": "smallpdf-scanner-pdf-editor",
+    "name": "Smallpdf: Scanner & PDF Editor",
+    "subtitle": "compress, convert, ocr, sign",
+    "publisher": "",
+    "icon": "apps/smallpdf-scanner-pdf-editor/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$25K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.8",
+    "ratings_count": "6.9K",
+    "rank": "#1",
+    "total_screens": 61,
+    "stills_count": 58,
+    "videos_count": 3,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/smallpdf-scanner-pdf-editor/443f950488f2a99a341f2b11237c48a53c39e702.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/smallpdf-scanner-pdf-editor/565e74cc7f378b6ebbb8098503d4a048e0143ded.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/smallpdf-scanner-pdf-editor/5099a5a0e6310a0980d19ec4c35682cc9cf6b357.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/smallpdf-scanner-pdf-editor/ef654b44bb59bd52e06cbd62d4665e3a9d76dbc7.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/smallpdf-scanner-pdf-editor/3b6ec555f6c0a6eafd8465160c549660d15a66de.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/smallpdf-scanner-pdf-editor/8e56a15b2c4e6b23e27af81c5bf1f136c3a91eef.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/smallpdf-scanner-pdf-editor/60b78739de337d069a80d71e619fd15a7e20bed1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/smallpdf-scanner-pdf-editor/5e7aea7ac90436c01e12d3f1a1b978e6d48cd9ed.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/smallpdf-scanner-pdf-editor/10f57b241d3f9d9e245ea5b5e8f6e5649189597b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/smallpdf-scanner-pdf-editor/541a16d581896a6593d010436b56bcc7d352e5fc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/smallpdf-scanner-pdf-editor/20caeaa276d02807b997161f391fbef3ead90af1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/smallpdf-scanner-pdf-editor/8b72cb361f88473afdad93bac63671f2fdef8d45.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/smallpdf-scanner-pdf-editor/9a4cddad28ec3d3cb4ebcedef39f2a73e93b24e9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/smallpdf-scanner-pdf-editor/03adcefc4f0dfd88aa21d59c8e62da8b6b9148f6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/smallpdf-scanner-pdf-editor/8cda3e6d4d927275401d6f04744a5288c3cabc91.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/smallpdf-scanner-pdf-editor/6733d37be73131e8690193128e03f96bf5cc9f75.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/smallpdf-scanner-pdf-editor/7819b739e4e8f5d77bf0b4412a848ca212e342e3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/smallpdf-scanner-pdf-editor/d27f14b68e5c01dcc90a84f8559d37648ca46ac1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/smallpdf-scanner-pdf-editor/af2f2b2c92117d943b4148fb9ecacc4fb94b9a65.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/smallpdf-scanner-pdf-editor/75d0f30252db6c721ca6a49c528c6eb014281b84.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/smallpdf-scanner-pdf-editor/0b90b7f83277b0b5f3c477364f4ab9edb7a9f66c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/smallpdf-scanner-pdf-editor/10c22db6a7e540c967457ad1942f73428f9587c5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/smallpdf-scanner-pdf-editor/cca37861abdb624a2a544304a0f80f08ec7a2692.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/smallpdf-scanner-pdf-editor/13d0a03ee47ba00045c581f4a8754ffbb3f04d00.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/smallpdf-scanner-pdf-editor/b956cce4cf235ef0498f6b8d2417b6939f8b441d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/smallpdf-scanner-pdf-editor/5d371bf54175058a1264754941378801067b9026.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/smallpdf-scanner-pdf-editor/e22657fa3950e9ebc5826ce97676f2d193828c22.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/smallpdf-scanner-pdf-editor/a2f818481893bce2f176d92c5ad7c283d69eaf2e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/smallpdf-scanner-pdf-editor/7183bf0f91ca1895822fc8713d59693ba715fddd.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/smallpdf-scanner-pdf-editor/19893913ffc35b0931d2ba5630daaf5a1981e7fe.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/smallpdf-scanner-pdf-editor/c59a12007af8f9851dcc14fd1a38ae7e52958be3.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/smallpdf-scanner-pdf-editor/de256886566868689d0efe884775f276b1f32fde.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 33",
+            "src": "apps/smallpdf-scanner-pdf-editor/394135cd04bee75a205a2fa117ea2d526dfe50a2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/smallpdf-scanner-pdf-editor/1d2d3d7e8cd20bfbb68393d5a6f16bb63974ab5c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/smallpdf-scanner-pdf-editor/22b9e4435619d910cfa215ebf0b91eb1a7b8e91b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 36",
+            "src": "apps/smallpdf-scanner-pdf-editor/48f7fe14b641534943eace0f328fda0b74ee551d.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 37",
+            "src": "apps/smallpdf-scanner-pdf-editor/cf7911c504c584ffa8e14688fbbfc9dc3be2de22.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/smallpdf-scanner-pdf-editor/3aceb45fa0f1ed51d096610d54ff4ae7e323fd27.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/smallpdf-scanner-pdf-editor/a866a4cea873150601838c8b62b29295306dd9aa.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 40",
+            "src": "apps/smallpdf-scanner-pdf-editor/f0995bf39d750f28a8adee7fba40e179cddcd60f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/smallpdf-scanner-pdf-editor/837f8c21d421da4723e2c428bd875242c163a36d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/smallpdf-scanner-pdf-editor/a939bd286348f0a3ea0e0dc36c41676ffbff4c16.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/smallpdf-scanner-pdf-editor/26c95b787ebdd2199c2ea60aea0ae8cddb804036.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/smallpdf-scanner-pdf-editor/fec4bc7d3133d78cec388f22e84174a169b26d9e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/smallpdf-scanner-pdf-editor/cbf12ff4b899b7a2e6bce16f9c0efe650467cf7a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/smallpdf-scanner-pdf-editor/51e717a6e7c6850d47ce3d8500dd135c809d74d6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/smallpdf-scanner-pdf-editor/9020e0e1c96f0ed4e6e526c19eb5b67e91e4d36b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/smallpdf-scanner-pdf-editor/fb492b2795d65bf976d192721e09ec61a42fa25d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/smallpdf-scanner-pdf-editor/4e07b726c13a562cd458667e5ad6865c66f8235d.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/smallpdf-scanner-pdf-editor/3226c025adde83d2e6821d31f45ba3a6546785a6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/smallpdf-scanner-pdf-editor/830fb0bb026cd927897f52536f1ebbe7a43c9ab5.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/smallpdf-scanner-pdf-editor/6349cfa9ead7be01705145620eea47147cfe06ba.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/smallpdf-scanner-pdf-editor/9de548a19c4696074256624d13b6ba8abd226891.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/smallpdf-scanner-pdf-editor/8815c19f61e5acf6a5ded9f3b00593c3d0486b0f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 55",
+            "src": "apps/smallpdf-scanner-pdf-editor/a6a1a175eb3dc4b178fdda9088085e75c7504143.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 56",
+            "src": "apps/smallpdf-scanner-pdf-editor/afc0a67387f8ba383ae4f7670cdbb2f79c2a44da.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 57",
+            "src": "apps/smallpdf-scanner-pdf-editor/c6f7c1d8efde06a211d8c4687d0129f6c7342039.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 58",
+            "src": "apps/smallpdf-scanner-pdf-editor/dfda14eac2e8b7ee99abf02f5cf3559246681863.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 59",
+            "src": "apps/smallpdf-scanner-pdf-editor/c74a0f711fafb192c9c1109772329df7041d3320.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 60",
+            "src": "apps/smallpdf-scanner-pdf-editor/61cebfe80d5e36c5ee16dfe5ac3855cb6d543ae0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 61",
+            "src": "apps/smallpdf-scanner-pdf-editor/aeff31d2a0e14ccb970c91cd931e0b311b61c2f8.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "1527702678",
     "slug": "soulight-online-psychic-advice",
     "name": "Soulight-Online Psychic Advice",
@@ -17464,6 +17822,329 @@ window.APP_DATA = [
           {
             "title": "Screen 40",
             "src": "apps/space-cleaner-file-manager/2d08384a37e788229b598335f2e70a90d137b8aa.webp",
+            "is_video": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6741873786",
+    "slug": "starla-call-the-universe",
+    "name": "Starla - Call the Universe",
+    "subtitle": "Soulmate drawing",
+    "publisher": "",
+    "icon": "apps/starla-call-the-universe/icon.webp",
+    "categories": [
+      "Mobile App"
+    ],
+    "revenue": "$25K",
+    "revenue_period_label": "Revenue • October 2026",
+    "downloads": "1K",
+    "rating": "4.8",
+    "ratings_count": "19.9K",
+    "rank": "#1",
+    "total_screens": 54,
+    "stills_count": 52,
+    "videos_count": 2,
+    "flow_categories": [
+      "Welcome",
+      "Onboarding",
+      "Paywall",
+      "Inside the App"
+    ],
+    "total_flows": 4,
+    "flows": [
+      {
+        "name": "Welcome",
+        "full_title": "Welcome Screen",
+        "screens": [
+          {
+            "title": "Screen 01",
+            "src": "apps/starla-call-the-universe/4b317596d1ba1737b746371ddb47fef8e569c5dc.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 02",
+            "src": "apps/starla-call-the-universe/5017f6a7184cd9c296f50c9e997e9154bd6bde24.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 03",
+            "src": "apps/starla-call-the-universe/ccf200411b9c382b8bd19f52d2973eaef8951cf6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 04",
+            "src": "apps/starla-call-the-universe/7aa5d5b85225bcd8a413b9a480e1b84eff63843c.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Onboarding",
+        "full_title": "Onboarding",
+        "screens": [
+          {
+            "title": "Screen 05",
+            "src": "apps/starla-call-the-universe/04617a1374c9091f7aef5a2a6614459383c2e9f2.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 06",
+            "src": "apps/starla-call-the-universe/1eecd07f8858b3325e24d3fb70cb956bb015a3b7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 07",
+            "src": "apps/starla-call-the-universe/0af0a339f9d7c1fd57472702240004f93d57d819.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 08",
+            "src": "apps/starla-call-the-universe/d60fab72cd824111bfca6e32dd6779fb7eaa3100.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 09",
+            "src": "apps/starla-call-the-universe/cf7c985c1164c08bcbb33b65aa06a64d22f522b1.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 10",
+            "src": "apps/starla-call-the-universe/2b87c0f45055b6ae4e6c5bf8c8309d9f9d0b0412.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 11",
+            "src": "apps/starla-call-the-universe/62fef628a1c49915505392f6f48089519c49271d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 12",
+            "src": "apps/starla-call-the-universe/01edb6ef66560488bf0128b4a25d06d30970995e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 13",
+            "src": "apps/starla-call-the-universe/b61dea3982c381391edcbea2f721fbde134b4107.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 14",
+            "src": "apps/starla-call-the-universe/cc945fd429df95ea48b1d75ce610b64c24eb0ada.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 15",
+            "src": "apps/starla-call-the-universe/e35c8b506ae6e2a7c3c684555d0adfac8b5a452d.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 16",
+            "src": "apps/starla-call-the-universe/498c7378c6d0b7caec96e1d5286d3bb482db8d8f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 17",
+            "src": "apps/starla-call-the-universe/d2df41f6e5e0eabfd4e78e0731a82715733bb495.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 18",
+            "src": "apps/starla-call-the-universe/eb61a2a007f6b895a81aa68fc19536c85020d001.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 19",
+            "src": "apps/starla-call-the-universe/caaee9c69a946231898f5a07b31a6114bd22d878.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 20",
+            "src": "apps/starla-call-the-universe/bbde79e6d89c9726f9e746306aaf97437fd4d5e9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 21",
+            "src": "apps/starla-call-the-universe/e224e55f058a67374e19613a639a8244c10c8c94.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 22",
+            "src": "apps/starla-call-the-universe/6b186ec9be0c86fc13eedbb6e0494b8cb8314da5.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 23",
+            "src": "apps/starla-call-the-universe/bcbfd24c9ac7b26853f30388320027d1a3d49829.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 24",
+            "src": "apps/starla-call-the-universe/a80d6b3a6992b90b0d1cd307a562055d16ce7d99.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 25",
+            "src": "apps/starla-call-the-universe/7cacc589881492ba2a64fce9c4f2d597b3cf3004.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 26",
+            "src": "apps/starla-call-the-universe/b98ab7a7d421efff6ad5f2303f5fd2c7f6fcabb7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 27",
+            "src": "apps/starla-call-the-universe/7b92524b8e1918ce2c1431a10b209f4b20f96783.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 28",
+            "src": "apps/starla-call-the-universe/a5411a28063c3557505f07fc0bc071011b3ac28b.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 29",
+            "src": "apps/starla-call-the-universe/eeff588c217cc5ad54d134c6e251744d18d418a8.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 30",
+            "src": "apps/starla-call-the-universe/61f0ac2a8e6de5f8c4c9d960a5d2c0a50c866862.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 31",
+            "src": "apps/starla-call-the-universe/5ac54abdc26b7a5e0cdfd36f33ac134437173471.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 32",
+            "src": "apps/starla-call-the-universe/4668dcea0271eb0e0e62cb586f4233cb3110dcab.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Paywall",
+        "full_title": "Paywall",
+        "screens": [
+          {
+            "title": "Screen 33",
+            "src": "apps/starla-call-the-universe/717bc3c9ec31aafb0f6bd9384afefee2d3f7ad58.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 34",
+            "src": "apps/starla-call-the-universe/51621f71598bac573346aa7f0b2f263e67201472.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 35",
+            "src": "apps/starla-call-the-universe/dfe8bc2795fd9da53159345d3a479fc85a25be52.webp",
+            "is_video": false
+          }
+        ]
+      },
+      {
+        "name": "Inside the App",
+        "full_title": "Inside the App",
+        "screens": [
+          {
+            "title": "Screen 36",
+            "src": "apps/starla-call-the-universe/406ea545055d0db5a5da514d2e99aff9ba1b8a7a.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 37",
+            "src": "apps/starla-call-the-universe/aa3aa364744e479be6dbe3311e634e7e317dc5d7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 38",
+            "src": "apps/starla-call-the-universe/de9b98f35992a3e7f3acf2c5b1b342860111a3d6.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 39",
+            "src": "apps/starla-call-the-universe/ee365d918d888a88502e1effbb67d3bc4877c795.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 40",
+            "src": "apps/starla-call-the-universe/12479ceb16438abe596eed57d0805848df6908e0.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 41",
+            "src": "apps/starla-call-the-universe/56ba271857153bcf39cd0dfa46a208967b893926.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 42",
+            "src": "apps/starla-call-the-universe/994c72decb3feb73e654ca7b9190690bd32a18b9.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 43",
+            "src": "apps/starla-call-the-universe/ec2cdc82f8949335d8c0d6ecafd9ce7fb6432796.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 44",
+            "src": "apps/starla-call-the-universe/f92c061ea19e59505c718c48dcae3104482a181e.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 45",
+            "src": "apps/starla-call-the-universe/c4075df2e5203a6e6b015a679de5e36d126f462c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 46",
+            "src": "apps/starla-call-the-universe/2f26717634360cc2c3d0c5f3ee1c41d8effdf259.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 47",
+            "src": "apps/starla-call-the-universe/bde80c638d3ca382bcd591e758afa461a9d7521f.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 48",
+            "src": "apps/starla-call-the-universe/3ccb7fda955801de0526028ac56f56d665c4e238.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 49",
+            "src": "apps/starla-call-the-universe/ffdeafa8542b918df12cb62f80e2b4c2d0f7acf3.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 50",
+            "src": "apps/starla-call-the-universe/eef83deb914f820310ebb0cba5cbca5521f370d7.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 51",
+            "src": "apps/starla-call-the-universe/c569d4603f388f81ac5fb1923bfd0fcd7a3bd54d.mp4",
+            "is_video": true
+          },
+          {
+            "title": "Screen 52",
+            "src": "apps/starla-call-the-universe/6f93ee3f3ee7ea1f3223213c456e46ba828c698c.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 53",
+            "src": "apps/starla-call-the-universe/7144ef4be7b8d2953d8e4038c9c74f3ce4da5685.webp",
+            "is_video": false
+          },
+          {
+            "title": "Screen 54",
+            "src": "apps/starla-call-the-universe/a7e5134a25653d94189a03ffe0c1008b89a34c8b.webp",
             "is_video": false
           }
         ]
